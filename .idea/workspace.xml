@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1704422906">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1589591370">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="90" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="14" />
+          <entry key="project.open.time.5" value="46" />
+          <entry key="project.open.time.6" value="22" />
+          <entry key="project.open.time.7" value="7" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="96" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="html" value="62" />
+          <entry key="js" value="40" />
+          <entry key="json" value="106" />
+          <entry key="py" value="2" />
+          <entry key="saaasdsa" value="1" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="62" />
+          <entry key="JSON" value="106" />
+          <entry key="JavaScript" value="40" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="1" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="19333" />
+          <entry key="html" value="9686" />
+          <entry key="js" value="19156" />
+          <entry key="json" value="48212" />
+          <entry key="py" value="908" />
+          <entry key="saaasdsa" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="19333" />
+          <entry key="HTML" value="9687" />
+          <entry key="JSON" value="48212" />
+          <entry key="JavaScript" value="19155" />
+          <entry key="PLAIN_TEXT" value="734" />
+          <entry key="Python" value="195" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BusApp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/prices.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="761" lean-forward="true" selection-start-line="761" selection-end-line="761" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>męcze</find>
+      <find>niepod</find>
+      <find>szpital</find>
+      <find>żero</find>
+      <find>listopa</find>
+      <find>trub</find>
+      <find>metalowa</find>
+      <find>baza</find>
+      <find>techni</find>
+      <find>fabryk</find>
+      <find>reja</find>
+      <find>słone</find>
+      <find>techn</find>
+      <find>jednośc</find>
+      <find>stop</find>
+      <find>button</find>
+      <find>news-list</find>
+      <find>stops</find>
+      <find>#s</find>
+      <find>info-section</find>
+      <find>currentRoute</find>
+      <find>currentCourseIdx</find>
+      <find>routes</find>
+      <find>invactive</find>
+      <find>invalid</find>
+      <find>join</find>
+      <find>currentPage</find>
+      <find>load</find>
+      <find>price</find>
+      <find>priceta</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>stop</replace>
+      <replace>timetable</replace>
+      <replace>42</replace>
+      <replace>2</replace>
+      <replace>3</replace>
+      <replace>4</replace>
+      <replace>19</replace>
+      <replace>5</replace>
+      <replace>22</replace>
+      <replace>7</replace>
+      <replace>9</replace>
+      <replace>news-section</replace>
+      <replace>currentCourse</replace>
+      <replace>route</replace>
+      <replace>non-visible</replace>
+      <replace>mergeLine</replace>
+      <replace>currentTimetablePage</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/search.html" />
+        <option value="$PROJECT_DIR$/timetable.json" />
+        <option value="$PROJECT_DIR$/bus-stops.json" />
+        <option value="$PROJECT_DIR$/app.factories.js" />
+        <option value="$PROJECT_DIR$/prices.json" />
+        <option value="$PROJECT_DIR$/app.directives.js" />
+        <option value="$PROJECT_DIR$/priceTable.html" />
+        <option value="$PROJECT_DIR$/templates/price-table.html" />
+        <option value="$PROJECT_DIR$/jquery-3.3.1.min.js" />
+        <option value="$PROJECT_DIR$/jq-script.js" />
+        <option value="$PROJECT_DIR$/data/bus-stops.json" />
+        <option value="$PROJECT_DIR$/app.route.js" />
+        <option value="$PROJECT_DIR$/data/saaasdsa" />
+        <option value="$PROJECT_DIR$/data/timetable/line1.json" />
+        <option value="$PROJECT_DIR$/data/line5A.json" />
+        <option value="$PROJECT_DIR$/data/line12.json" />
+        <option value="$PROJECT_DIR$/data/timetable.json" />
+        <option value="$PROJECT_DIR$/data/timetable/script.py" />
+        <option value="$PROJECT_DIR$/data/timetable/line3.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line5A.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line30.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line24.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line15.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line5C.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line8.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line11.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line12.json" />
+        <option value="$PROJECT_DIR$/data/timetable/line6.json" />
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/data/timetable/line2.json" />
+        <option value="$PROJECT_DIR$/pricesCtrl.js" />
+        <option value="$PROJECT_DIR$/angularjs/controllers/mainCtrl.js" />
+        <option value="$PROJECT_DIR$/app.mdl.js" />
+        <option value="$PROJECT_DIR$/angularjs/routing/app.rout.js" />
+        <option value="$PROJECT_DIR$/app.rout.js" />
+        <option value="$PROJECT_DIR$/data/timetable/line9.json" />
+        <option value="$PROJECT_DIR$/data/news.json" />
+        <option value="$PROJECT_DIR$/angularjs/controllers/infoCtrl.js" />
+        <option value="$PROJECT_DIR$/info.html" />
+        <option value="$PROJECT_DIR$/angularjs/filters/filters.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="$PROJECT_DIR$/linetimetable.html" />
+        <option value="$PROJECT_DIR$/angularjs/services/app.services.js" />
+        <option value="$PROJECT_DIR$/stoptimetable.html" />
+        <option value="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" />
+        <option value="$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js" />
+        <option value="$PROJECT_DIR$/timetable.html" />
+        <option value="$PROJECT_DIR$/data/prices.json" />
+        <option value="$PROJECT_DIR$/prices.html" />
+        <option value="$PROJECT_DIR$/styles/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="733" />
+    <option name="y" value="27" />
+    <option name="width" value="1182" />
+    <option name="height" value="979" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/angularjs/routing" />
+      <recent name="$PROJECT_DIR$/angularjs/model" />
+      <recent name="$PROJECT_DIR$/angularjs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BusApp/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FormsAngularJS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/timetable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/timetable/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="" />
+      <created>1536649546947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536649546947</updated>
+      <workItem from="1536649548024" duration="680000" />
+      <workItem from="1536685262837" duration="599000" />
+      <workItem from="1536701094444" duration="6267000" />
+      <workItem from="1536781751795" duration="3275000" />
+      <workItem from="1536830220114" duration="4231000" />
+      <workItem from="1536847639166" duration="12421000" />
+      <workItem from="1536874023138" duration="810000" />
+      <workItem from="1536960012775" duration="8196000" />
+      <workItem from="1536970342536" duration="52000" />
+      <workItem from="1537027851152" duration="5531000" />
+      <workItem from="1537041336573" duration="7187000" />
+      <workItem from="1537091579288" duration="483000" />
+      <workItem from="1537097837625" duration="7212000" />
+      <workItem from="1537132676857" duration="604000" />
+      <workItem from="1537197145674" duration="292000" />
+      <workItem from="1537218304993" duration="3691000" />
+      <workItem from="1537267283361" duration="26000" />
+      <workItem from="1537267321532" duration="6243000" />
+      <workItem from="1537286197765" duration="3176000" />
+      <workItem from="1537295073220" duration="1602000" />
+      <workItem from="1537308316217" duration="2265000" />
+      <workItem from="1537391566436" duration="3070000" />
+      <workItem from="1537439347033" duration="6587000" />
+      <workItem from="1537453339387" duration="8527000" />
+      <workItem from="1537465246491" duration="237000" />
+      <workItem from="1537484321971" duration="35000" />
+      <workItem from="1537485866633" duration="48000" />
+      <workItem from="1537523160038" duration="64000" />
+      <workItem from="1537526834763" duration="87000" />
+      <workItem from="1537563548292" duration="308000" />
+      <workItem from="1537564011477" duration="9165000" />
+      <workItem from="1537657347519" duration="2590000" />
+      <workItem from="1537660886250" duration="692000" />
+      <workItem from="1537704240943" duration="3916000" />
+      <workItem from="1537722973871" duration="17428000" />
+      <workItem from="1537785322491" duration="3154000" />
+      <workItem from="1537807041496" duration="14992000" />
+      <workItem from="1537827443476" duration="1266000" />
+      <workItem from="1537833505639" duration="122000" />
+      <workItem from="1537895939950" duration="5575000" />
+      <workItem from="1537987461079" duration="602000" />
+      <workItem from="1537995989810" duration="599000" />
+      <workItem from="1538080011565" duration="13701000" />
+      <workItem from="1538316623751" duration="1872000" />
+      <workItem from="1538332928489" duration="2227000" />
+      <workItem from="1538478799246" duration="1857000" />
+      <workItem from="1538502690826" duration="713000" />
+      <workItem from="1538506466349" duration="10522000" />
+      <workItem from="1538584489857" duration="5000" />
+      <workItem from="1538589987202" duration="522000" />
+      <workItem from="1538593903994" duration="5897000" />
+      <workItem from="1538645365207" duration="14158000" />
+      <workItem from="1538675101465" duration="1296000" />
+      <workItem from="1538848078692" duration="380000" />
+      <workItem from="1538859628231" duration="4488000" />
+      <workItem from="1538929462774" duration="1183000" />
+      <workItem from="1538933996951" duration="5016000" />
+      <workItem from="1539023358348" duration="9439000" />
+      <workItem from="1539036524218" duration="244000" />
+      <workItem from="1539069345476" duration="2289000" />
+      <workItem from="1539071715598" duration="3570000" />
+      <workItem from="1539106569614" duration="10665000" />
+      <workItem from="1539172779552" duration="4642000" />
+      <workItem from="1539279143441" duration="3664000" />
+      <workItem from="1539336820567" duration="8230000" />
+      <workItem from="1539348790710" duration="1754000" />
+      <workItem from="1539429017006" duration="1958000" />
+      <workItem from="1539505230352" duration="6855000" />
+      <workItem from="1539545949718" duration="4646000" />
+      <workItem from="1539550919486" duration="4743000" />
+      <workItem from="1539595783100" duration="6937000" />
+      <workItem from="1539614112104" duration="4045000" />
+      <workItem from="1539640005187" duration="3251000" />
+      <workItem from="1539643914901" duration="148000" />
+      <workItem from="1539721585455" duration="8416000" />
+      <workItem from="1539766476900" duration="12578000" />
+      <workItem from="1539791151223" duration="1207000" />
+      <workItem from="1539808810746" duration="5926000" />
+      <workItem from="1539848637744" duration="2444000" />
+      <workItem from="1539868012507" duration="3557000" />
+      <workItem from="1539943360317" duration="16410000" />
+      <workItem from="1539979862646" duration="609000" />
+      <workItem from="1540023247458" duration="2986000" />
+      <workItem from="1540040785551" duration="3470000" />
+      <workItem from="1540066227063" duration="8708000" />
+      <workItem from="1540110599049" duration="13856000" />
+      <workItem from="1540138500526" duration="719000" />
+      <workItem from="1540163042349" duration="684000" />
+      <workItem from="1540200847627" duration="1000000" />
+      <workItem from="1540215527755" duration="4062000" />
+      <workItem from="1540309587375" duration="234000" />
+      <workItem from="1540326249707" duration="1500000" />
+      <workItem from="1540377811927" duration="4656000" />
+      <workItem from="1540404097808" duration="4513000" />
+      <workItem from="1540419075928" duration="5451000" />
+      <workItem from="1540453818922" duration="8846000" />
+      <workItem from="1540554150314" duration="7489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="414145000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="982" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929742" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Structure" order="6" sideWeight="0.5070258" weight="0.24941452" />
+      <window_info anchor="bottom" id="Favorites" order="7" sideWeight="0.5058548" weight="0.24941452" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/css/fontello-codes.css" />
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/font/fontello.svg" />
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/css/animation.css" />
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/css/fontello-ie7-codes.css" />
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/css/fontello-ie7.css" />
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/css/fontello-embedded.css" />
+    <entry file="file://$PROJECT_DIR$/fontello-7d2c4436/css/fontello.css" />
+    <entry file="file://$PROJECT_DIR$/fontello-ca155a97/css/fontello.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bus-stops.json" />
+    <entry file="file://$PROJECT_DIR$/templates/price-table.html" />
+    <entry file="file://$PROJECT_DIR$/app.directives.js" />
+    <entry file="file://$PROJECT_DIR$/jquery-3.3.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/jq-script.js" />
+    <entry file="file://$PROJECT_DIR$/data/saaasdsa" />
+    <entry file="file://$PROJECT_DIR$/data/lines.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line5A.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="883" column="78" selection-start-line="883" selection-start-column="78" selection-end-line="883" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line24.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="246" column="2" lean-forward="true" selection-start-line="246" selection-start-column="2" selection-end-line="246" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line15.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="113" lean-forward="true" selection-start-line="134" selection-start-column="113" selection-end-line="134" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line5C.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="134" column="78" lean-forward="true" selection-start-line="134" selection-start-column="78" selection-end-line="134" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line8.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line30.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="315" column="74" lean-forward="true" selection-start-line="315" selection-start-column="3" selection-end-line="315" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1803">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line12.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1698">
+          <caret line="453" column="76" lean-forward="true" selection-start-line="453" selection-start-column="76" selection-end-line="453" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/model/app.mdl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line9.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="1101" selection-start-line="1101" selection-end-line="1101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/news.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="233" selection-start-line="14" selection-start-column="233" selection-end-line="14" selection-end-column="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/infoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2436">
+          <caret line="280" column="4" selection-start-line="280" selection-start-column="4" selection-end-line="280" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js" />
+    <entry file="file://$PROJECT_DIR$/angularjs/services/app.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bus-stops.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="88" column="30" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/timetable/line11.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="816" column="79" selection-start-line="816" selection-start-column="79" selection-end-line="816" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoptimetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linetimetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/prices.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="761" lean-forward="true" selection-start-line="761" selection-end-line="761" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

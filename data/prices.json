@@ -1,0 +1,14 @@
+{"pricetable": [{"type": "Jednorazowe", "tickets": [{"name": "Ulgowy 1h", "price": 2},
+                                     {"name": "Studencki 1h", "price": 1.75},
+                                     {"name": "Normalny 1h", "price": 4},
+                                     {"name": "Ulgowy 30min", "price": 1.20},
+                                     {"name": "Studencki 30min", "price": 1.35},
+                                     {"name": "Normalny 30min", "price": 2.25}]
+ },
+  {"type": "Okresowe", "tickets":[{"name": "Ulgowy miesiąc", "price": 50},
+                                  {"name": "Normalny miesiąc", "price": 100},
+                                  {"name": "Ulgowy 2-tygodniowy", "price": 30},
+                                  {"name": "Normalny 2-tygodniowy", "price": 60}]
+  }
+],
+"messages": []}
