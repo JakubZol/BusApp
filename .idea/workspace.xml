@@ -188,6 +188,9 @@
       <replace>currentTimetablePage</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -257,6 +260,7 @@
     <option name="width" value="1182" />
     <option name="height" value="979" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -475,12 +479,12 @@
       <workItem from="1540404097808" duration="4513000" />
       <workItem from="1540419075928" duration="5451000" />
       <workItem from="1540453818922" duration="8846000" />
-      <workItem from="1540554150314" duration="7489000" />
+      <workItem from="1540554150314" duration="8088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414145000" />
+    <option name="totallyTimeSpent" value="414744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="982" extended-state="6" />
@@ -497,7 +501,7 @@
       <window_info anchor="bottom" id="Favorites" order="7" sideWeight="0.5058548" weight="0.24941452" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
