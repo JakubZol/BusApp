@@ -134,7 +134,7 @@
         {"hour": 13, "minutes": [{"period": "Dni powszednie", "values": [14]}, {"period": "Sobota", "values": []}]},
         {"hour": 15, "minutes": [{"period": "Dni powszednie", "values": [14]}, {"period": "Sobota", "values": []}]},
         {"hour": 17, "minutes": [{"period": "Dni powszednie", "values": [14]}, {"period": "Sobota", "values": []}]}]},
-    {"stop": "Zespół Szkół Techincznych", "id": 88, "timetable":
+    {"stop": "Zespół Szkół Technicznych", "id": 88, "timetable":
     [{"hour": 7, "minutes": [{"period": "Dni powszednie", "values": [16]}, {"period": "Sobota", "values": []}]},
       {"hour": 9, "minutes": [{"period": "Dni powszednie", "values": [16]}, {"period": "Sobota", "values": [36]}]},
         {"hour": 11, "minutes": [{"period": "Dni powszednie", "values": [16]}, {"period": "Sobota", "values": [36]}]},

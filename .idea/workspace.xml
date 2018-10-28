@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/prices.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/prices.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/timetable/line15.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/timetable/line15.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,7 +46,7 @@
           <entry key="css" value="19" />
           <entry key="html" value="62" />
           <entry key="js" value="41" />
-          <entry key="json" value="106" />
+          <entry key="json" value="109" />
           <entry key="py" value="2" />
           <entry key="saaasdsa" value="1" />
           <entry key="svg" value="1" />
@@ -59,7 +56,7 @@
         <counts>
           <entry key="CSS" value="19" />
           <entry key="HTML" value="62" />
-          <entry key="JSON" value="106" />
+          <entry key="JSON" value="109" />
           <entry key="JavaScript" value="41" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="1" />
@@ -68,19 +65,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="20137" />
+          <entry key="css" value="20160" />
           <entry key="html" value="9931" />
           <entry key="js" value="19314" />
-          <entry key="json" value="48212" />
+          <entry key="json" value="48213" />
           <entry key="py" value="908" />
           <entry key="saaasdsa" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="20137" />
+          <entry key="CSS" value="20160" />
           <entry key="HTML" value="9932" />
-          <entry key="JSON" value="48212" />
+          <entry key="JSON" value="48213" />
           <entry key="JavaScript" value="19313" />
           <entry key="PLAIN_TEXT" value="734" />
           <entry key="Python" value="195" />
@@ -93,7 +90,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -112,15 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/prices.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="758" column="16" selection-start-line="758" selection-start-column="16" selection-end-line="758" selection-end-column="16" />
+            <state relative-caret-position="606">
+              <caret line="743" column="22" selection-start-line="743" selection-start-column="22" selection-end-line="743" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -148,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>męcze</find>
       <find>niepod</find>
       <find>szpital</find>
       <find>żero</find>
@@ -178,6 +169,7 @@
       <find>load</find>
       <find>price</find>
       <find>priceta</find>
+      <find>zesp</find>
     </findStrings>
     <replaceStrings>
       <replace>stop</replace>
@@ -227,7 +219,6 @@
         <option value="$PROJECT_DIR$/data/timetable/line5A.json" />
         <option value="$PROJECT_DIR$/data/timetable/line30.json" />
         <option value="$PROJECT_DIR$/data/timetable/line24.json" />
-        <option value="$PROJECT_DIR$/data/timetable/line15.json" />
         <option value="$PROJECT_DIR$/data/timetable/line5C.json" />
         <option value="$PROJECT_DIR$/data/timetable/line8.json" />
         <option value="$PROJECT_DIR$/data/timetable/line11.json" />
@@ -256,6 +247,7 @@
         <option value="$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js" />
         <option value="$PROJECT_DIR$/prices.html" />
         <option value="$PROJECT_DIR$/styles/main.css" />
+        <option value="$PROJECT_DIR$/data/timetable/line15.json" />
       </list>
     </option>
   </component>
@@ -311,6 +303,12 @@
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="BusApp" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="timetable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
@@ -497,12 +495,12 @@
       <workItem from="1540453818922" duration="8846000" />
       <workItem from="1540554150314" duration="8245000" />
       <workItem from="1540735402540" duration="1493000" />
-      <workItem from="1540759522740" duration="5261000" />
+      <workItem from="1540759522740" duration="6829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421655000" />
+    <option name="totallyTimeSpent" value="423223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
@@ -556,13 +554,6 @@
     <entry file="file://$PROJECT_DIR$/jquery-3.3.1.min.js" />
     <entry file="file://$PROJECT_DIR$/jq-script.js" />
     <entry file="file://$PROJECT_DIR$/data/saaasdsa" />
-    <entry file="file://$PROJECT_DIR$/data/lines.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -588,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="712">
           <caret line="246" column="2" lean-forward="true" selection-start-line="246" selection-start-column="2" selection-end-line="246" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/timetable/line15.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="113" lean-forward="true" selection-start-line="134" selection-start-column="113" selection-end-line="134" selection-end-column="113" />
         </state>
       </provider>
     </entry>
@@ -711,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/bus-stops.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/line11.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -767,12 +744,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js">
+    <entry file="file://$PROJECT_DIR$/data/timetable/line15.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="67" selection-start-column="67" selection-end-column="67" />
+        <state relative-caret-position="660">
+          <caret line="139" column="67" lean-forward="true" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bus-stops.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lines.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="743" column="22" selection-start-line="743" selection-start-column="22" selection-end-line="743" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/prices.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/prices.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -781,13 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/prices.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="758" column="16" selection-start-line="758" selection-start-column="16" selection-end-line="758" selection-end-column="16" />
+        <state>
+          <caret column="67" selection-start-column="67" selection-end-column="67" />
         </state>
       </provider>
     </entry>
