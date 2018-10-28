@@ -86,7 +86,7 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
     $scope.stop = $routeParams.stop.split("+").join(" ");
     $scope.currentTimetablePage = 0;
 
-    //do tego chyba trzeba stworzyć serwis
+
     $scope.timeFromNow = function(hour, minutes){
         const d = new Date();
         const currentHour = d.getHours();
@@ -100,7 +100,7 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
         }
     };
 
-    //do tego też
+
     $scope.getLine = function(url){
         dataProvider.getData(url).then(function(data){
             const stops = data.data. filter(stop => stop.stop === $scope.stop);
@@ -131,8 +131,6 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
                 const currentMinutes = d.getMinutes();
                 const currentDay = d.getDay();
                 $scope.timetable = [];
-
-                //zrefaktoryzować!!
 
 
                 for(let hour = currentHour; hour < 24; hour++){

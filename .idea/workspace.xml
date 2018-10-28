@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,7 +27,7 @@
     <session id="-1589591370">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="91" />
+          <entry key="project.closed" value="92" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -67,7 +66,7 @@
         <counts>
           <entry key="css" value="19333" />
           <entry key="html" value="9686" />
-          <entry key="js" value="19310" />
+          <entry key="js" value="19313" />
           <entry key="json" value="48212" />
           <entry key="py" value="908" />
           <entry key="saaasdsa" value="21" />
@@ -78,7 +77,7 @@
           <entry key="CSS" value="19333" />
           <entry key="HTML" value="9687" />
           <entry key="JSON" value="48212" />
-          <entry key="JavaScript" value="19309" />
+          <entry key="JavaScript" value="19312" />
           <entry key="PLAIN_TEXT" value="734" />
           <entry key="Python" value="195" />
         </counts>
@@ -129,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="154" column="103" selection-start-line="154" selection-start-column="103" selection-end-line="154" selection-end-column="103" />
+            <state relative-caret-position="1160">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -266,10 +265,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="733" />
-    <option name="y" value="27" />
-    <option name="width" value="1182" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="460" />
+    <option name="y" value="69" />
+    <option name="width" value="1172" />
     <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -492,18 +491,17 @@
       <workItem from="1540419075928" duration="5451000" />
       <workItem from="1540453818922" duration="8846000" />
       <workItem from="1540554150314" duration="8245000" />
-      <workItem from="1540735402540" duration="538000" />
+      <workItem from="1540735402540" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415439000" />
+    <option name="totallyTimeSpent" value="416394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
+    <frame x="460" y="69" width="1172" height="979" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.4095563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -785,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="154" column="103" selection-start-line="154" selection-start-column="103" selection-end-line="154" selection-end-column="103" />
+        <state relative-caret-position="1160">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
