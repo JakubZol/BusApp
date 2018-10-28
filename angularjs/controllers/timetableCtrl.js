@@ -153,7 +153,8 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
                                         let weekendIndex = time[0].minutes.indexOf(searchedEntry);
                                         let week = 0;
                                         let periodIndex = (currentDay % 6 === 0) ? weekendIndex : week;
-                                        if(periodIndex >= 0 && periodIndex < time.length) {
+
+                                        if(periodIndex >= 0 && periodIndex < time[0].minutes.length) {
 
                                             let mins = time[0].minutes[periodIndex].values;
 
