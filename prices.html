@@ -1,13 +1,14 @@
 <div id="pricetable-section">
-    <h1>Bilety: </h1>
-    <!--
     <ul id="tickets-types">
-        <li ng-repeat = "tickets in pricetable track by $index" data-ng-click="switchTicketsType($index)" ng-class="{'active': currentTicketsType === $index}">{{tickets.type}}</li>
+        <li ng-repeat = "tickets in pricetable track by $index">
+            <h3>Bilety {{tickets.type}}</h3>
+            <ul id="tickets">
+                <li ng-repeat="ticket in tickets.tickets">
+                    <span class="ticket-name">{{ticket.name}}</span>
+                    <span class="ticket-price">{{ticket.price}}zł</span>
+                </li>
+            </ul>
+        </li>
     </ul>
-    <ul id="tickets-list">
-        <li ng-repeat="ticket in pricetable[currentTicketsType].tickets">{{ticket.name}} | {{ticket.price}}zł</li>
-    </ul>
-    <ul id="messages">
-        <li ng-repeat="message in messages">{{message}}</li>
-    </ul>-->
+    <a href="#" download>Pobierz regulamin</a>
 </div>

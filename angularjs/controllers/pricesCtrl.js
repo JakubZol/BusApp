@@ -1,11 +1,8 @@
 app.controller("pricesCtrl", function($scope, $http, dataProvider){
 
-    $scope.currentTicketsType = 0;
-
     $scope.getPrices = function(url){
         dataProvider.getData(url).then(function(data){
-            $scope.pricetable = data.data.pricetable;
-            $scope.messages = data.data.messages;
+            $scope.pricetable = data.data;
         }).catch(function(error){
             $scope.error = "ERROR " + error.status;
         });
@@ -13,7 +10,4 @@ app.controller("pricesCtrl", function($scope, $http, dataProvider){
 
     $scope.getPrices("data/prices.json");
 
-    $scope.switchTicketsType = function(index){
-        $scope.currentTicketsType = index;
-    }
 });

@@ -678,89 +678,86 @@ nav ul li.active{
 }
 
 #pricetable-section ul#tickets-types{
-    width:100%;
-    height: 40px;
-    border-top: 2px lavender solid;
-    border-bottom: 2px lavender solid;
-    display: flex;
-    padding: 0;
-    margin: 40px 0 0;
+    width: 100%;
+    height: 95%;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 #pricetable-section ul#tickets-types li{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     box-sizing: border-box;
-    border-right: 2px solid lavender;
-    text-align: center;
-    background: darkgray;
+    border-bottom: 2px solid lavender;
     padding: 7px 0;
-    font-size: 18px;
 }
 
-#pricetable-section ul#tickets-types li:last-child{
-    border: none;
-}
-
-#pricetable-section ul#tickets-types li:hover{
-    cursor: pointer;
-    background-color: dodgerblue;
-    color: white;
-}
-
-#pricetable-section ul#tickets-types li.active{
-    color:white;
-    background-color: dodgerblue;
-}
-
-#pricetable-section ul#tickets-list{
-    padding:0;
+#pricetable-section ul#tickets-types li h3 {
     margin:0;
-    list-style-type: none;
-    width: 100%;
 }
 
-#pricetable-section ul#tickets-list li{
-    height: 35px;
+#pricetable-section ul#tickets{
     width: 100%;
-    color: white;
+    margin: 20px 0 0 0;
+    padding:0;
+    list-style-type: none;
+}
+
+#pricetable-section ul#tickets li{
+    width: 100%;
+    height: 49px;
+    margin:0;
     border-bottom: 1px solid lavender;
-    padding-top: 6px;
-    box-sizing: border-box;
-
-
+    padding:0;
 }
 
-#pricetable-section ul#tickets-list li:nth-child(odd){
-    background-color: gray;
+#pricetable-section ul#tickets li:first-child{
+    border-top: 1px solid lavender;
 }
 
-#pricetable-section ul#tickets-list li:nth-child(even){
-    background-color: darkgray;
-    color: black;
+#pricetable-section ul#tickets li span.ticket-name{
+    float:left;
+    text-align: left;
 }
 
-#pricetable-section ul#tickets-list li:last-child{
-    border-bottom: 3px solid lavender;
+#pricetable-section ul#tickets li span.ticket-price{
+    float: right;
+    text-align: right;
 }
 
-#pricetable-section ul#messages{
-    list-style-type: none;
-    padding: 0;
-    margin: 45px 0;
+#pricetable-section ul#tickets li {
     width: 100%;
-}
-
-#pricetable-section ul#messages li{
-    padding: 10px;
-    font-size: 17px;
+    height: 49px;
+    margin: 0;
+    border-bottom: 1px solid lavender;
+    padding: 15px 25px;
     box-sizing: border-box;
-    width: 100%;
-    border-bottom: 1px dashed lavender;
 }
 
+#pricetable-section ul#tickets li span{
 
+}
+
+#pricetable-section ul#tickets li:nth-child(even) {
+    background: gray;
+    color: white;
+}
+
+#pricetable-section ul#tickets li:nth-child(odd) {
+    background: darkgray;
+}
+
+#pricetable-section a{
+    display: block;
+    margin: 25px 0;
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+#pricetable-section a:hover{
+    color: blue;
+}
 
 
 
