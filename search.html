@@ -1,1 +1,21 @@
-<h1>SEARCH</h1>
+<div id="search-section">
+    <form id="search-connection-form" ng-submit="searchConnection()">
+        <input type="text" ng-model="start" placeholder="Przystanek początkowy" data-ng-click="unlockStartInput()" required>
+        <ul class="stops" ng-class="{'non-visible': startIsSet}">
+            <li ng-repeat="stop in stops | mergeLine: start" data-ng-click="setStartStop(stop.stop)">
+                <p>{{stop.stop}}</p>
+                <small>Linie: {{stop.lines.join(" ")}}</small>
+            </li>
+        </ul>
+        <input type="text" ng-model="destination" placeholder="Przystanek docelowy" data-ng-click="unlockDestinationInput()" required>
+        <ul class="stops" ng-class="{'non-visible': destinationIsSet}">
+            <li ng-repeat="stop in stops | mergeLine: destination" data-ng-click="setDestinationStop(stop.stop)">
+                <p>{{stop.stop}}</p>
+                <small>Linie: {{stop.lines.join(" ")}}</small>
+            </li>
+        </ul>
+        <input type="time" ng-model="time" required> <!--Shows miliseconds and seconds-->
+        <input type="date" ng-model="date" min="{{date.toISOString().slice(0,10)}}" required>
+        <button type="submit">Szukaj połączenia</button>
+    </form>
+</div>

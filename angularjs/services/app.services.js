@@ -3,6 +3,3 @@ app.service("dataProvider", function($http){
        return $http.get(url);
     }
 });
-
-
-
