@@ -676,9 +676,15 @@ nav ul li.active{
     height: 100%;
 }
 
+#search-section h2{
+    margin-top: 170px;
+}
+
 #search-section form{
     width: 100%;
-    margin-top: 160px;
+    margin-top: 30px;
+    padding-bottom: 35px;
+    border-bottom: 3px solid lavender;
 }
 
 #search-section form input[type="time"]{
@@ -698,7 +704,8 @@ nav ul li.active{
 }
 
 #search-section form button{
-    width: 90%;
+    width: 93%;
+    margin-top: 20px;
 }
 
 #search-section ul.stops{
