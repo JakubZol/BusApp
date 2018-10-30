@@ -1,7 +1,11 @@
 <div id="stoptimetable-section">
     <h2>{{stop}}</h2>
     <a href="#/timetable"> Powrót</a>
-    <ul>
+    <div class="loading-box" ng-class="{'non-visible': contentLoaded}">
+        <div class="loader"></div>
+        <p>loading...</p>
+    </div>
+    <ul ng-class="{'non-visible': !contentLoaded}">
         <li ng-repeat="course in currentTimetable">
             <h1> {{course.line}}</h1>
             <div id="course-details"><b>{{course.destination}}</b><br>

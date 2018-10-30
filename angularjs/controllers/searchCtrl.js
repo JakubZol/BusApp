@@ -1,4 +1,4 @@
-app.controller("searchCtrl", function($scope, dataProvider){
+app.controller("searchCtrl", function($scope, dataProvider, $q){
 
     $scope.destinationIsSet = false;
     $scope.startIsSet = false;
@@ -48,24 +48,50 @@ app.controller("searchCtrl", function($scope, dataProvider){
     };
 
     $scope.searchConnection = function(){
-        //console.log($scope.start);
-        //console.log($scope.destination);
-        //console.log($scope.time.getHours() + ":" + $scope.time.getMinutes());
-        //console.log($scope.date);
 
-        let searchedStops = [];
+        let startStops = [];
+        let destinationStops = [];
 
         for (stop of $scope.stops){
-            if(stop.stop === $scope.start || stop.stop === $scope.destination){
-                searchedStops.push(stop);
+            if(stop.stop === $scope.start ){
+                startStops.push(stop);
+            }
+            else if( stop.stop === $scope.destination){
+                destinationStops.push(stop);
             }
         }
 
-        searchedStops.sort(function(a, b){
-                return b.lines.length - a.lines.length;
-            });
+        let lines = [];
 
-        console.log(searchedStops);
+        for(sstop of startStops){
+            for(line of sstop.lines) {
+                for (dstop of destinationStops) {
+                    if (dstop.lines.indexOf(line) >= 0 && lines.indexOf(line) < 0) {
+                        lines.push(line);
+                    }
+                }
+            }
+
+        }
+
+        let promises = [];
+
+        for (line of lines){
+            promises.push(dataProvider.getData("data/timetable/line" + line + ".json"));
+        }
+
+        $q.all(promises).then(function(data){
+            let timetables = [];
+            angular.forEach(data, function(response){
+                timetables.push(response.data)
+            });
+            console.log(timetables);
+        }).catch(function(error){
+            console.log(error);
+        });
+
+
+
     }
 
 });

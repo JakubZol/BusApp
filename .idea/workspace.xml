@@ -4,7 +4,8 @@
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stoptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/stoptimetable.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,23 +30,23 @@
     <session id="-1589591370">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="95" />
+          <entry key="project.closed" value="98" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="15" />
           <entry key="project.open.time.5" value="47" />
-          <entry key="project.open.time.6" value="24" />
+          <entry key="project.open.time.6" value="25" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="101" />
+          <entry key="project.opened" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="20" />
-          <entry key="html" value="65" />
+          <entry key="html" value="67" />
           <entry key="js" value="46" />
           <entry key="json" value="110" />
           <entry key="py" value="2" />
@@ -56,7 +57,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="20" />
-          <entry key="HTML" value="65" />
+          <entry key="HTML" value="67" />
           <entry key="JSON" value="110" />
           <entry key="JavaScript" value="46" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -67,8 +68,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="20750" />
-          <entry key="html" value="10857" />
-          <entry key="js" value="21750" />
+          <entry key="html" value="10859" />
+          <entry key="js" value="22709" />
           <entry key="json" value="48213" />
           <entry key="py" value="908" />
           <entry key="saaasdsa" value="21" />
@@ -77,9 +78,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="20750" />
-          <entry key="HTML" value="10858" />
+          <entry key="HTML" value="10860" />
           <entry key="JSON" value="48213" />
-          <entry key="JavaScript" value="21749" />
+          <entry key="JavaScript" value="22708" />
           <entry key="PLAIN_TEXT" value="734" />
           <entry key="Python" value="195" />
         </counts>
@@ -95,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+              <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -103,26 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
+            <state relative-caret-position="10590">
               <caret line="706" column="15" selection-start-line="706" selection-start-column="15" selection-end-line="706" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularjs/controllers/searchCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angularjs/filters/filters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="621">
+              <caret line="84" column="53" lean-forward="true" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -130,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/bus-stops.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="801">
               <caret line="88" column="16" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="16" />
             </state>
           </provider>
@@ -139,17 +131,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="15">
+              <caret line="123" column="44" lean-forward="true" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/timetable.html">
+        <entry file="file://$PROJECT_DIR$/linetimetable.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stoptimetable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -168,7 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>listopa</find>
       <find>trub</find>
       <find>metalowa</find>
       <find>baza</find>
@@ -198,6 +198,7 @@
       <find>stops</find>
       <find>#timeta</find>
       <find>#search</find>
+      <find>angular.fo</find>
     </findStrings>
     <replaceStrings>
       <replace>stop</replace>
@@ -265,18 +266,18 @@
         <option value="$PROJECT_DIR$/angularjs/filters/filters.js" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/linetimetable.html" />
-        <option value="$PROJECT_DIR$/stoptimetable.html" />
         <option value="$PROJECT_DIR$/timetable.html" />
         <option value="$PROJECT_DIR$/data/prices.json" />
         <option value="$PROJECT_DIR$/prices.html" />
         <option value="$PROJECT_DIR$/data/timetable/line15.json" />
         <option value="$PROJECT_DIR$/angularjs/controllers/pricesCtrl.js" />
-        <option value="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" />
         <option value="$PROJECT_DIR$/angularjs/services/app.services.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" />
+        <option value="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" />
+        <option value="$PROJECT_DIR$/stoptimetable.html" />
       </list>
     </option>
   </component>
@@ -521,16 +522,17 @@
       <workItem from="1540759522740" duration="6902000" />
       <workItem from="1540809369224" duration="12595000" />
       <workItem from="1540854759343" duration="827000" />
-      <workItem from="1540900686856" duration="1890000" />
+      <workItem from="1540900686856" duration="2193000" />
+      <workItem from="1540903842123" duration="12000" />
+      <workItem from="1540918508463" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438608000" />
+    <option name="totallyTimeSpent" value="440944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.24947916" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -714,20 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stoptimetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linetimetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/line15.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -773,31 +761,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timetable.html">
+    <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
+        <state relative-caret-position="10590">
           <caret line="706" column="15" selection-start-line="706" selection-start-column="15" selection-end-line="706" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -808,17 +782,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/timetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/bus-stops.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="801">
           <caret line="88" column="16" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angularjs/controllers/searchCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="621">
+          <caret line="84" column="53" lean-forward="true" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="123" column="44" lean-forward="true" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linetimetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoptimetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>

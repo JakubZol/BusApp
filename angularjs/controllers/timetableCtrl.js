@@ -85,6 +85,7 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
 
     $scope.stop = $routeParams.stop.split("+").join(" ");
     $scope.currentTimetablePage = 0;
+    $scope.contentLoaded = false;
 
 
     $scope.timeFromNow = function(hour, minutes){
@@ -183,6 +184,8 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
                 $scope.timetable = $filter("sortByTime")($scope.timetable).slice(0, 20);
 
                 $scope.currentTimetable = $scope.timetable.slice(0, 10);
+
+                $scope.contentLoaded = true;
 
             })
         }).catch(function(error){
