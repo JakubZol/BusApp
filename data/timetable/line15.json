@@ -1,5 +1,6 @@
 [{"line": 15, "start": "Dworzec Główny PKP", "destination": "Dworzec Główny PKP",
-  "route": [{"stop": "Dworzec Główny PKP", "id": 127, "timetable":
+  "route":
+  [{"stop": "Dworzec Główny PKP", "id": 127, "timetable":
   [{"hour": 6, "minutes": [{"period": "Dni powszednie", "values": [47]}, {"period": "Sobota", "values": []}]},
     {"hour": 8, "minutes": [{"period": "Dni powszednie", "values": [47]}, {"period": "Sobota", "values": []}]},
     {"hour": 9, "minutes": [{"period": "Dni powszednie", "values": []}, {"period": "Sobota", "values": [7]}]},

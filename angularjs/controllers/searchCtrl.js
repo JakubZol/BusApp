@@ -49,6 +49,10 @@ app.controller("searchCtrl", function($scope, dataProvider, $q){
 
     $scope.searchConnection = function(){
 
+        console.log($scope.start);
+        console.log($scope.destination);
+        console.log("---");
+
         let startStops = [];
         let destinationStops = [];
 
@@ -63,9 +67,9 @@ app.controller("searchCtrl", function($scope, dataProvider, $q){
 
         let lines = [];
 
-        for(sstop of startStops){
-            for(line of sstop.lines) {
-                for (dstop of destinationStops) {
+        for(let sstop of startStops){
+            for(let line of sstop.lines) {
+                for (let dstop of destinationStops) {
                     if (dstop.lines.indexOf(line) >= 0 && lines.indexOf(line) < 0) {
                         lines.push(line);
                     }
@@ -85,7 +89,38 @@ app.controller("searchCtrl", function($scope, dataProvider, $q){
             angular.forEach(data, function(response){
                 timetables.push(response.data)
             });
+
             console.log(timetables);
+
+            let connections = [];
+
+            for(let line of timetables){
+                for(let course of line){
+                    for(let stopIdx in course.route){ //działa ale uważać, stopIdx jest stringiem
+                        if(course.route[stopIdx].stop === $scope.start){
+                            var startIdx = parseInt(stopIdx); //działa nawet jak któryś z przystanków jest nieobecny na liście
+                        }
+                        else if(course.route[stopIdx].stop === $scope.destination){
+                            var destinationIdx = parseInt(stopIdx);
+                            break;
+                        }
+                    }
+
+                    if(startIdx < destinationIdx) {
+                        connections.push({
+                            route: (course.route.slice(parseInt(startIdx), parseInt(destinationIdx) + 1)),
+                            destination: course.destination,
+                            line: course.line
+                        });
+                    }
+
+                }
+            }
+
+            console.log(connections);
+
+
+
         }).catch(function(error){
             console.log(error);
         });
