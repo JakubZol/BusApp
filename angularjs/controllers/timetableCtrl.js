@@ -81,7 +81,7 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider,
 
 });
 
-app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider, $filter, $q){
+app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, dataProvider){
 
     $scope.stop = $routeParams.stop.split("+").join(" ");
     $scope.currentTimetablePage = 0;
@@ -102,28 +102,30 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
     };
 
 
-    $scope.getLine = function(url){
-        dataProvider.getData(url).then(function(data){
-            const stops = data.data. filter(stop => stop.stop === $scope.stop);
+    $scope.getLine = function(url) {
+        dataProvider.getData(url).then(function (data) {
+
+            const stops = data.data.filter(stop => stop.stop === $scope.stop);
             let stopsIds = [];
-            for (let stop of stops){
-                if(stopsIds.indexOf(stop.id) < 0){
+            for (let stop of stops) {
+                if (stopsIds.indexOf(stop.id) < 0) {
                     stopsIds.push(stop.id);
                 }
             }
+
             stopsIds.sort();
             const minId = stopsIds[0];
             const lines = $filter('mergeLine')(stops, $scope.stop)[0].lines;
 
             let promises = [];
 
-            angular.forEach(lines, function(line){
+            angular.forEach(lines, function (line) {
                 promises.push(dataProvider.getData("data/timetable/line" + line + ".json"));
             });
 
             $q.all(promises).then(function (data) {
                 let coursesList = [];
-                angular.forEach(data, function(line){
+                angular.forEach(data, function (line) {
                     coursesList.push(line.data);
                 });
 
@@ -134,13 +136,13 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
                 $scope.timetable = [];
 
 
-                for(let hour = currentHour; hour < 24; hour++){
-                    for(let courses of coursesList){
-                        for(let course of courses) {
+                for (let hour = currentHour; hour < 24; hour++) {
+                    for (let courses of coursesList) {
+                        for (let course of courses) {
 
                             let stops = course.route.filter(stop => stop.stop === $scope.stop);
 
-                            if (stops.length > 0){
+                            if (stops.length > 0) {
                                 for (stop of stops) {
 
                                     let time = stop.timetable.filter(x => x.hour === hour);
@@ -153,7 +155,7 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
                                         let week = 0;
                                         let periodIndex = (currentDay % 6 === 0) ? weekendIndex : week;
 
-                                        if(periodIndex >= 0 && periodIndex < time[0].minutes.length) {
+                                        if (periodIndex >= 0 && periodIndex < time[0].minutes.length) {
 
                                             let mins = time[0].minutes[periodIndex].values;
 
@@ -176,7 +178,7 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
 
                     }
 
-                    if($scope.timetable.length >= 20){
+                    if ($scope.timetable.length >= 20) {
                         break;
                     }
                 }
@@ -187,11 +189,13 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, dataProvider,
 
                 $scope.contentLoaded = true;
 
-            })
-        }).catch(function(error){
+            }).catch(function (error) {
+
+            });
+        }).catch(function (error) {
 
         });
-    };
+    }
 
     $scope.getLine("data/bus-stops.json");
 

@@ -84,41 +84,54 @@ app.controller("searchCtrl", function($scope, dataProvider, $q){
             promises.push(dataProvider.getData("data/timetable/line" + line + ".json"));
         }
 
-        $q.all(promises).then(function(data){
+        $q.all(promises).then(function(data) {
             let timetables = [];
-            angular.forEach(data, function(response){
+            angular.forEach(data, function (response) {
                 timetables.push(response.data)
             });
 
-            console.log(timetables);
 
             let connections = [];
 
-            for(let line of timetables){
-                for(let course of line){
-                    for(let stopIdx in course.route){ //działa ale uważać, stopIdx jest stringiem
-                        if(course.route[stopIdx].stop === $scope.start){
-                            var startIdx = parseInt(stopIdx); //działa nawet jak któryś z przystanków jest nieobecny na liście
-                        }
-                        else if(course.route[stopIdx].stop === $scope.destination){
-                            var destinationIdx = parseInt(stopIdx);
-                            break;
-                        }
-                    }
 
-                    if(startIdx < destinationIdx) {
+            for (let line of timetables) {
+                for (let course of line) {
+                    let startIndex = -1;
+                    let destinationIndex = -1;
+                    for (let index in course.route) {
+                        if (course.route[index].stop === $scope.start) {
+                            startIndex = parseInt(index);
+                        }
+                        if (course.route[index].stop === $scope.destination) {
+                            destinationIndex = parseInt(index);
+                            if (startIndex >= 0) {
+                                break;
+                            }
+                        }
+
+                    }
+                    if (startIndex < destinationIndex && startIndex >= 0 && destinationIndex > 0) {
                         connections.push({
-                            route: (course.route.slice(parseInt(startIdx), parseInt(destinationIdx) + 1)),
+                            route: (course.route.slice(startIndex, destinationIndex + 1)),
                             destination: course.destination,
                             line: course.line
                         });
                     }
-
                 }
             }
 
             console.log(connections);
 
+            /*
+            let initialDay = $scope.date.getDay();
+            let initialHour = $scope.time.getHours();
+            let initialMinutes = $scope.time.getMinutes();
+
+            let hour = initialHour;
+            let day = initialDay;
+            let array = [];
+            let currentIndex = 0;
+            */
 
 
         }).catch(function(error){

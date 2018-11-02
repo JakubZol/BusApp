@@ -9,7 +9,7 @@
     {"hour": 12, "minutes": [{"period": "Dni powszednie", "values": [47]}, {"period": "Sobota", "values": []}]},
     {"hour": 14, "minutes": [{"period": "Dni powszednie", "values": [47]}, {"period": "Sobota", "values": []}]},
     {"hour": 16, "minutes": [{"period": "Dni powszednie", "values": [47]}, {"period": "Sobota", "values": []}]}]},
-    {"stop": "Jednośc","id": 116, "timetable":
+    {"stop": "Jedność","id": 116, "timetable":
     [{"hour": 6, "minutes": [{"period": "Dni powszednie", "values": [48]}, {"period": "Sobota", "values": []}]},
       {"hour": 8, "minutes": [{"period": "Dni powszednie", "values": [48]}, {"period": "Sobota", "values": []}]},
       {"hour": 9, "minutes": [{"period": "Dni powszednie", "values": []}, {"period": "Sobota", "values": [8]}]},

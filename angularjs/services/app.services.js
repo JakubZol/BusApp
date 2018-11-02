@@ -3,3 +3,10 @@ app.service("dataProvider", function($http){
        return $http.get(url);
     }
 });
+
+/*
+app.service("stopTimetable", function($filter, $q, dataProvider) {
+    this.getTimetable = function () {
+    }
+});
+*/
