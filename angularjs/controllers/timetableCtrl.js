@@ -1,6 +1,6 @@
-app.controller("timetableCtrl", function($scope, $http, dataProvider, $rootScope){
+app.controller("timetableCtrl", function($scope, $http, dataProvider){
 
-    $scope.getTimetable = function(url){ //wystarczą tylko linie z oddzielnego pliku
+    $scope.getTimetable = function(url){
         dataProvider.getData(url).then(function(data){
             $scope.lines = data.data.lines;
         }).catch(function(error){
@@ -21,39 +21,43 @@ app.controller("timetableCtrl", function($scope, $http, dataProvider, $rootScope
 
 });
 
-app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider, $timeout){
+app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider){
 
     $scope.line = $routeParams.line;
     $scope.currentCourse = 0;
-    $scope.currentTimetable = 0;
     $scope.stopsClasses = [];
     $scope.contentLoaded = false;
+    $scope.checkError = false;
 
 
     $scope.getTimetable = function(url){
-        dataProvider.getData(url).then(function(data){ //wybrać odpowiedni plik
-            $scope.courses = data.data;
-            angular.forEach($scope.courses[0].route, function(){
+        dataProvider.getData(url).then(function(data){
+            $scope.lineTimetable = data.data;
+
+            angular.forEach($scope.lineTimetable.routes[0].stops, function(){
                 $scope.stopsClasses.push("regular");
             });
+
             $scope.contentLoaded = true;
-        }).catch(function(error){
-            
+        }).catch(function(error){ //TO DO
+            $scope.checkError = true;
+            $scope.error = error;
+            //console.log(error);
         });
     };
 
-    $scope.getTimetable("data/timetable/line" + $scope.line + ".json");
+    $scope.getTimetable("data/timetable/newline" + $scope.line + ".json");
 
 
     $scope.setCurrentCourse = function (index) {
 
         $scope.currentCourse = index;
 
-        for(let idx in $scope.courses[$scope.currentCourse].route){
-            $scope.stopsClasses[parseInt(idx)] = "regular";
-        }
+        $scope.stopsClasses = [];
 
-        $scope.currentTimetable = 0;
+        angular.forEach($scope.lineTimetable.routes[$scope.currentCourse].stops, function(){
+            $scope.stopsClasses.push("regular");
+        });
     };
 
     $scope.displayTimetable = function (index) {
@@ -63,6 +67,30 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider,
         }
 
         $scope.stopsClasses[index] = "active";
+
+        $scope.currentStopIndex = index;
+
+        $scope.buildTimetable(0, index);
+
+    };
+
+    $scope.buildTimetable = function(timetableIndex, stopIndex){
+
+        $scope.currentTimetableIndex = timetableIndex;
+
+        $scope.currentTimetable = [];
+
+        for(let time of $scope.lineTimetable.routes[$scope.currentCourse].timetable[timetableIndex].courses){
+            let x = $scope.currentTimetable.filter(obj => obj.hour === time[stopIndex].hour);
+
+            if(x.length === 0){
+                $scope.currentTimetable.push({hour: time[stopIndex].hour, minutes: [time[stopIndex].minutes]});
+            }
+            else{
+                let idx = $scope.currentTimetable.indexOf(x[0]);
+                $scope.currentTimetable[idx].minutes.push(time[stopIndex].minutes);
+            }
+        }
     };
 
     $scope.displayRoute = function(){
@@ -71,13 +99,8 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider,
             $scope.stopsClasses[idx] = "regular";
         }
 
-        $scope.currentTimetable = 0;
+        $scope.currentTimetableIndex = 0;
     };
-
-    $scope.setTimetable = function(index){
-        $scope.currentTimetable = index;
-    }
-
 
 });
 
