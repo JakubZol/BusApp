@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/timetable/newline1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/timetable/newline1.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/timetable/newline1.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +45,7 @@
           <entry key="css" value="20" />
           <entry key="html" value="69" />
           <entry key="js" value="49" />
-          <entry key="json" value="127" />
+          <entry key="json" value="128" />
           <entry key="py" value="2" />
           <entry key="saaasdsa" value="1" />
           <entry key="svg" value="1" />
@@ -56,7 +55,7 @@
         <counts>
           <entry key="CSS" value="20" />
           <entry key="HTML" value="69" />
-          <entry key="JSON" value="127" />
+          <entry key="JSON" value="128" />
           <entry key="JavaScript" value="49" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="1" />
@@ -68,7 +67,7 @@
           <entry key="css" value="20750" />
           <entry key="html" value="11261" />
           <entry key="js" value="28380" />
-          <entry key="json" value="54122" />
+          <entry key="json" value="54272" />
           <entry key="py" value="908" />
           <entry key="saaasdsa" value="21" />
         </counts>
@@ -77,7 +76,7 @@
         <counts>
           <entry key="CSS" value="20750" />
           <entry key="HTML" value="11262" />
-          <entry key="JSON" value="54122" />
+          <entry key="JSON" value="54272" />
           <entry key="JavaScript" value="28379" />
           <entry key="PLAIN_TEXT" value="734" />
           <entry key="Python" value="195" />
@@ -126,20 +125,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/timetable/line1.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/timetable/newline1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="152" lean-forward="true" selection-start-line="15" selection-start-column="152" selection-end-line="15" selection-end-column="152" />
+            <state relative-caret-position="741">
+              <caret line="299" column="173" lean-forward="true" selection-start-line="299" selection-start-column="173" selection-end-line="299" selection-end-column="173" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/timetable/newline1.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/timetable/line1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="228" column="7" lean-forward="true" selection-start-line="228" selection-start-column="7" selection-end-line="228" selection-end-column="7" />
+            <state relative-caret-position="533">
+              <caret line="679" column="108" selection-start-line="679" selection-start-column="108" selection-end-line="679" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -171,7 +170,6 @@
       <find>$scope.stop</find>
       <find>mainStop</find>
       <find>&quot;hour&quot;:</find>
-      <find>&quot;hour&quot;: 5</find>
       <find>$scope.currentTimetable</find>
       <find>currentTimetable</find>
       <find>&quot;hour&quot;: 10</find>
@@ -180,13 +178,14 @@
       <find>&quot;hour&quot;: 6</find>
       <find>&quot;hour&quot;: 14</find>
       <find>&quot;hour&quot;: 17</find>
-      <find>&quot;hour&quot;: 18</find>
       <find>&quot;hour&quot;: 7</find>
       <find>&quot;hour&quot;: 19</find>
       <find>&quot;hour&quot;: 13</find>
       <find>&quot;hour&quot;: 15</find>
       <find>&quot;hour&quot;: 11</find>
       <find>&quot;hour&quot;: 8</find>
+      <find>&quot;hour&quot;: 18</find>
+      <find>&quot;hour&quot;: 5</find>
       <find>&quot;hour&quot;: 9</find>
     </findStrings>
     <replaceStrings>
@@ -208,18 +207,18 @@
       <replace>$scope.currentTimetableIndex</replace>
       <replace>currentTimetableIndex</replace>
       <replace>&quot;hour&quot;: 8</replace>
-      <replace>&quot;hour&quot;: 21</replace>
       <replace>&quot;hour&quot;: 7</replace>
       <replace>&quot;hour&quot;: 16</replace>
       <replace>&quot;hour&quot;: 19</replace>
-      <replace>&quot;hour&quot;: 6</replace>
       <replace>&quot;hour&quot;: 9</replace>
       <replace>&quot;hour&quot;: 11</replace>
-      <replace>&quot;hour&quot;: 13</replace>
       <replace>&quot;hour&quot;: 15</replace>
       <replace>&quot;hour&quot;: 17</replace>
       <replace>&quot;hour&quot;: 18</replace>
       <replace>&quot;hour&quot;: 20</replace>
+      <replace>&quot;hour&quot;: 6</replace>
+      <replace>&quot;hour&quot;: 13</replace>
+      <replace>&quot;hour&quot;: 21</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -540,12 +539,12 @@
       <workItem from="1541181474008" duration="1853000" />
       <workItem from="1541192526197" duration="3198000" />
       <workItem from="1541329759067" duration="27568000" />
-      <workItem from="1541427531965" duration="7150000" />
+      <workItem from="1541427531965" duration="8379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="496501000" />
+    <option name="totallyTimeSpent" value="497730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
@@ -854,15 +853,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/line1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="152" lean-forward="true" selection-start-line="15" selection-start-column="152" selection-end-line="15" selection-end-column="152" />
+        <state relative-caret-position="533">
+          <caret line="679" column="108" selection-start-line="679" selection-start-column="108" selection-end-line="679" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/newline1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="228" column="7" lean-forward="true" selection-start-line="228" selection-start-column="7" selection-end-line="228" selection-end-column="7" />
+        <state relative-caret-position="741">
+          <caret line="299" column="173" lean-forward="true" selection-start-line="299" selection-start-column="173" selection-end-line="299" selection-end-column="173" />
         </state>
       </provider>
     </entry>
