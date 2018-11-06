@@ -32,7 +32,18 @@
         {"hour": 16, "minutes": 59}, {"hour": 17, "minutes": 0}, {"hour": 17, "minutes": 2}, {"hour": 17, "minutes": 5}, {"hour": 17, "minutes": 6}, {"hour": 17, "minutes": 8}, {"hour": 17, "minutes": 10},
         {"hour": 17, "minutes": 12}, {"hour": 17, "minutes": 13}, {"hour": 17, "minutes": 14}, {"hour": 17, "minutes": 16}, {"hour": 17, "minutes": 18}, {"hour": 17, "minutes": 20}, {"hour": 17, "minutes": 21},
         {"hour": 17, "minutes": 22}, {"hour": 17, "minutes": 23}]
-    ]}
+    ]}, 
+      {"period": "Sobota", "courses":
+      [
+        [{"hour": 9, "minutes": 7}, {"hour": 9, "minutes": 8}, {"hour": 9, "minutes": 10}, {"hour": 9, "minutes": 12}, {"hour": 9, "minutes": 14}, {"hour": 9, "minutes": 16}, {"hour": 9, "minutes": 18},
+          {"hour": 9, "minutes": 19}, {"hour": 9, "minutes": 20}, {"hour": 9, "minutes": 22}, {"hour": 9, "minutes": 25}, {"hour": 9, "minutes": 26}, {"hour": 9, "minutes": 28}, {"hour": 9, "minutes": 30},
+          {"hour": 9, "minutes": 32}, {"hour": 9, "minutes": 33}, {"hour": 9, "minutes": 34}, {"hour": 9, "minutes": 36}, {"hour": 9, "minutes": 38}, {"hour": 9, "minutes": 40}, {"hour": 9, "minutes": 41},
+          {"hour": 9, "minutes": 42}, {"hour": 9, "minutes": 43}],
+        [{"hour": 11, "minutes": 7}, {"hour": 11, "minutes": 8}, {"hour": 11, "minutes": 10}, {"hour": 11, "minutes": 12}, {"hour": 11, "minutes": 14}, {"hour": 11, "minutes": 16}, {"hour": 11, "minutes": 18},
+          {"hour": 11, "minutes": 19}, {"hour": 11, "minutes": 20}, {"hour": 11, "minutes": 22}, {"hour": 11, "minutes": 25}, {"hour": 11, "minutes": 26}, {"hour": 11, "minutes": 28}, {"hour": 11, "minutes": 30},
+          {"hour": 11, "minutes": 32}, {"hour": 11, "minutes": 33}, {"hour": 11, "minutes": 34}, {"hour": 11, "minutes": 36}, {"hour": 11, "minutes": 38}, {"hour": 11, "minutes": 40}, {"hour": 11, "minutes": 41},
+          {"hour": 11, "minutes": 42}, {"hour": 11, "minutes": 43}]
+      ]}
     ]
   }
   ]
