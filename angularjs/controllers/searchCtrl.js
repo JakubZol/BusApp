@@ -63,84 +63,50 @@ app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
             }
         }
 
-        console.log(lines);
-
-
-        /*
-        let lines = [];
-
-        for(let sstop of startStops){
-            for(let line of sstop.lines) {
-                for (let dstop of destinationStops) {
-                    if (dstop.lines.indexOf(line) >= 0 && lines.indexOf(line) < 0) {
-                        lines.push(line);
-                    }
-                }
-            }
-
-        }
-
         let promises = [];
 
-        for (line of lines){
-            promises.push(dataProvider.getData("data/timetable/line" + line + ".json"));
+        for (let line of lines){
+            promises.push(dataProvider.getData("data/timetable/newline" + line + ".json"));
         }
 
         $q.all(promises).then(function(data) {
-            let timetables = [];
-            angular.forEach(data, function (response) {
-                timetables.push(response.data)
-            });
+
+            let responses = [];
+
+            for(let response of data){
+                responses.push(response.data)
+            }
+
+            console.log(responses);
 
 
             let connections = [];
 
-
-            for (let line of timetables) {
-                for (let course of line) {
-                    let startIndex = -1;
-                    let destinationIndex = -1;
-                    for (let index in course.route) {
-                        if (course.route[index].stop === $scope.start) {
-                            startIndex = parseInt(index);
-                        }
-                        if (course.route[index].stop === $scope.destination) {
-                            destinationIndex = parseInt(index);
-                            if (startIndex >= 0) {
-                                break;
+            for(let line of responses){
+                for(let route of line.routes){
+                    let startIndex = route.stops.indexOf(route.stops.filter(stop => stop.name === $scope.start)[0]);
+                    let destinationIndex = route.stops.indexOf(route.stops.filter(stop => stop.name === $scope.destination)[0]);
+                    if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0){
+                            for(let entry of route.timetable[0].courses) { //add day index choice
+                                if (entry[startIndex].hour === $scope.time.getHours() && entry[startIndex].minutes > $scope.time.getMinutes() || entry[startIndex].hour > $scope.time.getHours()) {
+                                    connections.push({line: line.line, destination: route.destination, stops: route.stops.slice(startIndex, destinationIndex + 1),
+                                        time: entry.slice(startIndex, destinationIndex + 1)});
+                                }
                             }
-                        }
 
-                    }
-                    if (startIndex < destinationIndex && startIndex >= 0 && destinationIndex > 0) {
-                        connections.push({
-                            route: (course.route.slice(startIndex, destinationIndex + 1)),
-                            destination: course.destination,
-                            line: course.line
-                        });
+
+                        //add next day searching and course time length
                     }
                 }
             }
 
             console.log(connections);
 
-            /*
-            let initialDay = $scope.date.getDay();
-            let initialHour = $scope.time.getHours();
-            let initialMinutes = $scope.time.getMinutes();
-
-            let hour = initialHour;
-            let day = initialDay;
-            let array = [];
-            let currentIndex = 0;
-
-
 
         }).catch(function(error){
             console.log(error);
         });
 
-*/
 
     }
 
