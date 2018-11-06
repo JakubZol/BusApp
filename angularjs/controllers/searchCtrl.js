@@ -77,20 +77,26 @@ app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
                 responses.push(response.data)
             }
 
-            console.log(responses);
 
-
-            let connections = [];
+            $scope.connections = [];
+            const currentDayIndex = $scope.date.getDay();
+            let weekendDay = currentDayIndex === 0 ? "Niedziela" : "Sobota";
+            let currentDayName = currentDayIndex % 6 !== 0 ? "Dni powszednie" : weekendDay;
 
             for(let line of responses){
                 for(let route of line.routes){
                     let startIndex = route.stops.indexOf(route.stops.filter(stop => stop.name === $scope.start)[0]);
                     let destinationIndex = route.stops.indexOf(route.stops.filter(stop => stop.name === $scope.destination)[0]);
-                    if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0){
-                            for(let entry of route.timetable[0].courses) { //add day index choice
-                                if (entry[startIndex].hour === $scope.time.getHours() && entry[startIndex].minutes > $scope.time.getMinutes() || entry[startIndex].hour > $scope.time.getHours()) {
-                                    connections.push({line: line.line, destination: route.destination, stops: route.stops.slice(startIndex, destinationIndex + 1),
-                                        time: entry.slice(startIndex, destinationIndex + 1)});
+                    if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0)
+                            for(let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
+                                if (entry[startIndex].hour === $scope.time.getHours() && entry[startIndex].minutes > $scope.time.getMinutes() || entry[startIndex].hour > $scope.time.getHours()){
+
+                                    let timeArray = entry.slice(startIndex, destinationIndex + 1);
+
+                                    let timeLength = (timeArray[timeArray.length - 1].hour * 60 + timeArray[timeArray.length - 1].minutes) -  (timeArray[0].hour * 60  + timeArray[0].minutes);
+
+                                    $scope.connections.push({line: line.line, destination: route.destination, stops: route.stops.slice(startIndex, destinationIndex + 1),
+                                        time: timeArray, length: timeLength});
                                 }
                             }
 
@@ -98,9 +104,8 @@ app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
                         //add next day searching and course time length
                     }
                 }
-            }
 
-            console.log(connections);
+            console.log($scope.connections); //sort by departure time
 
 
         }).catch(function(error){
