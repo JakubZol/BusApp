@@ -1,4 +1,4 @@
-app.controller("searchCtrl", function($scope, dataProvider, $q){
+app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
 
     $scope.destinationIsSet = false;
     $scope.startIsSet = false;
@@ -49,22 +49,24 @@ app.controller("searchCtrl", function($scope, dataProvider, $q){
 
     $scope.searchConnection = function(){
 
-        console.log($scope.start);
-        console.log($scope.destination);
-        console.log("---");
+        let startStops = $scope.stops.filter(entry => entry.stop === $scope.start);
+        let destinationStops = $scope.stops.filter(entry => entry.stop === $scope.destination);
 
-        let startStops = [];
-        let destinationStops = [];
+        let startLines = $filter('mergeLine')(startStops, $scope.start)[0].lines;
+        let destinationLines= $filter('mergeLine')(destinationStops, $scope.destination)[0].lines;
 
-        for (stop of $scope.stops){
-            if(stop.stop === $scope.start ){
-                startStops.push(stop);
-            }
-            else if( stop.stop === $scope.destination){
-                destinationStops.push(stop);
+        let lines = [];
+
+        for(let line of destinationLines){
+            if(startLines.indexOf(line) >= 0){
+                lines.push(line);
             }
         }
 
+        console.log(lines);
+
+
+        /*
         let lines = [];
 
         for(let sstop of startStops){
@@ -131,14 +133,14 @@ app.controller("searchCtrl", function($scope, dataProvider, $q){
             let day = initialDay;
             let array = [];
             let currentIndex = 0;
-            */
+
 
 
         }).catch(function(error){
             console.log(error);
         });
 
-
+*/
 
     }
 
