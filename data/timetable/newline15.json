@@ -1,0 +1,39 @@
+{"line": 15, "routes":
+  [{"start": "Dworzec Główny PKP", "destination": "Dworzec Główny PKP",
+    "stops":
+    [{"name": "Dworzec Główny PKP", "id": 127}, {"name": "Jedność", "id": 116}, {"name": "11 Listopada", "id": 107}, {"name": "Plac Niepodległości", "id": 111}, {"name": "Stadiom Miejski", "id": 109}, {"name": "Plac Gdański", "id": 49},
+      {"name": "Hotel Kamena", "id": 44}, {"name": "Ogrodowa", "id": 42}, {"name": "Bazar", "id": 22}, {"name": "Orląt Lwowskich", "id": 21}, {"name": "Droga Męczenników", "id": 19}, {"name": "Parafia Chrystusa Odkupiciela", "id": 17},
+      {"name": "Połaniecka Osiedla", "id": 15}, {"name": "Wojsławicka", "id": 10}, {"name": "Escott", "id": 13}, {"name": "Os. Koniczynka", "id": 40}, {"name": "Wiejska", "id": 50}, {"name": "Zespół Szkół Technicznych", "id": 88},
+      {"name": "Chełmski Dom Kultury", "id": 90}, {"name": "Stadion Miejski", "id": 108}, {"name": "Plac Niepodległości", "id": 112}, {"name": "Jedność", "id": 115}, {"name": "Dworzec Główny PKP", "id": 127}],
+    "timetable":
+    [{"period": "Dni powszednie", "courses":
+    [
+      [{"hour": 6, "minutes": 47}, {"hour": 6, "minutes": 48}, {"hour": 6, "minutes": 50}, {"hour": 6, "minutes": 52}, {"hour": 6, "minutes": 54}, {"hour": 6, "minutes": 56}, {"hour": 6, "minutes": 58},
+        {"hour": 6, "minutes": 59}, {"hour": 7, "minutes": 0}, {"hour": 7, "minutes": 2}, {"hour": 7, "minutes": 5}, {"hour": 7, "minutes": 6}, {"hour": 7, "minutes": 8}, {"hour": 7, "minutes": 10},
+        {"hour": 7, "minutes": 12}, {"hour": 7, "minutes": 13}, {"hour": 7, "minutes": 14}, {"hour": 7, "minutes": 16}, {"hour": 7, "minutes": 18}, {"hour": 7, "minutes": 20}, {"hour": 7, "minutes": 21},
+        {"hour": 7, "minutes": 22}, {"hour": 7, "minutes": 23}],
+      [{"hour": 8, "minutes": 47}, {"hour": 8, "minutes": 48}, {"hour": 8, "minutes": 50}, {"hour": 8, "minutes": 52}, {"hour": 8, "minutes": 54}, {"hour": 8, "minutes": 56}, {"hour": 8, "minutes": 58},
+        {"hour": 8, "minutes": 59}, {"hour": 9, "minutes": 0}, {"hour": 9, "minutes": 2}, {"hour": 9, "minutes": 5}, {"hour": 9, "minutes": 6}, {"hour": 9, "minutes": 8}, {"hour": 9, "minutes": 10},
+        {"hour": 9, "minutes": 12}, {"hour": 9, "minutes": 13}, {"hour": 9, "minutes": 14}, {"hour": 9, "minutes": 16}, {"hour": 9, "minutes": 18}, {"hour": 9, "minutes": 20}, {"hour": 9, "minutes": 21},
+        {"hour": 9, "minutes": 22}, {"hour": 9, "minutes": 23}],
+      [{"hour": 10, "minutes": 47}, {"hour": 10, "minutes": 48}, {"hour": 10, "minutes": 50}, {"hour": 10, "minutes": 52}, {"hour": 10, "minutes": 54}, {"hour": 10, "minutes": 56}, {"hour": 10, "minutes": 58},
+        {"hour": 10, "minutes": 59}, {"hour": 11, "minutes": 0}, {"hour": 11, "minutes": 2}, {"hour": 11, "minutes": 5}, {"hour": 11, "minutes": 6}, {"hour": 11, "minutes": 8}, {"hour": 11, "minutes": 10},
+        {"hour": 11, "minutes": 12}, {"hour": 11, "minutes": 13}, {"hour": 11, "minutes": 14}, {"hour": 11, "minutes": 16}, {"hour": 11, "minutes": 18}, {"hour": 11, "minutes": 20}, {"hour": 11, "minutes": 21},
+        {"hour": 11, "minutes": 22}, {"hour": 11, "minutes": 23}],
+      [{"hour": 12, "minutes": 47}, {"hour": 12, "minutes": 48}, {"hour": 12, "minutes": 50}, {"hour": 12, "minutes": 52}, {"hour": 12, "minutes": 54}, {"hour": 12, "minutes": 56}, {"hour": 12, "minutes": 58},
+        {"hour": 12, "minutes": 59}, {"hour": 13, "minutes": 0}, {"hour": 13, "minutes": 2}, {"hour": 13, "minutes": 5}, {"hour": 13, "minutes": 6}, {"hour": 13, "minutes": 8}, {"hour": 13, "minutes": 10},
+        {"hour": 13, "minutes": 12}, {"hour": 13, "minutes": 13}, {"hour": 13, "minutes": 14}, {"hour": 13, "minutes": 16}, {"hour": 13, "minutes": 18}, {"hour": 13, "minutes": 20}, {"hour": 13, "minutes": 21},
+        {"hour": 13, "minutes": 22}, {"hour": 13, "minutes": 23}],
+      [{"hour": 14, "minutes": 47}, {"hour": 14, "minutes": 48}, {"hour": 14, "minutes": 50}, {"hour": 14, "minutes": 52}, {"hour": 14, "minutes": 54}, {"hour": 14, "minutes": 56}, {"hour": 14, "minutes": 58},
+        {"hour": 14, "minutes": 59}, {"hour": 15, "minutes": 0}, {"hour": 15, "minutes": 2}, {"hour": 15, "minutes": 5}, {"hour": 15, "minutes": 6}, {"hour": 15, "minutes": 8}, {"hour": 15, "minutes": 10},
+        {"hour": 15, "minutes": 12}, {"hour": 15, "minutes": 13}, {"hour": 15, "minutes": 14}, {"hour": 15, "minutes": 16}, {"hour": 15, "minutes": 18}, {"hour": 15, "minutes": 20}, {"hour": 15, "minutes": 21},
+        {"hour": 15, "minutes": 22}, {"hour": 15, "minutes": 23}],
+      [{"hour": 16, "minutes": 47}, {"hour": 16, "minutes": 48}, {"hour": 16, "minutes": 50}, {"hour": 16, "minutes": 52}, {"hour": 16, "minutes": 54}, {"hour": 16, "minutes": 56}, {"hour": 16, "minutes": 58},
+        {"hour": 16, "minutes": 59}, {"hour": 17, "minutes": 0}, {"hour": 17, "minutes": 2}, {"hour": 17, "minutes": 5}, {"hour": 17, "minutes": 6}, {"hour": 17, "minutes": 8}, {"hour": 17, "minutes": 10},
+        {"hour": 17, "minutes": 12}, {"hour": 17, "minutes": 13}, {"hour": 17, "minutes": 14}, {"hour": 17, "minutes": 16}, {"hour": 17, "minutes": 18}, {"hour": 17, "minutes": 20}, {"hour": 17, "minutes": 21},
+        {"hour": 17, "minutes": 22}, {"hour": 17, "minutes": 23}]
+    ]}
+    ]
+  }
+  ]
+}
