@@ -1,0 +1,20 @@
+{"line": 12, "routes":
+[{"start": "Os. Słoneczne", "destination": "Piwna", "stops":
+  [{"name": "Os. Słoneczne", "id": 1}, {"name": "Aleja 3 Maja", "id": 4}, {"name": "Cmentarz Miejski", "id": 33}, {"name": "Dworzec Główny PKS", "id": 36}, {"name": "Biblioteka Miejska", "id": 38}, {"name": "Wiejska", "id": 50},
+    {"name": "Emilii Plater", "id": 52}, {"name": "Żeromskiego", "id": 94}, {"name": "Ogrodnicza", "id": 96}, {"name": "Batorego", "id": 99}, {"name": "11 Listopada", "id": 106},
+    {"name": "Plac Niepodległości", "id": 111}, {"name": "Stadiom Miejski", "id": 109}, {"name": "Plac Gdański", "id": 49}, {"name": "Hotel Kamena", "id": 43}, {"name": "Chełm Miasto", "id": 70},
+    {"name": "Park Wodny", "id": 72}, {"name": "Oddział Wojskowy Trubakowska", "id": 74}, {"name": "Złota", "id": 76}, {"name": "Gazownia", "id": 78}, {"name": "Piwna", "id": 80}],
+  "timetable":
+  []
+},
+  {"start": "Piwna", "destination": "Os. Słoneczne", "stops":
+  [{"name": "Piwna", "id": 80}, {"name": "Gazownia", "id": 79}, {"name": "Złota", "id": 77}, {"name": "Oddział Wojskowy Trubakowska", "id": 75}, {"name": "Park Wodny", "id": 73},
+    {"name": "Chełm Miasto", "id": 71}, {"name": "Hotel Kamena", "id": 45}, {"name": "Plac Gdański", "id": 48}, {"name": "Stadion Miejski", "id": 108}, {"name": "Plac Niepodległości", "id": 110},
+    {"name": "11 Listopada", "id": 105}, {"name": "Batorego ", "id": 100}, {"name": "Ogrodnicza", "id": 97}, {"name": "Żeromskiego", "id": 95}, {"name": "Emilii Plater", "id": 53},
+    {"name": "Wiejska", "id": 51}, {"name": "Os. Koniczynka", "id": 39}, {"name": "Biblioteka Miejska", "id": 37}, {"name": "Cmentarz Miejski", "id": 34}, {"name": "Lwowska", "id": 2},
+    {"name": "Os. Słoneczne", "id": 1}],
+    "timetable":
+    []
+  }
+
+]}

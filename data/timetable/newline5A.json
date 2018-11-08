@@ -1,0 +1,82 @@
+{"line": "5A", "routes":
+[{"start": "Józefin Pętla", "destination": "Przemysłowa Pętla",
+  "stops":
+  [{"name": "Józefin Pętla", "id": 69}, {"name": "Józefin Ogródki", "id": 67}, {"name": "Józefin II", "id": 65}, {"name": "Józefin","id": 61}, {"name": "Krzyżówki Wojsławickie","id": 59},
+    {"name": "Borek","id": 57}, {"name": "Kilińskiego","id": 55}, {"name": "Emilii Plater", "id": 53}, {"name": "Wiejska", "id": 51}, {"name": "Os. Koniczynka", "id": 39}, {"name": "Biblioteka Miejska", "id": 37},
+    {"name": "Dworzec Główny PKS", "id": 35}, {"name": "Ogrodowa", "id": 41}, {"name": "Hotel Kamena", "id": 47}, {"name": "Sienkiewicza", "id": 131}, {"name": "Starościńska", "id": 129},
+    {"name": "Dworzec Główny PKP", "id": 127}, {"name": "Jedność", "id": 116}, {"name": "Plac Niepodległości", "id": 110}, {"name": "Rolnicza", "id": 113}, {"name": "MPGK Chełm", "id": 117},
+    {"name": "Fabryczna", "id": 119}, {"name": "Przemysłowa Pętla", "id": 121}],
+  "timetable":
+  [{"period": "Dni powszednie", "courses":
+    [
+      [{"hour": 6, "minutes": 30}, {"hour": 6, "minutes": 31},  {"hour": 6, "minutes": 32},  {"hour": 6, "minutes": 33},  {"hour": 6, "minutes": 34}, {"hour": 6, "minutes": 35}, {"hour": 6, "minutes": 36},
+        {"hour": 6, "minutes": 37}, {"hour": 6, "minutes": 39}, {"hour": 6, "minutes": 40}, {"hour": 6, "minutes": 42}, {"hour": 6, "minutes": 43}, {"hour": 6, "minutes": 44}, {"hour": 6, "minutes": 46},
+        {"hour": 6, "minutes": 48}, {"hour": 6, "minutes": 49}, {"hour": 6, "minutes": 50}, {"hour": 6, "minutes": 52}, {"hour": 6, "minutes": 53}, {"hour": 6, "minutes": 55}, {"hour": 6, "minutes": 57},
+        {"hour": 6, "minutes": 58},  {"hour": 7, "minutes": 0},  {"hour": 7, "minutes": 2},  {"hour": 7, "minutes": 3}],
+      [{"hour": 7, "minutes": 45}, {"hour": 7, "minutes": 46}, {"hour": 7, "minutes": 47}, {"hour": 7, "minutes": 48}, {"hour": 7, "minutes": 49}, {"hour": 7, "minutes": 50}, {"hour": 7, "minutes": 51},
+        {"hour": 7, "minutes": 52}, {"hour": 7, "minutes": 54}, {"hour": 7, "minutes": 55}, {"hour": 7, "minutes": 57}, {"hour": 7, "minutes": 58}, {"hour": 7, "minutes": 59}, {"hour": 8, "minutes": 1},
+        {"hour": 8, "minutes": 3}, {"hour": 8, "minutes": 4}, {"hour": 8, "minutes": 5}, {"hour": 8, "minutes": 7}, {"hour": 8, "minutes": 8}, {"hour": 8, "minutes": 10}, {"hour": 8, "minutes": 12},
+        {"hour": 8, "minutes": 13},  {"hour": 8, "minutes": 15},  {"hour": 8, "minutes": 17},  {"hour": 8, "minutes": 18}],
+      [{"hour": 14, "minutes": 25}, {"hour": 14, "minutes": 26}, {"hour": 14, "minutes": 27}, {"hour": 14, "minutes": 28}, {"hour": 14, "minutes": 29}, {"hour": 14, "minutes": 30}, {"hour": 14, "minutes": 31},
+        {"hour": 14, "minutes": 32}, {"hour": 14, "minutes": 34}, {"hour": 14, "minutes": 35}, {"hour": 14, "minutes": 37}, {"hour": 14, "minutes": 38}, {"hour": 14, "minutes": 39}, {"hour": 14, "minutes": 41},
+        {"hour": 14, "minutes": 43}, {"hour": 14, "minutes": 44}, {"hour": 14, "minutes": 45}, {"hour": 14, "minutes": 47}, {"hour": 14, "minutes": 48}, {"hour": 14, "minutes": 50}, {"hour": 14, "minutes": 52},
+        {"hour": 14, "minutes": 53},  {"hour": 14, "minutes": 55},  {"hour": 14, "minutes": 57},  {"hour": 14, "minutes": 58}],
+      [{"hour": 16, "minutes": 25}, {"hour": 16, "minutes": 26}, {"hour": 16, "minutes": 27}, {"hour": 16, "minutes": 28}, {"hour": 16, "minutes": 29}, {"hour": 16, "minutes": 30}, {"hour": 16, "minutes": 31},
+        {"hour": 16, "minutes": 32}, {"hour": 16, "minutes": 34}, {"hour": 16, "minutes": 35}, {"hour": 16, "minutes": 37}, {"hour": 16, "minutes": 38}, {"hour": 16, "minutes": 39}, {"hour": 16, "minutes": 41},
+        {"hour": 16, "minutes": 43}, {"hour": 16, "minutes": 44}, {"hour": 16, "minutes": 45}, {"hour": 16, "minutes": 47}, {"hour": 16, "minutes": 48}, {"hour": 16, "minutes": 50}, {"hour": 16, "minutes": 52},
+        {"hour": 16, "minutes": 53},  {"hour": 16, "minutes": 55},  {"hour": 16, "minutes": 57},  {"hour": 16, "minutes": 58}]
+    ]},
+    {"period": "Sobota", "courses":
+    [
+      [{"hour": 7, "minutes": 45}, {"hour": 7, "minutes": 46}, {"hour": 7, "minutes": 47}, {"hour": 7, "minutes": 48}, {"hour": 7, "minutes": 49}, {"hour": 7, "minutes": 50}, {"hour": 7, "minutes": 51},
+        {"hour": 7, "minutes": 52}, {"hour": 7, "minutes": 54}, {"hour": 7, "minutes": 55}, {"hour": 7, "minutes": 57}, {"hour": 7, "minutes": 58}, {"hour": 7, "minutes": 59}, {"hour": 8, "minutes": 1},
+        {"hour": 8, "minutes": 3}, {"hour": 8, "minutes": 4}, {"hour": 8, "minutes": 5}, {"hour": 8, "minutes": 7}, {"hour": 8, "minutes": 8}, {"hour": 8, "minutes": 10}, {"hour": 8, "minutes": 12},
+        {"hour": 8, "minutes": 13},  {"hour": 8, "minutes": 15},  {"hour": 8, "minutes": 17},  {"hour": 8, "minutes": 18}],
+      [{"hour": 15, "minutes": 30}, {"hour": 15, "minutes": 31},  {"hour": 15, "minutes": 32},  {"hour": 15, "minutes": 33},  {"hour": 15, "minutes": 34}, {"hour": 15, "minutes": 35}, {"hour": 15, "minutes": 36},
+        {"hour": 15, "minutes": 37}, {"hour": 15, "minutes": 39}, {"hour": 15, "minutes": 40}, {"hour": 15, "minutes": 42}, {"hour": 15, "minutes": 43}, {"hour": 15, "minutes": 44}, {"hour": 15, "minutes": 46},
+        {"hour": 15, "minutes": 48}, {"hour": 15, "minutes": 49}, {"hour": 15, "minutes": 50}, {"hour": 15, "minutes": 52}, {"hour": 15, "minutes": 53}, {"hour": 15, "minutes": 55}, {"hour": 15, "minutes": 57},
+        {"hour": 15, "minutes": 58},  {"hour": 16, "minutes": 0},  {"hour": 16, "minutes": 2},  {"hour": 16, "minutes": 3}]
+    ]}
+  ]
+},
+  {"start": "Przemysłowa Pętla", "destination": "Józefin Pętla",
+  "stops":
+  [{"name": "Przemysłowa Pętla", "id": 121}, {"name": "Fabryczna", "id": 120}, {"name": "MPGK Chełm", "id": 118}, {"name": "Rolnicza", "id": 114}, {"name": "Plac Niepodległości", "id": 111},
+    {"name": "Jedność", "id": 115}, {"name": "Dworzec Główny PKP", "id": 127}, {"name": "Starościńska", "id": 128}, {"name": "Sienkiewicza", "id": 130}, {"name": "Hotel Kamena", "id": 46},
+    {"name": "Hotel Kamena", "id": 44}, {"name": "Ogrodowa", "id": 42}, {"name": "Dworzec Główny PKS", "id": 36}, {"name": "Biblioteka Miejska", "id": 38}, {"name": "Wiejska", "id": 50},
+    {"name": "Emilii Plater", "id": 52}, {"name": "Kilińskiego", "id": 54}, {"name": "Borek", "id": 56}, {"name": "Krzyżówki Wojsławickie", "id": 58}, {"name": "Józefin", "id": 60},
+    {"name": "Józefin II", "id": 64}, {"name": "Józefin Ogródki", "id": 66}, {"name": "Józefin Pętla", "id": 68}],
+  "timetable":
+  [{"period": "Dni powszednie", "courses":
+    [
+      [{"hour": 7, "minutes": 6}, {"hour": 7, "minutes": 7}, {"hour": 7, "minutes": 9}, {"hour": 7, "minutes": 11}, {"hour": 7, "minutes": 13}, {"hour": 7, "minutes": 15}, {"hour": 7, "minutes": 17},
+        {"hour": 7, "minutes": 18}, {"hour": 7, "minutes": 19}, {"hour": 7, "minutes": 20}, {"hour": 7, "minutes": 21}, {"hour": 7, "minutes": 23}, {"hour": 7, "minutes": 25}, {"hour": 7, "minutes": 27},
+        {"hour": 7, "minutes": 29}, {"hour": 7, "minutes": 30}, {"hour": 7, "minutes": 32}, {"hour": 7, "minutes": 33}, {"hour": 7, "minutes": 35}, {"hour": 7, "minutes": 36},{"hour": 7, "minutes": 37},
+        {"hour": 7, "minutes": 38}, {"hour": 7, "minutes": 39}],
+      [{"hour": 8, "minutes": 26}, {"hour": 8, "minutes": 27}, {"hour": 8, "minutes": 29}, {"hour": 8, "minutes": 31}, {"hour": 8, "minutes": 33}, {"hour": 8, "minutes": 35}, {"hour": 8, "minutes": 37},
+        {"hour": 8, "minutes": 38}, {"hour": 8, "minutes": 39}, {"hour": 8, "minutes": 40}, {"hour": 8, "minutes": 41}, {"hour": 8, "minutes": 43}, {"hour": 8, "minutes": 45}, {"hour": 8, "minutes": 47},
+        {"hour": 8, "minutes": 49}, {"hour": 8, "minutes": 50}, {"hour": 8, "minutes": 52}, {"hour": 8, "minutes": 53}, {"hour": 8, "minutes": 55}, {"hour": 8, "minutes": 56},{"hour": 8, "minutes": 57},
+        {"hour": 8, "minutes": 58}, {"hour": 8, "minutes": 59}],
+      [{"hour": 15, "minutes": 6}, {"hour": 15, "minutes": 7}, {"hour": 15, "minutes": 9}, {"hour": 15, "minutes": 11}, {"hour": 15, "minutes": 13}, {"hour": 15, "minutes": 15}, {"hour": 15, "minutes": 17},
+        {"hour": 15, "minutes": 18}, {"hour": 15, "minutes": 19}, {"hour": 15, "minutes": 20}, {"hour": 15, "minutes": 21}, {"hour": 15, "minutes": 23}, {"hour": 15, "minutes": 25}, {"hour": 15, "minutes": 27},
+        {"hour": 15, "minutes": 29}, {"hour": 15, "minutes": 30}, {"hour": 15, "minutes": 32}, {"hour": 15, "minutes": 33}, {"hour": 15, "minutes": 35}, {"hour": 15, "minutes": 36},{"hour": 15, "minutes": 37},
+        {"hour": 15, "minutes": 38}, {"hour": 15, "minutes": 39}],
+      [{"hour": 17, "minutes": 6}, {"hour": 17, "minutes": 7}, {"hour": 17, "minutes": 9}, {"hour": 17, "minutes": 11}, {"hour": 17, "minutes": 13}, {"hour": 17, "minutes": 15}, {"hour": 17, "minutes": 17},
+        {"hour": 17, "minutes": 18}, {"hour": 17, "minutes": 19}, {"hour": 17, "minutes": 20}, {"hour": 17, "minutes": 21}, {"hour": 17, "minutes": 23}, {"hour": 17, "minutes": 25}, {"hour": 17, "minutes": 27},
+        {"hour": 17, "minutes": 29}, {"hour": 17, "minutes": 30}, {"hour": 17, "minutes": 32}, {"hour": 17, "minutes": 33}, {"hour": 17, "minutes": 35}, {"hour": 17, "minutes": 36},{"hour": 17, "minutes": 37},
+        {"hour": 17, "minutes": 38}, {"hour": 17, "minutes": 39}]
+    ]},
+    {"period": "Sobota", "courses":
+    [
+      [{"hour": 8, "minutes": 26}, {"hour": 8, "minutes": 27}, {"hour": 8, "minutes": 29}, {"hour": 8, "minutes": 31}, {"hour": 8, "minutes": 33}, {"hour": 8, "minutes": 35}, {"hour": 8, "minutes": 37},
+        {"hour": 8, "minutes": 38}, {"hour": 8, "minutes": 39}, {"hour": 8, "minutes": 40}, {"hour": 8, "minutes": 41}, {"hour": 8, "minutes": 43}, {"hour": 8, "minutes": 45}, {"hour": 8, "minutes": 47},
+        {"hour": 8, "minutes": 49}, {"hour": 8, "minutes": 50}, {"hour": 8, "minutes": 52}, {"hour": 8, "minutes": 53}, {"hour": 8, "minutes": 55}, {"hour": 8, "minutes": 56},{"hour": 8, "minutes": 57},
+        {"hour": 8, "minutes": 58}, {"hour": 8, "minutes": 59}],
+      [{"hour": 16, "minutes": 6}, {"hour": 16, "minutes": 7}, {"hour": 16, "minutes": 9}, {"hour": 16, "minutes": 11}, {"hour": 16, "minutes": 13}, {"hour": 16, "minutes": 15}, {"hour": 16, "minutes": 17},
+        {"hour": 16, "minutes": 18}, {"hour": 16, "minutes": 19}, {"hour": 16, "minutes": 20}, {"hour": 16, "minutes": 21}, {"hour": 16, "minutes": 23}, {"hour": 16, "minutes": 25}, {"hour": 16, "minutes": 27},
+        {"hour": 16, "minutes": 29}, {"hour": 16, "minutes": 30}, {"hour": 16, "minutes": 32}, {"hour": 16, "minutes": 33}, {"hour": 16, "minutes": 35}, {"hour": 16, "minutes": 36},{"hour": 16, "minutes": 37},
+        {"hour": 16, "minutes": 38}, {"hour": 16, "minutes": 39}]
+    ]}
+  ]
+  }]
+}
