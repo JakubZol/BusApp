@@ -1,0 +1,20 @@
+{"line": 2, "routes":
+[{"start": "Os. Słoneczne", "destination": "Ogródki Działkowe", "stops":
+[{"name": "Os. Słoneczne", "id": 1}, {"name": "Lwowska", "id": 3}, {"name": "Vendo Park", "id": 6}, {"name": "Cmentarz Komunalny", "id": 8}, {"name": "Escott", "id": 13}, {"name": "Os. Koniczynka", "id": 39},
+  {"name": "Biblioteka Miejska", "id": 37}, {"name": "Dworzec Główny PKS", "id": 35}, {"name": "Ogrodowa", "id": 41}, {"name": "Hotel Kamena", "id": 43}, {"name": "Chełm Miasto", "id": 70},
+  {"name": "Park Wodny", "id": 72}, {"name": "Oddział Wojskowy PTTK", "id": 82}, {"name": "Legionów Polskich", "id": 84}, {"name": "Rondo Romana Dmowskiego", "id": 132},
+  {"name": "Rondo Romana Dmowskiego", "id": 134}, {"name": "Os. Gwarek", "id": 136}, {"name": "Rondo Romana Dmowskiego", "id": 135}, {"name": "Witosa", "id": 138}, {"name": "Rejowiecka Szkoła", "id": 140},
+  {"name": "Tuwima", "id": 155}, {"name": "Szpital", "id": 156},{"name": "Wygon", "id": 159}, {"name": "Budowlana", "id": 161}, {"name": "Glinianki", "id": 163}, {"name": "Ogródki Działkowe", "id": 165}],
+  "timetable":
+  []
+},
+  {"start": "Ogródki Działkowe", "destination": "Os. Słoneczne", "stops":
+  [{"name": "Ogródki Działkowe", "id": 165}, {"name": "Glinianki", "id": 164}, {"name": "Budowlana", "id": 162}, {"name": "Wygon", "id": 160}, {"name": "Szpital", "id": 157}, {"name": "Szpitalna", "id": 143}, {"name": "Rejowiecka Szkoła", "id": 141}, {"name": "Witosa", "id": 139}, {"name": "Rondo Romana Dmowskiego", "id": 134},
+    {"name": "Os. Gwarek", "id": 137}, {"name": "Rondo Romana Dmowskiego", "id": 133}, {"name": "Legionów Polskich", "id": 85}, {"name": "Oddział Wojskowy PTTK", "id": 83}, {"name": "Park Wodny", "id": 73},
+    {"name": "Chełm Miasto", "id": 71},  {"name": "Hotel Kamena", "id": 44}, {"name": "Ogrodowa", "id": 42}, {"name": "Dworzec Główny PKS", "id": 36}, {"name": "Biblioteka Miejska", "id": 38},
+    {"name": "Escott", "id": 14}, {"name": "Wolności", "id": 11}, {"name": "Cmentarz Komunalny", "id": 7}, {"name": "Vendo Park", "id": 5}, {"name": "Lwowska", "id": 2}, {"name": "Os. Słoneczne", "id": 1}],
+    "timetable":
+    []
+  }
+
+]}

@@ -4,8 +4,8 @@
     "stops":
     [{"name": "Os. Słoneczne", "id": 1}, {"name": "Lwowska", "id": 3}, {"name": "Vendo Park", "id": 6}, {"name": "Cmentarz Komunalny", "id": 8}, {"name": "Escott", "id": 13},
       {"name": "Os. Koniczynka", "id": 39}, {"name": "Biblioteka Miejska", "id": 37}, {"name": "Dworzec Główny PKS", "id": 35}, {"name": "Ogrodowa", "id": 41}, {"name": "Hotel Kamena", "id": 45},
-      {"name": "Plac Gdański", "id": 48}, {"name": "Stadion Miejski", "id": 108}, {"name": "Plac Niepodległości", "id": 110}, {"name": "Rolnicza", "id": 113}, {"name": "MPGK Chełm", "id": 117},
-      {"name": "Fabryczna", "id": 119}, {"name": "Przejazd Kolejowy", "id": 125}, {"name": "Dworzec Główny PKP", "id": 127}],
+  {"name": "Plac Gdański", "id": 48}, {"name": "Stadion Miejski", "id": 108}, {"name": "Plac Niepodległości", "id": 110}, {"name": "Rolnicza", "id": 113}, {"name": "MPGK Chełm", "id": 117},
+  {"name": "Fabryczna", "id": 119}, {"name": "Przejazd Kolejowy", "id": 125}, {"name": "Dworzec Główny PKP", "id": 127}],
     "timetable":
     [{"period": "Dni powszednie", "courses":
       [
