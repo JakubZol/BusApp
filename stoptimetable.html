@@ -14,8 +14,8 @@
                     {{course.time.hour}}:{{(course.time.minutes.toString().length === 1) ? ("0" + course.time.minutes.toString()) : course.time.minutes.toString()}}
                 </time>
             </div>
-            <div id="course-departure" ng-class="{'alert': timeFromNow(course.time.hour, course.time.minutes) <= 5}">
-                {{(timeFromNow(course.time.hour, course.time.minutes) <= 60) ? timeFromNow(course.time.hour, course.time.minutes) + " min" : (timeFromNow(course.time.hour, course.time.minutes) / 60 | floor) + "h " + (timeFromNow(course.time.hour, course.time.minutes) % 60) + "min"}}
+            <div id="course-departure" ng-class="{'alert': course.timeFromNow <= 5}">
+                {{course.timeFromNow <= 60 ? course.timeFromNow + " min" : (course.timeFromNow / 60 | floor) + "h " + (course.timeFromNow % 60) + "min"}}
             </div>
         </li>
     </ul>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularjs/filters/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/angularjs/filters/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stoptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/stoptimetable.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +30,7 @@
     <session id="-1589591370">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="119" />
+          <entry key="project.closed" value="120" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -43,8 +46,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="20" />
-          <entry key="html" value="69" />
-          <entry key="js" value="52" />
+          <entry key="html" value="70" />
+          <entry key="js" value="53" />
           <entry key="json" value="179" />
           <entry key="py" value="2" />
           <entry key="saaasdsa" value="1" />
@@ -54,9 +57,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="20" />
-          <entry key="HTML" value="69" />
+          <entry key="HTML" value="70" />
           <entry key="JSON" value="179" />
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="53" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="1" />
           <entry key="SVG" value="1" />
@@ -65,8 +68,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="20750" />
-          <entry key="html" value="11261" />
-          <entry key="js" value="31274" />
+          <entry key="html" value="11324" />
+          <entry key="js" value="31672" />
           <entry key="json" value="60123" />
           <entry key="py" value="908" />
           <entry key="saaasdsa" value="21" />
@@ -75,9 +78,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="20750" />
-          <entry key="HTML" value="11262" />
+          <entry key="HTML" value="11325" />
           <entry key="JSON" value="60123" />
-          <entry key="JavaScript" value="31273" />
+          <entry key="JavaScript" value="31671" />
           <entry key="PLAIN_TEXT" value="734" />
           <entry key="Python" value="195" />
         </counts>
@@ -89,20 +92,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="2235">
+              <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angularjs/controllers/searchCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="106" column="33" lean-forward="true" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angularjs/controllers/searchCtrl.js">
+        <entry file="file://$PROJECT_DIR$/angularjs/filters/filters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="83" selection-end-column="91" />
+            <state relative-caret-position="741">
+              <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -121,15 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/timetable/newline12.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -250,7 +253,6 @@
         <option value="$PROJECT_DIR$/data/news.json" />
         <option value="$PROJECT_DIR$/angularjs/controllers/infoCtrl.js" />
         <option value="$PROJECT_DIR$/info.html" />
-        <option value="$PROJECT_DIR$/angularjs/filters/filters.js" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/timetable.html" />
         <option value="$PROJECT_DIR$/data/prices.json" />
@@ -259,14 +261,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/stoptimetable.html" />
         <option value="$PROJECT_DIR$/data/timetable/line15.json" />
         <option value="$PROJECT_DIR$/angularjs/services/app.services.js" />
         <option value="$PROJECT_DIR$/data/timetable/newline3.json" />
         <option value="$PROJECT_DIR$/data/timetable/newline11.json" />
         <option value="$PROJECT_DIR$/linetimetable.html" />
         <option value="$PROJECT_DIR$/data/timetable/newline8.json" />
-        <option value="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" />
         <option value="$PROJECT_DIR$/data/timetable/newline6.json" />
         <option value="$PROJECT_DIR$/data/timetable/newline15.json" />
         <option value="$PROJECT_DIR$/data/timetable/newline24.json" />
@@ -277,7 +277,10 @@
         <option value="$PROJECT_DIR$/data/timetable/newline1.json" />
         <option value="$PROJECT_DIR$/data/timetable/newline9.json" />
         <option value="$PROJECT_DIR$/data/timetable/newline12.json" />
+        <option value="$PROJECT_DIR$/stoptimetable.html" />
         <option value="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" />
+        <option value="$PROJECT_DIR$/angularjs/filters/filters.js" />
+        <option value="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" />
       </list>
     </option>
   </component>
@@ -554,16 +557,15 @@
       <workItem from="1541665745639" duration="615000" />
       <workItem from="1541682599058" duration="14000" />
       <workItem from="1541682870624" duration="101000" />
-      <workItem from="1541753986074" duration="4730000" />
+      <workItem from="1541753986074" duration="6718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533256000" />
+    <option name="totallyTimeSpent" value="535244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.24947916" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -692,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stoptimetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -731,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs/filters/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -881,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/timetable/newline9.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/line12.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3114">
@@ -909,6 +890,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stoptimetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularjs/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/timetable/newline12.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -916,17 +918,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs/controllers/searchCtrl.js">
+    <entry file="file://$PROJECT_DIR$/data/timetable/newline9.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="83" selection-end-column="91" />
+        <state relative-caret-position="540">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js">
+    <entry file="file://$PROJECT_DIR$/angularjs/controllers/searchCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="442">
+          <caret line="106" column="33" lean-forward="true" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -88,24 +88,32 @@ app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
                     let startIndex = route.stops.indexOf(route.stops.filter(stop => stop.name === $scope.start)[0]);
                     let destinationIndex = route.stops.indexOf(route.stops.filter(stop => stop.name === $scope.destination)[0]);
                     if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0)
-                            for(let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
-                                if (entry[startIndex].hour === $scope.time.getHours() && entry[startIndex].minutes > $scope.time.getMinutes() || entry[startIndex].hour > $scope.time.getHours()){
+                            if(route.timetable.length > 0) {
+                                for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
+                                    if (entry[startIndex].hour === $scope.time.getHours() && entry[startIndex].minutes > $scope.time.getMinutes() || entry[startIndex].hour > $scope.time.getHours()) {
 
-                                    let timeArray = entry.slice(startIndex, destinationIndex + 1);
+                                        let timeArray = entry.slice(startIndex, destinationIndex + 1);
 
-                                    let timeLength = (timeArray[timeArray.length - 1].hour * 60 + timeArray[timeArray.length - 1].minutes) -  (timeArray[0].hour * 60  + timeArray[0].minutes);
+                                        let timeLength = (timeArray[timeArray.length - 1].hour * 60 + timeArray[timeArray.length - 1].minutes) - (timeArray[0].hour * 60 + timeArray[0].minutes);
 
-                                    $scope.connections.push({line: line.line, destination: route.destination, stops: route.stops.slice(startIndex, destinationIndex + 1),
-                                        time: timeArray, length: timeLength});
+                                        $scope.connections.push({
+                                            line: line.line,
+                                            destination: route.destination,
+                                            stops: route.stops.slice(startIndex, destinationIndex + 1),
+                                            time: timeArray,
+                                            length: timeLength
+                                        });
+                                    }
                                 }
                             }
 
 
-                        //add next day searching and course time length
+                        //add next day searching
                     }
                 }
 
-            console.log($scope.connections); //sort by departure time
+            $scope.connections = $filter("sortByDepartureTime")($scope.connections);//sort by departure time
+            console.log($scope.connections);
 
 
         }).catch(function(error){

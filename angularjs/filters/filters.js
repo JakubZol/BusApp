@@ -90,3 +90,23 @@ app.filter("floor", function(){
         return Math.floor(number);
     }
 });
+
+app.filter("sortByDepartureTime", function() {
+    return function (array){
+        return array.sort(function (a, b) {
+            if (a.time[0].hour < b.time[0].hour) {
+                return -1;
+            }
+            else if (a.time[0].hour > b.time[0].hour) {
+                return 1;
+            } else {
+                if (a.time[0].minutes < b.time[0].minutes) {
+                    return -1;
+                }
+                else {
+                    return 1;
+                }
+            }
+        });
+    }
+});

@@ -111,20 +111,6 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
     $scope.contentLoaded = false;
 
 
-    $scope.timeFromNow = function(hour, minutes){
-        const d = new Date();
-        const currentHour = d.getHours();
-        const currentMinutes = d.getMinutes();
-
-        if(currentHour === hour){
-            return minutes - currentMinutes;
-        }
-        else {
-            return 60 - currentMinutes + (hour - currentHour - 1) * 60 + minutes;
-        }
-    };
-
-
     $scope.getLine = function(url) {
         dataProvider.getData(url).then(function (data) {
 
@@ -173,7 +159,8 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
                                 for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
                                     console.log(stopIndex);
                                     if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
-                                        $scope.timetable.push({line: line.line, destination: route.destination, time: entry[stopIndex], stopId: route.stops[stopIndex].id - minId + 1})
+                                        $scope.timetable.push({line: line.line, destination: route.destination, time: entry[stopIndex], stopId: route.stops[stopIndex].id - minId + 1,
+                                        timeFromNow: (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes)})
                                     }
                                 }
                             }
