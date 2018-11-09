@@ -136,73 +136,48 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
                 }
             }
 
-            stopsIds.sort();
-            const minId = stopsIds[0];
+            const minId = stopsIds.sort()[0];
             const lines = $filter('mergeLine')(stops, $scope.stop)[0].lines;
 
             let promises = [];
 
-            angular.forEach(lines, function (line) {
-                promises.push(dataProvider.getData("data/timetable/line" + line + ".json"));
-            });
+            for(let line of lines) {
+                promises.push(dataProvider.getData("data/timetable/newline" + line + ".json"));
+            }
 
             $q.all(promises).then(function (data) {
-                let coursesList = [];
-                angular.forEach(data, function (line) {
-                    coursesList.push(line.data);
-                });
+                let responses = [];
+                for(let response of data){
+                    responses.push(response.data);
+                }
 
                 const d = new Date();
                 const currentHour = d.getHours();
                 const currentMinutes = d.getMinutes();
-                const currentDay = d.getDay();
+                const currentDayIndex = d.getDay();
                 $scope.timetable = [];
 
+                let weekendDay = currentDayIndex === 0 ? "Niedziela" : "Sobota";
+                let currentDayName = currentDayIndex % 6 !== 0 ? "Dni powszednie" : weekendDay;
 
-                for (let hour = currentHour; hour < 24; hour++) {
-                    for (let courses of coursesList) {
-                        for (let course of courses) {
 
-                            let stops = course.route.filter(stop => stop.stop === $scope.stop);
-
-                            if (stops.length > 0) {
-                                for (stop of stops) {
-
-                                    let time = stop.timetable.filter(x => x.hour === hour);
-
-                                    if (time.length > 0) {
-
-                                        let weekendDay = (currentDay === 0) ? "Niedziela" : "Sobota";
-                                        let searchedEntry = time[0].minutes.filter(entry => entry.period === weekendDay)[0];
-                                        let weekendIndex = time[0].minutes.indexOf(searchedEntry);
-                                        let week = 0;
-                                        let periodIndex = (currentDay % 6 === 0) ? weekendIndex : week;
-
-                                        if (periodIndex >= 0 && periodIndex < time[0].minutes.length) {
-
-                                            let mins = time[0].minutes[periodIndex].values;
-
-                                            for (let min of mins) {
-                                                if (hour === currentHour && min > currentMinutes || hour > currentHour) {
-                                                    $scope.timetable.push({
-                                                        line: course.line,
-                                                        destination: course.destination,
-                                                        time: {hour: hour, minutes: min},
-                                                        stopId: stop.id - minId + 1
-                                                    });
-                                                }
-                                            }
-                                        }
+                for(let line of responses) {
+                    for (let route of line.routes) {
+                        console.log($scope.stop);
+                        console.log(route.stops);
+                        let searchedStops = route.stops.filter(stop => stop.name === $scope.stop);
+                        console.log(searchedStops);
+                        for (let sstop of searchedStops){
+                            let stopIndex = route.stops.indexOf(sstop);
+                            if (route.timetable.length > 0 && stopIndex > -1) {
+                                for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
+                                    console.log(stopIndex);
+                                    if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
+                                        $scope.timetable.push({line: line.line, destination: route.destination, time: entry[stopIndex], stopId: route.stops[stopIndex].id - minId + 1})
                                     }
-
                                 }
                             }
                         }
-
-                    }
-
-                    if ($scope.timetable.length >= 20) {
-                        break;
                     }
                 }
 
@@ -213,12 +188,12 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
                 $scope.contentLoaded = true;
 
             }).catch(function (error) {
-
+                console.log(error);
             });
         }).catch(function (error) {
-
+            console.log(error);
         });
-    }
+    };
 
     $scope.getLine("data/bus-stops.json");
 
