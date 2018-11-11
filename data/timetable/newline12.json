@@ -5,7 +5,58 @@
     {"name": "Plac Niepodległości", "id": 111}, {"name": "Stadiom Miejski", "id": 109}, {"name": "Plac Gdański", "id": 49}, {"name": "Hotel Kamena", "id": 43}, {"name": "Chełm Miasto", "id": 70},
     {"name": "Park Wodny", "id": 72}, {"name": "Oddział Wojskowy Trubakowska", "id": 74}, {"name": "Złota", "id": 76}, {"name": "Gazownia", "id": 78}, {"name": "Piwna", "id": 80}],
   "timetable":
-  []
+  [{"period": "Dni powszednie", "courses":
+  [
+    [{"hour": 5, "minutes": 25}, {"hour": 5, "minutes": 27}, {"hour": 5, "minutes": 29}, {"hour": 5, "minutes": 31}, {"hour": 5, "minutes": 33}, {"hour": 5, "minutes": 34}, {"hour": 5, "minutes": 35},
+      {"hour": 5, "minutes": 37}, {"hour": 5, "minutes": 38}, {"hour": 5, "minutes": 39}, {"hour": 5, "minutes": 40}, {"hour": 5, "minutes": 41}, {"hour": 5, "minutes": 42}, {"hour": 5, "minutes": 44},
+      {"hour": 5, "minutes": 46}, {"hour": 5, "minutes": 48}, {"hour": 5, "minutes": 49}, {"hour": 5, "minutes": 50}, {"hour": 5, "minutes": 51}, {"hour": 5, "minutes": 52}, {"hour": 5, "minutes": 53},
+      {"hour": 5, "minutes": 54}],
+    [{"hour": 8, "minutes": 15}, {"hour": 8, "minutes": 17}, {"hour": 8, "minutes": 19}, {"hour": 8, "minutes": 21}, {"hour": 8, "minutes": 23}, {"hour": 8, "minutes": 24}, {"hour": 8, "minutes": 25},
+      {"hour": 8, "minutes": 27}, {"hour": 8, "minutes": 28}, {"hour": 8, "minutes": 29}, {"hour": 8, "minutes": 30}, {"hour": 8, "minutes": 31}, {"hour": 8, "minutes": 32}, {"hour": 8, "minutes": 34},
+      {"hour": 8, "minutes": 36}, {"hour": 8, "minutes": 38}, {"hour": 8, "minutes": 39}, {"hour": 8, "minutes": 40}, {"hour": 8, "minutes": 41}, {"hour": 8, "minutes": 42}, {"hour": 8, "minutes": 43},
+      {"hour": 8, "minutes": 44}],
+    [{"hour": 9, "minutes": 5}, {"hour": 9, "minutes": 7}, {"hour": 9, "minutes": 9}, {"hour": 9, "minutes": 11}, {"hour": 9, "minutes": 13}, {"hour": 9, "minutes": 14}, {"hour": 9, "minutes": 15},
+      {"hour": 9, "minutes": 17}, {"hour": 9, "minutes": 18}, {"hour": 9, "minutes": 19}, {"hour": 9, "minutes": 20}, {"hour": 9, "minutes": 21}, {"hour": 9, "minutes": 22}, {"hour": 9, "minutes": 24},
+      {"hour": 9, "minutes": 26}, {"hour": 9, "minutes": 28}, {"hour": 9, "minutes": 29}, {"hour": 9, "minutes": 30}, {"hour": 9, "minutes": 31}, {"hour": 9, "minutes": 32}, {"hour": 9, "minutes": 33},
+      {"hour": 9, "minutes": 34}],
+    [{"hour": 10, "minutes": 25}, {"hour": 10, "minutes": 27}, {"hour": 10, "minutes": 29}, {"hour": 10, "minutes": 31}, {"hour": 10, "minutes": 33}, {"hour": 10, "minutes": 34}, {"hour": 10, "minutes": 35},
+      {"hour": 10, "minutes": 37}, {"hour": 10, "minutes": 38}, {"hour": 10, "minutes": 39}, {"hour": 10, "minutes": 40}, {"hour": 10, "minutes": 41}, {"hour": 10, "minutes": 42}, {"hour": 10, "minutes": 44},
+      {"hour": 10, "minutes": 46}, {"hour": 10, "minutes": 48}, {"hour": 10, "minutes": 49}, {"hour": 10, "minutes": 50}, {"hour": 10, "minutes": 51}, {"hour": 10, "minutes": 52}, {"hour": 10, "minutes": 53},
+      {"hour": 10, "minutes": 54}],
+    [{"hour": 11, "minutes": 45}, {"hour": 11, "minutes": 47}, {"hour": 11, "minutes": 49}, {"hour": 11, "minutes": 51}, {"hour": 11, "minutes": 53}, {"hour": 11, "minutes": 54}, {"hour": 11, "minutes": 55},
+      {"hour": 11, "minutes": 57}, {"hour": 11, "minutes": 58}, {"hour": 11, "minutes": 59}, {"hour": 12, "minutes": 0}, {"hour": 12, "minutes": 1}, {"hour": 12, "minutes": 2}, {"hour": 12, "minutes": 4},
+      {"hour": 12, "minutes": 6}, {"hour": 12, "minutes": 8}, {"hour": 12, "minutes": 9}, {"hour": 12, "minutes": 10}, {"hour": 12, "minutes": 11}, {"hour": 12, "minutes": 12}, {"hour": 12, "minutes": 13},
+      {"hour": 12, "minutes": 14}],
+    [{"hour": 13, "minutes": 5}, {"hour": 13, "minutes": 7}, {"hour": 13, "minutes": 9}, {"hour": 13, "minutes": 11}, {"hour": 13, "minutes": 13}, {"hour": 13, "minutes": 14}, {"hour": 13, "minutes": 15},
+      {"hour": 13, "minutes": 17}, {"hour": 13, "minutes": 18}, {"hour": 13, "minutes": 19}, {"hour": 13, "minutes": 20}, {"hour": 13, "minutes": 21}, {"hour": 13, "minutes": 22}, {"hour": 13, "minutes": 24},
+      {"hour": 13, "minutes": 26}, {"hour": 13, "minutes": 28}, {"hour": 13, "minutes": 29}, {"hour": 13, "minutes": 30}, {"hour": 13, "minutes": 31}, {"hour": 13, "minutes": 32}, {"hour": 13, "minutes": 33},
+      {"hour": 13, "minutes": 34}],
+    [{"hour": 17, "minutes": 5}, {"hour": 17, "minutes": 7}, {"hour": 17, "minutes": 9}, {"hour": 17, "minutes": 11}, {"hour": 17, "minutes": 13}, {"hour": 17, "minutes": 14}, {"hour": 17, "minutes": 15},
+      {"hour": 17, "minutes": 17}, {"hour": 17, "minutes": 18}, {"hour": 17, "minutes": 19}, {"hour": 17, "minutes": 20}, {"hour": 17, "minutes": 21}, {"hour": 17, "minutes": 22}, {"hour": 17, "minutes": 24},
+      {"hour": 17, "minutes": 26}, {"hour": 17, "minutes": 28}, {"hour": 17, "minutes": 29}, {"hour": 17, "minutes": 30}, {"hour": 17, "minutes": 31}, {"hour": 17, "minutes": 32}, {"hour": 17, "minutes": 33},
+      {"hour": 17, "minutes": 34}],
+    [{"hour": 18, "minutes": 25}, {"hour": 18, "minutes": 27}, {"hour": 18, "minutes": 29}, {"hour": 18, "minutes": 31}, {"hour": 18, "minutes": 33}, {"hour": 18, "minutes": 34}, {"hour": 18, "minutes": 35},
+      {"hour": 18, "minutes": 37}, {"hour": 18, "minutes": 38}, {"hour": 18, "minutes": 39}, {"hour": 18, "minutes": 40}, {"hour": 18, "minutes": 41}, {"hour": 18, "minutes": 42}, {"hour": 18, "minutes": 44},
+      {"hour": 18, "minutes": 46}, {"hour": 18, "minutes": 48}, {"hour": 18, "minutes": 49}, {"hour": 18, "minutes": 50}, {"hour": 18, "minutes": 51}, {"hour": 18, "minutes": 52}, {"hour": 18, "minutes": 53},
+      {"hour": 18, "minutes": 54}],
+    [{"hour": 19, "minutes": 45}, {"hour": 19, "minutes": 47}, {"hour": 19, "minutes": 49}, {"hour": 19, "minutes": 51}, {"hour": 19, "minutes": 53}, {"hour": 19, "minutes": 54}, {"hour": 19, "minutes": 55},
+      {"hour": 19, "minutes": 57}, {"hour": 19, "minutes": 58}, {"hour": 19, "minutes": 59}, {"hour": 20, "minutes": 0}, {"hour": 20, "minutes": 1}, {"hour": 20, "minutes": 2}, {"hour": 20, "minutes": 4},
+      {"hour": 20, "minutes": 6}, {"hour": 20, "minutes": 8}, {"hour": 20, "minutes": 9}, {"hour": 20, "minutes": 10}, {"hour": 20, "minutes": 11}, {"hour": 20, "minutes": 12}, {"hour": 20, "minutes": 13},
+      {"hour": 20, "minutes": 14}]
+  ]
+  },
+    {"period": "Niedziela", "courses":
+    [
+      [{"hour": 10, "minutes": 55}, {"hour": 10, "minutes": 57}, {"hour": 10, "minutes": 59}, {"hour": 11, "minutes": 1}, {"hour": 11, "minutes": 3}, {"hour": 11, "minutes": 4}, {"hour": 11, "minutes": 5},
+        {"hour": 11, "minutes": 7}, {"hour": 11, "minutes": 8}, {"hour": 11, "minutes": 9}, {"hour": 11, "minutes": 10}, {"hour": 11, "minutes": 11}, {"hour": 11, "minutes": 12}, {"hour": 11, "minutes": 14},
+        {"hour": 11, "minutes": 16}, {"hour": 11, "minutes": 18}, {"hour": 11, "minutes": 19}, {"hour": 11, "minutes": 20}, {"hour": 11, "minutes": 21}, {"hour": 11, "minutes": 22}, {"hour": 11, "minutes": 23},
+        {"hour": 11, "minutes": 24}],
+      [{"hour": 13, "minutes": 25}, {"hour": 13, "minutes": 27}, {"hour": 13, "minutes": 29}, {"hour": 13, "minutes": 31}, {"hour": 13, "minutes": 33}, {"hour": 13, "minutes": 34}, {"hour": 13, "minutes": 35},
+        {"hour": 13, "minutes": 37}, {"hour": 13, "minutes": 38}, {"hour": 13, "minutes": 39}, {"hour": 13, "minutes": 40}, {"hour": 13, "minutes": 41}, {"hour": 13, "minutes": 42}, {"hour": 13, "minutes": 44},
+        {"hour": 13, "minutes": 46}, {"hour": 13, "minutes": 48}, {"hour": 13, "minutes": 49}, {"hour": 13, "minutes": 50}, {"hour": 13, "minutes": 51}, {"hour": 13, "minutes": 52}, {"hour": 13, "minutes": 53},
+        {"hour": 13, "minutes": 54}]
+    ]
+    }]
 },
   {"start": "Piwna", "destination": "Os. Słoneczne", "stops":
   [{"name": "Piwna", "id": 80}, {"name": "Gazownia", "id": 79}, {"name": "Złota", "id": 77}, {"name": "Oddział Wojskowy Trubakowska", "id": 75}, {"name": "Park Wodny", "id": 73},

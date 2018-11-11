@@ -155,7 +155,7 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
                         console.log(searchedStops);
                         for (let sstop of searchedStops){
                             let stopIndex = route.stops.indexOf(sstop);
-                            if (route.timetable.length > 0 && stopIndex > -1) {
+                            if (route.timetable.length > 0 && stopIndex > -1 && route.timetable.filter(entry => entry.period === currentDayName).length > 0) {
                                 for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
                                     console.log(stopIndex);
                                     if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
