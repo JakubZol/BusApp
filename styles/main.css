@@ -687,19 +687,18 @@ nav ul li.active{
     border-bottom: 3px solid lavender;
 }
 
-#search-section form input[type="time"]{
-    width: 30%;
-    height: 30px;
-    margin: 10px 10px 0 0;
-    text-align: center;
-}
-
 #search-section form input[type="text"]{
     margin: 10px auto 0;
 }
 
 #search-section form input[type="date"]{
-    width: 53%;
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#search-section form input.small{
+    width: 50px;
     height: 30px;
 }
 

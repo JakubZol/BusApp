@@ -15,7 +15,8 @@
                 <small>Linie: {{stop.lines.join(" ")}}</small>
             </li>
         </ul>
-        <input type="time" ng-model="time" value="time()" required> <!--Works, but shows miliseconds and seconds-->
+        <input type="number" ng-model="hour" value="" min="0" max="23" class="small" required>
+        <input type="number" ng-model="minutes" value="" min="0" max="59" class="small" required>
         <input type="date" ng-model="date" min="{{date.toISOString().slice(0,10)}}" required>
         <button type="submit">Szukaj połączenia</button>
     </form>

@@ -115,14 +115,6 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
         dataProvider.getData(url).then(function (data) {
 
             const stops = data.data.filter(stop => stop.stop === $scope.stop);
-            let stopsIds = [];
-            for (let stop of stops) {
-                if (stopsIds.indexOf(stop.id) < 0) {
-                    stopsIds.push(stop.id);
-                }
-            }
-
-            const minId = stopsIds.sort()[0];
             const lines = $filter('mergeLine')(stops, $scope.stop)[0].lines;
 
             let promises = [];
@@ -149,17 +141,13 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
 
                 for(let line of responses) {
                     for (let route of line.routes) {
-                        console.log($scope.stop);
-                        console.log(route.stops);
                         let searchedStops = route.stops.filter(stop => stop.name === $scope.stop);
-                        console.log(searchedStops);
-                        for (let sstop of searchedStops){
-                            let stopIndex = route.stops.indexOf(sstop);
+                        for (let stop of searchedStops){
+                            let stopIndex = route.stops.indexOf(stop);
                             if (route.timetable.length > 0 && stopIndex > -1 && route.timetable.filter(entry => entry.period === currentDayName).length > 0) {
                                 for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
-                                    console.log(stopIndex);
                                     if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
-                                        $scope.timetable.push({line: line.line, destination: route.destination, time: entry[stopIndex], stopId: route.stops[stopIndex].id - minId + 1,
+                                        $scope.timetable.push({line: line.line, destination: route.destination, time: entry[stopIndex], stopId: route.stops[stopIndex].number,
                                         timeFromNow: (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes)})
                                     }
                                 }

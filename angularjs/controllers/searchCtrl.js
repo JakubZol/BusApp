@@ -3,20 +3,8 @@ app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
     $scope.destinationIsSet = false;
     $scope.startIsSet = false;
     $scope.date = new Date();
-
-
-    $scope.currentTime = function(){
-        const d = new Date();
-        const year = d.getFullYear();
-        const month = d.getMonth();
-        const day = d.getDay();
-        const hour = d.getHours();
-        const minutes = d.getMinutes();
-        return new Date(year, month, day, hour, minutes);
-    };
-
-
-    $scope.time = $scope.currentTime();
+    $scope.hour = $scope.date.getHours();
+    $scope.minutes = $scope.date.getMinutes();
 
 
     $scope.getBusStops = function(url){
@@ -90,7 +78,7 @@ app.controller("searchCtrl", function($scope, dataProvider, $q, $filter){
                     if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0)
                             if(route.timetable.length > 0) {
                                 for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
-                                    if (entry[startIndex].hour === $scope.time.getHours() && entry[startIndex].minutes > $scope.time.getMinutes() || entry[startIndex].hour > $scope.time.getHours()) {
+                                    if (entry[startIndex].hour === $scope.hour && entry[startIndex].minutes > $scope.minutes || entry[startIndex].hour > $scope.hour) {
 
                                         let timeArray = entry.slice(startIndex, destinationIndex + 1);
 
