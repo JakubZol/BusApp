@@ -15,6 +15,9 @@ app.config(function($routeProvider, $locationProvider){
    }).when('/search',{
        templateUrl: "./search.html",
        controller: "searchCtrl"
+   }).when('/search/connection/from/:start/to/:destination/:hour/:minutes/:date/:lines',{
+       templateUrl: "./connection.html",
+       controller: "connectionCtrl"
    }).when('/prices',{
        templateUrl: "./prices.html",
        controller: "pricesCtrl"

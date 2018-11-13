@@ -1,0 +1,9 @@
+<div id="connection-section">
+    <h2>Połączenia:</h2>
+    <ul id="connections">
+        <li ng-repeat="connection in connections">
+            {{connection.line}} | {{connection.destination}} | {{connection.courseLength}} min | {{connection.time[0].hour + ":" + connection.time[0].minutes}}
+        </li>
+    </ul>
+<a href="#/search">Powrót</a>
+</div>
