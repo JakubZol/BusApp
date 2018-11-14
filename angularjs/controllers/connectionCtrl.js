@@ -1,4 +1,4 @@
-app.controller("connectionCtrl", function($scope, $routeParams, timetablesService, $filter){
+app.controller("connectionCtrl", function($scope, $routeParams, timetablesService){
 
    $scope.start = $routeParams.start.split("+").join(" ");
    $scope.destination = $routeParams.destination.split("+").join(" ");
@@ -18,6 +18,7 @@ app.controller("connectionCtrl", function($scope, $routeParams, timetablesServic
 
    timetablesService.searchConnections($scope.params).then(function(data){
       $scope.connections = data;
+      console.log(data);
    }).catch(function(error){
        console.log(error);
    });

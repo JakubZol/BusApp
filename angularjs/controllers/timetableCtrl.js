@@ -146,10 +146,12 @@ app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, 
                             let stopIndex = route.stops.indexOf(stop);
                             if (route.timetable.length > 0 && stopIndex > -1 && route.timetable.filter(entry => entry.period === currentDayName).length > 0) {
                                 for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
-                                    if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
+                                    let timeDiff = (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes);
                                         $scope.timetable.push({line: line.line, destination: route.destination, time: entry[stopIndex], stopId: route.stops[stopIndex].number,
-                                        timeFromNow: (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes)})
-                                    }
+                                        timeFromNow: (timeDiff > 0) ? timeDiff : (24 * 60) + timeDiff,
+                                        date: (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) ? d : new Date(new Date().
+                                        setDate(d.getDate() + 1))}) //działa tylko na tygodniu
+
                                 }
                             }
                         }

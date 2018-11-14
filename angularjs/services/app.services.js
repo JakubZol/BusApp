@@ -43,20 +43,20 @@ app.service("timetablesService", function(dataProvider, $q, $filter){
                     if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0)
                         if(route.timetable.length > 0) {
                             for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
-                                if (entry[startIndex].hour === currentHour && entry[startIndex].minutes > currentMinutes || entry[startIndex].hour > currentHour) {
 
-                                    let timeArray = entry.slice(startIndex, destinationIndex + 1);
+                                let timeArray = entry.slice(startIndex, destinationIndex + 1);
 
-                                    let timeLength = (timeArray[timeArray.length - 1].hour * 60 + timeArray[timeArray.length - 1].minutes) - (timeArray[0].hour * 60 + timeArray[0].minutes);
+                                let timeLength = (timeArray[timeArray.length - 1].hour * 60 + timeArray[timeArray.length - 1].minutes) - (timeArray[0].hour * 60 + timeArray[0].minutes);
 
-                                    connections.push({
-                                        line: line.line,
-                                        destination: route.destination,
-                                        stops: route.stops.slice(startIndex, destinationIndex + 1),
-                                        time: timeArray,
-                                        courseLength: timeLength
-                                    });
-                                }
+                                connections.push({
+                                    line: line.line,
+                                    destination: route.destination,
+                                    stops: route.stops.slice(startIndex, destinationIndex + 1),
+                                    time: timeArray,
+                                    courseLength: timeLength,
+                                    date: (timeArray[0].hour === params.hour && timeArray[0].minutes > params.minutes || timeArray[0].hour > params.hour) ? params.date : new Date(new Date().setDate(params.date.getDate() + 1))
+                                }); //działa tylko na tygodniu
+
                             }
                         }
 

@@ -68,16 +68,26 @@ app.filter("sortByDate", function(){
 app.filter("sortByTime", function(){
    return function(array){
        return array.sort(function(a, b){
-           if(a.time.hour < b.time.hour){
-               return -1;
-           }
-           else if(a.time.hour > b.time.hour){
-               return 1;
-           } else{
-               if(a.time.minutes < b.time.minutes){
+           if(a.date.getDate() === b.date.getDate()) {
+               if (a.time.hour < b.time.hour) {
                    return -1;
                }
-               else{
+               else if (a.time.hour > b.time.hour) {
+                   return 1;
+               } else {
+                   if (a.time.minutes < b.time.minutes) {
+                       return -1;
+                   }
+                   else {
+                       return 1;
+                   }
+               }
+           }
+           else{
+               if (a.date < b.date) {
+                   return -1;
+               }
+               else {
                    return 1;
                }
            }
@@ -94,13 +104,23 @@ app.filter("floor", function(){
 app.filter("sortByDepartureTime", function() {
     return function (array){
         return array.sort(function (a, b) {
-            if (a.time[0].hour < b.time[0].hour) {
-                return -1;
+            if(a.date.getDate() === b.date.getDate()) {
+                if (a.time[0].hour < b.time[0].hour) {
+                    return -1;
+                }
+                else if (a.time[0].hour > b.time[0].hour) {
+                    return 1;
+                } else {
+                    if (a.time[0].minutes < b.time[0].minutes) {
+                        return -1;
+                    }
+                    else {
+                        return 1;
+                    }
+                }
             }
-            else if (a.time[0].hour > b.time[0].hour) {
-                return 1;
-            } else {
-                if (a.time[0].minutes < b.time[0].minutes) {
+            else{
+                if (a.date < b.date) {
                     return -1;
                 }
                 else {
