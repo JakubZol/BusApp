@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="BusApp">
-    <output-path>$PROJECT_DIR$/out/artifacts/BusApp</output-path>
-    <root id="root" />
-  </artifact>
-</component>
