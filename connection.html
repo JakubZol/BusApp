@@ -1,9 +1,23 @@
 <div id="connection-section">
-    <h2>Połączenia:</h2>
+    <h4>{{start}} -> {{destination}}</h4>
+    <a href="#/search">Powrót</a>
     <ul id="connections">
-        <li ng-repeat="connection in connections">
-            {{connection.line}} | {{connection.destination}} | {{connection.courseLength}} min | {{connection.time[0].hour + ":" + connection.time[0].minutes}}
+        <li ng-repeat="connection in connections.slice(0, 9)">
+            <div class="line">{{connection.line}}</div>
+            <ul class="course-details">
+                <li><b>{{connection.destination}}</b></li>
+                <li>{{connection.stops[0].name}} {{connection.stops[0].number}}</li>
+                <li>{{connection.time[0].hour + ":" + ((connection.time[0].minutes.toString().length === 1) ? ('0' + connection.time[0].minutes) : connection.time[0].minutes)}}
+                    <img src="images/blue_list.png">
+                    {{connection.time[connection.time.length - 1].hour + ":" + ((connection.time[connection.time.length - 1].minutes.toString().length === 1) ? ('0' + connection.time[connection.time.length - 1].minutes) : connection.time[connection.time.length - 1].minutes)}}
+                    ({{connection.courseLength}} min)
+                </li>
+            </ul>
+            <div class="departure-time">
+                {{(connection.time[0].hour * 60 + connection.time[0].minutes - (currentDate.getHours() * 60 + currentDate.getMinutes()) > 0) ?
+                connection.time[0].hour * 60 + connection.time[0].minutes - (currentDate.getHours() * 60 + currentDate.getMinutes()) : 24 * 60 - (connection.time[0].hour * 60 + connection.time[0].minutes - (currentDate.getHours() * 60 + currentDate.getMinutes()))}} min
+            </div>
         </li>
     </ul>
-<a href="#/search">Powrót</a>
+
 </div>

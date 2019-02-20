@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FormsAngularJS.iml" filepath="$PROJECT_DIR$/.idea/FormsAngularJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BusApp.iml" filepath="$PROJECT_DIR$/BusApp.iml" />
     </modules>
   </component>
 </project>

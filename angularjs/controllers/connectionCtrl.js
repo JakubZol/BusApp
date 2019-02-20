@@ -6,6 +6,7 @@ app.controller("connectionCtrl", function($scope, $routeParams, timetablesServic
    $scope.minutes = parseInt($routeParams.minutes);
    $scope.date = new Date($routeParams.date);
    $scope.lines = $routeParams.lines.split("+");
+   $scope.currentDate = new Date();
 
    $scope.params = {
         lines: $scope.lines,
