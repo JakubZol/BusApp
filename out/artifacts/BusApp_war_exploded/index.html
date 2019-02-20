@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl" data-ng-app="BusApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="fontello-ca155a97/css/fontello.css">
+    <script src="angularjs/angular.min.js"></script>
+    <script src="angularjs/angular-route.min.js"></script>
+</head>
+<body data-ng-controller="mainCtrl" ng-cloak>
+    <header>
+        <div id="topbar">
+            <img src="images/buslogo.png" alt="logo">
+            <form><input type="text" placeholder="Szukaj przystanku na mapie"><button type="submit"><img src="images/search.png" alt="search"></button></form>
+        </div>
+        <div id="banner">
+            <ul ng-cloak>
+                <li><h2>Bądź na bieżąco</h2> <p>Najnowsze informacje dotyczące stanu dróg  w mieście i zmian w rozkładach komunikacji miejskiej!</p></li>
+                <li><h2>Wyszukaj połączenie</h2> <p>Korzystaj z wyszukiwarki połączeń aby odnaleźć najlepszą trasę do celu!</p></li>
+                <li><h2>Wykorzystuj zniżki</h2> <p>Dzięki ciągłemu dostępowi do aktualnego cennika nie ominie Cię żadna zniżka bądź okazja!</p></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <ul>
+                    <a href="#"><li data-ng-class="getClass('/')" >Informacje </li></a>
+                    <a href="#/timetable"> <li data-ng-class="getClass('/timetable')">Rozkład jazdy</li></a>
+                    <a href="#/search"><li data-ng-class="getClass('/search')"> Wyszukiwarka połączeń </li></a>
+                    <a href="#/prices"><li  data-ng-class="getClass('/prices')"> Cennik biletów</li></a>
+                </ul>
+            </nav>
+            <div data-ng-view="" id="content" ></div>
+        </aside>
+        <iframe>
+
+        </iframe>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <h2>Dane Kontaktowe:</h2>
+                <ul>
+                    <li>ul. Autobusowa 15, Chełm</li>
+                    <li>mybuschelm@mybus.com</li>
+                    <li>+48 000 00 00</li>
+                </ul>
+            </li>
+            <li>
+            </li>
+            <li>
+                <h2>O Autorze Witryny:</h2>
+                <ul>
+                    <li>Jakub Żołnacz</li>
+                    <li>Front-end developer</li>
+                    <li>
+                        <span>
+                            <a><i class="icon-globe"></i></a>
+                            <a><i class="icon-github-squared"></i></a>
+                            <a><i class="icon-linkedin-squared"></i></a>
+                        </span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+    <script src="angularjs/model/app.mdl.js"></script>
+    <script src="app.rout.js"></script>
+    <script src="angularjs/services/app.services.js"></script>
+    <script src="angularjs/controllers/mainCtrl.js"></script>
+    <script src="angularjs/controllers/infoCtrl.js"></script>
+    <script src="angularjs/controllers/timetableCtrl.js"></script>
+    <script src="angularjs/controllers/searchCtrl.js"></script>
+    <script src="angularjs/controllers/pricesCtrl.js"></script>
+    <script src="angularjs/controllers/connectionCtrl.js"></script>
+    <script src="angularjs/filters/filters.js"></script>
+</body>
+</html>

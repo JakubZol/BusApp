@@ -1,0 +1,31 @@
+<h1 ng-class="{'non-visible': !checkError}">Error {{error.status}}<br> {{error.statusText}}<br><a href="#/timetable">Wstecz>></a></h1>
+<div id="linetimetable-section" ng-class="{'non-visible': checkError}">
+    <div class="header"><h2>{{line}}</h2> <a href="#/timetable"> Powrót >> </a></div>
+    <ul id="courses">
+        <li ng-repeat="route in lineTimetable.routes track by $index" data-ng-click="setCurrentCourse($index)" ng-class="{'active': currentCourse === $index}">
+            {{route.start}} -> {{route.destination}}
+        </li>
+    </ul>
+    <div class="loading-box" ng-class="{'non-visible': contentLoaded}">
+        <div class="loader"></div>
+        <p>loading...</p>
+    </div>
+    <ul id="route" ng-class="{'non-visible': !contentLoaded}">
+        <li ng-repeat="stop in lineTimetable.routes[currentCourse].stops track by $index" class="{{stopsClasses[$index]}}" >
+            <img src="images/blue_list.png"><p data-ng-click="displayTimetable($index)"> {{stop.name}}</p>
+            <div id="timetable">
+                <ul>
+                    <li ng-repeat="week in lineTimetable.routes[currentCourse].timetable track by $index" data-ng-click="buildTimetable($index, currentStopIndex)" ng-class="{'active': currentTimetableIndex === $index}">
+                    {{week.period}}</li>
+                </ul>
+                <table>
+                    <tr ng-repeat="time in currentTimetable">
+                        <td>{{time.hour}}</td>
+                        <td>{{time.minutes.join(", ")}}</td>
+                    </tr>
+                </table>
+                <button data-ng-click="displayRoute()">Pełna rozpiska trasy</button>
+            </div>
+        </li>
+    </ul>
+</div>

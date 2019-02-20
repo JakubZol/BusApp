@@ -1,0 +1,17 @@
+[
+  {"title": "Bezpłatny kalendarz!", "date": {"year": 2018, "month": 6, "day": 22},
+    "content": "W dniach od 1 do 14 lipca w placówkach z biletami do odbioru dla stałych klientów będzie darmowy kalendarz. Jedynym wymogiem do otrzymania kalendarza jest co najmniej 5 biletów miesięcznych pod rząd od teraz wstecz na swoje imię i nazwisko. Przy odbiorze podarunku należy mieć przy sobie legitymację bądź dowód tożsamości."},
+  {"title": "Remont Ulicy Lwowskiej", "date": {"year": 2018, "month": 7, "day": 23},
+    "content": "Odbywa się przebudowa skrzyżowania ulicy Lwowskiej z Drogą Męczenników. Do zakończenia budowy linie 3, 6, 11, 24 poprowadzone będą przez Aleję I Armii Wojska Polskiego i ulicę Wojsławicką, linia 15 kursować będzie ulicami: Ogrodową, Karłowicza oraz Aleją 3 Maja. Termin zakończenia prac nie jest obecnie znany."},
+  {"title": "Skrócono trasę linii 30", "date": {"year": 2018, "month": 9, "day": 1},
+    "content": "W związku z zakończeniem sezonu letniego od dnia 3 Września linia 30 kończy kursowanie nad Zalew Żółtańce, trasę kończyć będzie na pętli os. Słoneczne. Zmniejszy się także częstotliwość kursowania tej linii."},
+  {"title": "Zamknięcie Ulicy Lubelskiej", "date": {"year": 2018, "month": 7, "day": 31},
+    "content": "Ze względu na koncerty w dniach 3 i 4 Sierpnia z ruchu wyłączona zostanie ulica Lubelska. Z tego powodu nastąpia zmiany w trasach linii autobusowych. Linie 2, 3, 5C, 8, 9, 11, 30 kursować będą ulicą Rejowiecką, natomiast linia 12 zostaje zawieszona na ten okres."},
+  {"title": "Obniżka wakacyjna", "date": {"year": 2018, "month": 6, "day": 29},
+    "content": "W związku z rozpoczynającymi się wakacjami przygotowana została promocja dla wszystkich klientów. Każdemu, kto nabędzie dowolny bilet okresowy do dnia 7 lipca, przysługiwać będzie zniżka 30% przy zakupie tego biletu."},
+  {"title": "Trasa Linii 30 wydłużona", "date": {"year": 2018, "month": 5, "day": 31},
+    "content": "Ze względu na zbliżający się sezon wakacyjny, trasa linii 30 zostanie wydłużona. Autobus kursować będzie nad Zalew Żółtańce co najmniej do końca Sierpnia."},
+  {"title": "Zakończono remont ulicy Lwowskiej", "date": {"year": 2018, "month": 10, "day": 11},
+  "content": "Nadszedł długo wyczekiwany koniec remontu ulicy Lwowskiej. W związku z tym autobusy linii: 3, 6, 11, 12, 15, 24 powrócą do kursowania starymi trasami, których szczegóły znaleźć można w sekcji poświęconej rozkładom jazdy."}
+
+]

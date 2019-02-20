@@ -1,0 +1,72 @@
+{"line": "5C", "routes":
+[{"start": "Hrubieszowska Pętla", "destination": "Szpital Pętla",
+  "stops":
+  [{"name": "Hrubieszowska Pętla","id": 63}, {"name": "Józefin","id": 61}, {"name": "Krzyżówki Wojsławickie","id": 59}, {"name": "Borek","id": 57}, {"name": "Kilińskiego","id": 55},
+    {"name": "Emilii Plater", "id": 53}, {"name": "Wiejska", "id": 51}, {"name": "Os. Koniczynka", "id": 39}, {"name": "Biblioteka Miejska", "id": 37}, {"name": "Dworzec Główny PKS", "id": 35},
+    {"name": "Ogrodowa", "id": 41}, {"name": "Hotel Kamena", "id": 43}, {"name": "Chełm Miasto", "id": 70}, {"name": "Park Wodny", "id": 72}, {"name": "II Liceum Ogólnokształcące", "id": 86},
+    {"name": "Tuwima", "id": 155}, {"name": "Szpital", "id": 156}, {"name": "Szpital Pętla", "id": 158}],
+  "timetable":
+  [{"period": "Dni powszednie", "courses":
+    [
+      [{"hour": 6, "minutes": 20}, {"hour": 6, "minutes": 21}, {"hour": 6, "minutes": 23}, {"hour": 6, "minutes": 25}, {"hour": 6, "minutes": 27}, {"hour": 6, "minutes": 28}, {"hour": 6, "minutes": 29},
+        {"hour": 6, "minutes": 30}, {"hour": 6, "minutes": 31}, {"hour": 6, "minutes": 33}, {"hour": 6, "minutes": 35}, {"hour": 6, "minutes": 38}, {"hour": 6, "minutes": 39}, {"hour": 6, "minutes": 40},
+        {"hour": 6, "minutes": 41}, {"hour": 6, "minutes": 43}, {"hour": 6, "minutes": 44},{"hour": 6, "minutes": 45}],
+      [{"hour": 6, "minutes": 55}, {"hour": 6, "minutes": 56}, {"hour": 6, "minutes": 58}, {"hour": 7, "minutes": 0}, {"hour": 7, "minutes": 2}, {"hour": 7, "minutes": 3}, {"hour": 7, "minutes": 4},
+        {"hour": 7, "minutes": 5}, {"hour": 7, "minutes": 6}, {"hour": 7, "minutes": 8}, {"hour": 7, "minutes": 10}, {"hour": 7, "minutes": 13}, {"hour": 7, "minutes": 14}, {"hour": 7, "minutes": 15},
+        {"hour": 7, "minutes": 16}, {"hour": 7, "minutes": 18}, {"hour": 7, "minutes": 19},{"hour": 7, "minutes": 20}],
+      [{"hour": 8, "minutes": 40}, {"hour": 8, "minutes": 41}, {"hour": 8, "minutes": 43}, {"hour": 8, "minutes": 45}, {"hour": 8, "minutes": 47}, {"hour": 8, "minutes": 48}, {"hour": 8, "minutes": 49},
+        {"hour": 8, "minutes": 50}, {"hour": 8, "minutes": 51}, {"hour": 8, "minutes": 53}, {"hour": 8, "minutes": 55}, {"hour": 8, "minutes": 58}, {"hour": 8, "minutes": 59}, {"hour": 9, "minutes": 0},
+        {"hour": 9, "minutes": 1}, {"hour": 9, "minutes": 3}, {"hour": 9, "minutes": 4},{"hour": 9, "minutes": 5}],
+      [{"hour": 10, "minutes": 40}, {"hour": 10, "minutes": 41}, {"hour": 10, "minutes": 43}, {"hour": 10, "minutes": 45}, {"hour": 10, "minutes": 47}, {"hour": 10, "minutes": 48}, {"hour": 10, "minutes": 49},
+        {"hour": 10, "minutes": 50}, {"hour": 10, "minutes": 51}, {"hour": 10, "minutes": 53}, {"hour": 10, "minutes": 55}, {"hour": 10, "minutes": 58}, {"hour": 10, "minutes": 59}, {"hour": 11, "minutes": 0},
+        {"hour": 11, "minutes": 1}, {"hour": 11, "minutes": 3}, {"hour": 11, "minutes": 4},{"hour": 11, "minutes": 5}],
+      [{"hour": 12, "minutes": 40}, {"hour": 12, "minutes": 41}, {"hour": 12, "minutes": 43}, {"hour": 12, "minutes": 45}, {"hour": 12, "minutes": 47}, {"hour": 12, "minutes": 48}, {"hour": 12, "minutes": 49},
+        {"hour": 12, "minutes": 50}, {"hour": 12, "minutes": 51}, {"hour": 12, "minutes": 53}, {"hour": 12, "minutes": 55}, {"hour": 12, "minutes": 58}, {"hour": 12, "minutes": 59}, {"hour": 13, "minutes": 0},
+        {"hour": 13, "minutes": 1}, {"hour": 13, "minutes": 3}, {"hour": 13, "minutes": 4},{"hour": 13, "minutes": 5}],
+      [{"hour": 14, "minutes": 40}, {"hour": 14, "minutes": 41}, {"hour": 14, "minutes": 43}, {"hour": 14, "minutes": 45}, {"hour": 14, "minutes": 47}, {"hour": 14, "minutes": 48}, {"hour": 14, "minutes": 49},
+        {"hour": 14, "minutes": 50}, {"hour": 14, "minutes": 51}, {"hour": 14, "minutes": 53}, {"hour": 14, "minutes": 55}, {"hour": 14, "minutes": 58}, {"hour": 14, "minutes": 59}, {"hour": 15, "minutes": 0},
+        {"hour": 15, "minutes": 1}, {"hour": 15, "minutes": 3}, {"hour": 15, "minutes": 4},{"hour": 15, "minutes": 5}],
+      [{"hour": 15, "minutes": 40}, {"hour": 15, "minutes": 41}, {"hour": 15, "minutes": 43}, {"hour": 15, "minutes": 45}, {"hour": 15, "minutes": 47}, {"hour": 15, "minutes": 48}, {"hour": 15, "minutes": 49},
+        {"hour": 15, "minutes": 50}, {"hour": 15, "minutes": 51}, {"hour": 15, "minutes": 53}, {"hour": 15, "minutes": 55}, {"hour": 15, "minutes": 58}, {"hour": 15, "minutes": 59}, {"hour": 16, "minutes": 0},
+        {"hour": 16, "minutes": 1}, {"hour": 16, "minutes": 3}, {"hour": 16, "minutes": 4},{"hour": 16, "minutes": 5}],
+      [{"hour": 17, "minutes": 40}, {"hour": 17, "minutes": 41}, {"hour": 17, "minutes": 43}, {"hour": 17, "minutes": 45}, {"hour": 17, "minutes": 47}, {"hour": 17, "minutes": 48}, {"hour": 17, "minutes": 49},
+        {"hour": 17, "minutes": 50}, {"hour": 17, "minutes": 51}, {"hour": 17, "minutes": 53}, {"hour": 17, "minutes": 55}, {"hour": 17, "minutes": 58}, {"hour": 17, "minutes": 59}, {"hour": 18, "minutes": 0},
+        {"hour": 18, "minutes": 1}, {"hour": 18, "minutes": 3}, {"hour": 18, "minutes": 4},{"hour": 18, "minutes": 5}]
+    ]
+  }]
+  },
+  {"start": "Szpital Pętla", "destination": "Hrubieszowska Pętla",
+  "stops":
+  [{"name": "Szpital Pętla", "id": 158}, {"name": "Szpital", "id": 157}, {"name": "II Liceum Ogólnokształcące", "id": 87}, {"name": "Park Wodny", "id": 73}, {"name": "Chełm Miasto", "id": 71},
+    {"name": "Hotel Kamena", "id": 44}, {"name": "Ogrodowa", "id": 42}, {"name": "Dworzec Główny PKS", "id": 36}, {"name": "Biblioteka Miejska", "id": 38}, {"name": "Wiejska", "id": 50},
+    {"name": "Emilii Plater", "id": 52}, {"name": "Kilińskiego", "id": 54}, {"name": "Borek", "id": 56}, {"name": "Krzyżówki Wojsławickie", "id": 58}, {"name": "Józefin", "id": 60},
+    {"name": "Hrubieszowska Pętla", "id": 62}],
+  "timetable":
+  [{"period": "Dni powszednie", "courses":
+    [
+      [{"hour": 5, "minutes": 50}, {"hour": 5, "minutes": 51}, {"hour": 5, "minutes": 52}, {"hour": 5, "minutes": 54}, {"hour": 5, "minutes": 56},  {"hour": 5, "minutes": 58}, {"hour": 5, "minutes": 59}, 
+        {"hour": 6, "minutes": 1}, {"hour": 6, "minutes": 3}, {"hour": 6, "minutes": 4}, {"hour": 6, "minutes": 5}, {"hour": 6, "minutes": 7}, {"hour": 6, "minutes": 8}, {"hour": 6, "minutes": 10},
+        {"hour": 6, "minutes": 12}, {"hour": 6, "minutes": 13}, {"hour": 6, "minutes": 14}],
+      [{"hour": 6, "minutes": 30}, {"hour": 6, "minutes": 31}, {"hour": 6, "minutes": 32}, {"hour": 6, "minutes": 34}, {"hour": 6, "minutes": 36},  {"hour": 6, "minutes": 38}, {"hour": 6, "minutes": 39},
+        {"hour": 6, "minutes": 41}, {"hour": 6, "minutes": 43}, {"hour": 6, "minutes": 44}, {"hour": 6, "minutes": 45}, {"hour": 6, "minutes": 47}, {"hour": 6, "minutes": 48}, {"hour": 6, "minutes": 50},
+        {"hour": 6, "minutes": 52}, {"hour": 6, "minutes": 53}, {"hour": 6, "minutes": 54}],
+      [{"hour": 8, "minutes": 10}, {"hour": 8, "minutes": 11}, {"hour": 8, "minutes": 12}, {"hour": 8, "minutes": 14}, {"hour": 8, "minutes": 16},  {"hour": 8, "minutes": 18}, {"hour": 8, "minutes": 19},
+        {"hour": 8, "minutes": 21}, {"hour": 8, "minutes": 23}, {"hour": 8, "minutes": 24}, {"hour": 8, "minutes": 25}, {"hour": 8, "minutes": 27}, {"hour": 8, "minutes": 28}, {"hour": 8, "minutes": 30},
+        {"hour": 8, "minutes": 32}, {"hour": 8, "minutes": 33}, {"hour": 8, "minutes": 34}],
+      [{"hour": 10, "minutes": 10}, {"hour": 10, "minutes": 11}, {"hour": 10, "minutes": 12}, {"hour": 10, "minutes": 14}, {"hour": 10, "minutes": 16},  {"hour": 10, "minutes": 18}, {"hour": 10, "minutes": 19},
+        {"hour": 10, "minutes": 21}, {"hour": 10, "minutes": 23}, {"hour": 10, "minutes": 24}, {"hour": 10, "minutes": 25}, {"hour": 10, "minutes": 27}, {"hour": 10, "minutes": 28}, {"hour": 10, "minutes": 30},
+        {"hour": 10, "minutes": 32}, {"hour": 10, "minutes": 33}, {"hour": 10, "minutes": 34}],
+      [{"hour": 12, "minutes": 10}, {"hour": 12, "minutes": 11}, {"hour": 12, "minutes": 12}, {"hour": 12, "minutes": 14}, {"hour": 12, "minutes": 16},  {"hour": 12, "minutes": 18}, {"hour": 12, "minutes": 19},
+        {"hour": 12, "minutes": 21}, {"hour": 12, "minutes": 23}, {"hour": 12, "minutes": 24}, {"hour": 12, "minutes": 25}, {"hour": 12, "minutes": 27}, {"hour": 12, "minutes": 28}, {"hour": 12, "minutes": 30},
+        {"hour": 12, "minutes": 32}, {"hour": 12, "minutes": 33}, {"hour": 12, "minutes": 34}],
+      [{"hour": 14, "minutes": 15}, {"hour": 14, "minutes": 16}, {"hour": 14, "minutes": 17}, {"hour": 14, "minutes": 19}, {"hour": 14, "minutes": 21},  {"hour": 14, "minutes": 23}, {"hour": 14, "minutes": 24},
+        {"hour": 14, "minutes": 26}, {"hour": 14, "minutes": 28}, {"hour": 14, "minutes": 29}, {"hour": 14, "minutes": 30}, {"hour": 14, "minutes": 32}, {"hour": 14, "minutes": 33}, {"hour": 14, "minutes": 35},
+        {"hour": 14, "minutes": 37}, {"hour": 14, "minutes": 38}, {"hour": 14, "minutes": 39}],
+      [{"hour": 15, "minutes": 15}, {"hour": 15, "minutes": 16}, {"hour": 15, "minutes": 17}, {"hour": 15, "minutes": 19}, {"hour": 15, "minutes": 21},  {"hour": 15, "minutes": 23}, {"hour": 15, "minutes": 24},
+        {"hour": 15, "minutes": 26}, {"hour": 15, "minutes": 28}, {"hour": 15, "minutes": 29}, {"hour": 15, "minutes": 30}, {"hour": 15, "minutes": 32}, {"hour": 15, "minutes": 33}, {"hour": 15, "minutes": 35},
+        {"hour": 15, "minutes": 37}, {"hour": 15, "minutes": 38}, {"hour": 15, "minutes": 39}],
+      [{"hour": 17, "minutes": 15}, {"hour": 17, "minutes": 16}, {"hour": 17, "minutes": 17}, {"hour": 17, "minutes": 19}, {"hour": 17, "minutes": 21},  {"hour": 17, "minutes": 23}, {"hour": 17, "minutes": 24},
+        {"hour": 17, "minutes": 26}, {"hour": 17, "minutes": 28}, {"hour": 17, "minutes": 29}, {"hour": 17, "minutes": 30}, {"hour": 17, "minutes": 32}, {"hour": 17, "minutes": 33}, {"hour": 17, "minutes": 35},
+        {"hour": 17, "minutes": 37}, {"hour": 17, "minutes": 38}, {"hour": 17, "minutes": 39}]
+    ]}]}
+]}
