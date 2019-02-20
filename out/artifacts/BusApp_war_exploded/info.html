@@ -1,0 +1,11 @@
+<div id="news-section">
+    <ul>
+        <li ng-repeat="news in currentNewsPage track by $index" data-ng-click="extendArticle($index)" class="{{articlesClasses[$index]}}">
+            <h3>{{news.title}}</h3>
+            <time>{{news.date.day}}/{{news.date.month}}/{{news.date.year}}</time>
+            <p>{{news.content}}</p>
+        </li>
+    </ul>
+    <button data-ng-click="switchPage(-1)" ng-class="{'non-visible': currentPageIndex <= 0}">Poprzednia strona</button>
+    <button data-ng-click="switchPage(1)" ng-class="{'non-visible': news.length / 4 - currentPageIndex < 1}">Nastepna strona</button>
+</div>

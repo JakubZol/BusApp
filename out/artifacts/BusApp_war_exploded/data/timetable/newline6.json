@@ -1,0 +1,47 @@
+{"line": 6, "routes":
+[
+  {"start": "Dworzec Główny PKP", "destination": "Cmentarz Komunalny",
+    "stops":
+    [{"name": "Dworzec Główny PKP", "id": 127}, {"name": "Jedność", "id": 116}, {"name": "11 Listopada", "id": 107}, {"name": "Plac Niepodległości", "id": 111}, {"name": "Stadiom Miejski", "id": 109}, {"name": "Plac Gdański", "id": 49},
+      {"name": "Hotel Kamena", "id": 44}, {"name": "Ogrodowa", "id": 42}, {"name": "Cmentarz Miejski", "id": 34}, {"name": "Droga Męczenników", "id": 19}, {"name": "Parafia Chrystusa Odkupiciela", "id": 17},
+      {"name": "Połaniecka Osiedla", "id": 15}, {"name": "Wojsławicka", "id": 10}, {"name": "Cmentarz Komunalny", "id": 9}],
+    "timetable":
+    [{"period": "Dni powszednie", "courses": 
+      [
+        [{"hour": 7, "minutes": 27}, {"hour": 7, "minutes": 28}, {"hour": 7, "minutes": 30}, {"hour": 7, "minutes": 32}, {"hour": 7, "minutes": 34}, {"hour": 7, "minutes": 36}, {"hour": 7, "minutes": 38},
+          {"hour": 7, "minutes": 39}, {"hour": 7, "minutes": 41}, {"hour": 7, "minutes": 43}, {"hour": 7, "minutes": 44}, {"hour": 7, "minutes": 46}, {"hour": 7, "minutes": 48}, {"hour": 7, "minutes": 50}],
+        [{"hour": 9, "minutes": 47}, {"hour": 9, "minutes": 48}, {"hour": 9, "minutes": 50}, {"hour": 9, "minutes": 52}, {"hour": 9, "minutes": 54}, {"hour": 9, "minutes": 56}, {"hour": 9, "minutes": 58},
+          {"hour": 9, "minutes": 59}, {"hour": 10, "minutes": 1}, {"hour": 10, "minutes": 3}, {"hour": 10, "minutes": 4}, {"hour": 10, "minutes": 6}, {"hour": 10, "minutes": 8}, {"hour": 10, "minutes": 10}],
+        [{"hour": 11, "minutes": 47}, {"hour": 11, "minutes": 48}, {"hour": 11, "minutes": 50}, {"hour": 11, "minutes": 52}, {"hour": 11, "minutes": 54}, {"hour": 11, "minutes": 56}, {"hour": 11, "minutes": 58},
+          {"hour": 11, "minutes": 59}, {"hour": 12, "minutes": 1}, {"hour": 12, "minutes": 3}, {"hour": 12, "minutes": 4}, {"hour": 12, "minutes": 6}, {"hour": 12, "minutes": 8}, {"hour": 12, "minutes": 10}],
+        [{"hour": 13, "minutes": 44}, {"hour": 13, "minutes": 45}, {"hour": 13, "minutes": 47}, {"hour": 13, "minutes": 49}, {"hour": 13, "minutes": 51}, {"hour": 13, "minutes": 53}, {"hour": 13, "minutes": 55},
+          {"hour": 13, "minutes": 56}, {"hour": 13, "minutes": 58}, {"hour": 14, "minutes": 0}, {"hour": 14, "minutes": 1}, {"hour": 14, "minutes": 3}, {"hour": 14, "minutes": 5}, {"hour": 14, "minutes": 7}],
+        [{"hour": 15, "minutes": 47}, {"hour": 15, "minutes": 48}, {"hour": 15, "minutes": 50}, {"hour": 15, "minutes": 52}, {"hour": 15, "minutes": 54}, {"hour": 15, "minutes": 56}, {"hour": 15, "minutes": 58},
+          {"hour": 15, "minutes": 59}, {"hour": 16, "minutes": 1}, {"hour": 16, "minutes": 3}, {"hour": 16, "minutes": 4}, {"hour": 16, "minutes": 6}, {"hour": 16, "minutes": 8}, {"hour": 16, "minutes": 10}]
+      ]
+    }]
+  },
+  {"start": "Cmentarz Komunalny", "destination": "Dworzec Główny PKP",
+    "stops":
+    [{"name": "Cmentarz Komunalny", "id": 9}, {"name": "Połaniecka Osiedla", "id": 16}, {"name": "Parafia Chrystusa Odkupiciela", "id": 18}, {"name": "Droga Męczenników", "id": 20},
+      {"name": "Cmentarz Miejski", "id": 33}, {"name": "Dworzec Główny PKS", "id": 35}, {"name": "Ogrodowa", "id": 41}, {"name": "Hotel Kamena", "id": 45}, {"name": "Plac Gdański", "id": 48},
+      {"name": "Stadion Miejski", "id": 108}, {"name": "Plac Niepodległości", "id": 112}, {"name": "Jedność", "id": 115}, {"name": "Dworzec Główny PKP", "id": 127}],
+    "timetable":
+    [{"period": "Dni powszednie", "courses":
+      [
+        [{"hour": 6, "minutes": 53}, {"hour": 6, "minutes": 55}, {"hour": 6, "minutes": 57}, {"hour": 6, "minutes": 59}, {"hour": 7, "minutes": 1}, {"hour": 7, "minutes": 3}, {"hour": 7, "minutes": 5},
+          {"hour": 7, "minutes": 8}, {"hour": 7, "minutes": 10}, {"hour": 7, "minutes": 12}, {"hour": 7, "minutes": 13}, {"hour": 7, "minutes": 14}, {"hour": 7, "minutes": 15}],
+        [{"hour": 8, "minutes": 13}, {"hour": 8, "minutes": 15}, {"hour": 8, "minutes": 17}, {"hour": 8, "minutes": 19}, {"hour": 8, "minutes": 21}, {"hour": 8, "minutes": 23}, {"hour": 8, "minutes": 25},
+          {"hour": 8, "minutes": 28}, {"hour": 8, "minutes": 30}, {"hour": 8, "minutes": 32}, {"hour": 8, "minutes": 33}, {"hour": 8, "minutes": 34}, {"hour": 8, "minutes": 35}],
+        [{"hour": 10, "minutes": 13}, {"hour": 10, "minutes": 15}, {"hour": 10, "minutes": 17}, {"hour": 10, "minutes": 19}, {"hour": 10, "minutes": 21}, {"hour": 10, "minutes": 23}, {"hour": 10, "minutes": 25},
+          {"hour": 10, "minutes": 28}, {"hour": 10, "minutes": 30}, {"hour": 10, "minutes": 32}, {"hour": 10, "minutes": 33}, {"hour": 10, "minutes": 34}, {"hour": 10, "minutes": 35}],
+        [{"hour": 12, "minutes": 13}, {"hour": 12, "minutes": 15}, {"hour": 12, "minutes": 17}, {"hour": 12, "minutes": 19}, {"hour": 12, "minutes": 21}, {"hour": 12, "minutes": 23}, {"hour": 12, "minutes": 25},
+          {"hour": 12, "minutes": 28}, {"hour": 12, "minutes": 30}, {"hour": 12, "minutes": 32}, {"hour": 12, "minutes": 33}, {"hour": 12, "minutes": 34}, {"hour": 12, "minutes": 35}],
+        [{"hour": 14, "minutes": 13}, {"hour": 14, "minutes": 15}, {"hour": 14, "minutes": 17}, {"hour": 14, "minutes": 19}, {"hour": 14, "minutes": 21}, {"hour": 14, "minutes": 23}, {"hour": 14, "minutes": 25},
+          {"hour": 14, "minutes": 28}, {"hour": 14, "minutes": 30}, {"hour": 14, "minutes": 32}, {"hour": 14, "minutes": 33}, {"hour": 14, "minutes": 34}, {"hour": 14, "minutes": 35}],
+        [{"hour": 16, "minutes": 13}, {"hour": 16, "minutes": 15}, {"hour": 16, "minutes": 17}, {"hour": 16, "minutes": 19}, {"hour": 16, "minutes": 21}, {"hour": 16, "minutes": 23}, {"hour": 16, "minutes": 25},
+          {"hour": 16, "minutes": 28}, {"hour": 16, "minutes": 30}, {"hour": 16, "minutes": 32}, {"hour": 16, "minutes": 33}, {"hour": 16, "minutes": 34}, {"hour": 16, "minutes": 35}]
+      ]
+    }]
+  }
+]}
