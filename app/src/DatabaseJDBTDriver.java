@@ -1,11 +1,14 @@
+import java.sql.ResultSet;
 
 public interface DatabaseJDBTDriver {
 
-    public void connect();
+    void connect();
 
-    public void disconnect();
+    void disconnect();
 
-    public void executeQuery(String query);
+    void executeQuery(String query);
+
+    ResultSet getResult();
 
 }
 
