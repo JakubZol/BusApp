@@ -71,13 +71,3 @@ public class PostgreSQLJDBCDriver implements DatabaseJDBTDriver{
 
 }
 
-
-/*
-
-
-public class PostgreSQLController implements DatabaseController {
-
-
-}
-
- */
