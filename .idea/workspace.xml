@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Stop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/DatabaseJDBCDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BusApp/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,7 +133,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="js" value="3" />
           <entry key="json" value="13" />
           <entry key="sql" value="1" />
@@ -142,7 +144,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="JSON" value="13" />
           <entry key="JavaScript" value="3" />
           <entry key="SQL" value="1" />
@@ -151,18 +153,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="855" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="1513" />
           <entry key="json" value="1" />
           <entry key="sql" value="7674" />
-          <entry key="txt" value="142" />
+          <entry key="txt" value="150" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="855" />
+          <entry key="JAVA" value="1513" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="142" />
+          <entry key="PLAIN_TEXT" value="151" />
           <entry key="SQL" value="7674" />
           <entry key="XML" value="15" />
         </counts>
@@ -177,8 +180,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#685#691#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,17 +193,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/buses.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="872" column="2" selection-start-line="872" selection-start-column="2" selection-end-line="872" selection-end-column="2" />
+            <state relative-caret-position="8669">
+              <caret line="777" column="21" lean-forward="true" selection-start-line="777" selection-start-column="21" selection-end-line="777" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java">
+        <entry file="file://$PROJECT_DIR$/app/src/DatabaseJDBCDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -204,8 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1643#1644#0" expanded="true" />
@@ -216,17 +223,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/Stop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/data/timetable/newline24.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -320,7 +340,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/timetable/line12.json" />
         <option value="$PROJECT_DIR$/data/timetable/line6.json" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/data/timetable/line2.json" />
@@ -368,8 +387,9 @@
         <option value="$PROJECT_DIR$/web/data/timetable/newline11.json" />
         <option value="$PROJECT_DIR$/resources/buses.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java" />
         <option value="$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java" />
+        <option value="$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java" />
+        <option value="$PROJECT_DIR$/app/src/Stop.java" />
         <option value="$PROJECT_DIR$/app/src/Test.java" />
       </list>
     </option>
@@ -434,18 +454,7 @@
             <path>
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="BusApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -460,7 +469,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550865468602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550883592805" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEE/testapp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -844,7 +853,7 @@
       <workItem from="1550684828999" duration="6856000" />
       <workItem from="1550759398830" duration="14801000" />
       <workItem from="1550835603999" duration="4524000" />
-      <workItem from="1550858187224" duration="6548000" />
+      <workItem from="1550858187224" duration="8805000" />
     </task>
     <task id="LOCAL-00001" summary="Maven Added">
       <created>1550673306708</created>
@@ -909,16 +918,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550863863572</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="PostgreSQl Driver part 2">
+      <created>1550865515216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550865515216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="629725000" />
+    <option name="totallyTimeSpent" value="631982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.26947704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.26947704" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -927,7 +944,7 @@
       <window_info id="JavaEE:App" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32906976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1007,10 +1024,10 @@
     <MESSAGE value="developing database 2" />
     <MESSAGE value="developing database 3" />
     <MESSAGE value="PostgreSQl Driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="PostgreSQl Driver" />
+    <MESSAGE value="PostgreSQl Driver part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="PostgreSQl Driver part 2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/data/prices.json" />
     <entry file="file://$PROJECT_DIR$/web/prices.html" />
     <entry file="file://$PROJECT_DIR$/web/angularjs/controllers/pricesCtrl.js" />
     <entry file="file://$PROJECT_DIR$/web/timetable.html" />
@@ -1137,17 +1154,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/DatabaseJDBCDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1643#1644#0" expanded="true" />
@@ -1158,15 +1175,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/buses.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="872" column="2" selection-start-line="872" selection-start-column="2" selection-end-line="872" selection-end-column="2" />
+        <state relative-caret-position="8669">
+          <caret line="777" column="21" lean-forward="true" selection-start-line="777" selection-start-column="21" selection-end-line="777" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/Stop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#685#691#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

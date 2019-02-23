@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class PostgreSQLJDBCDriver implements DatabaseJDBTDriver{
+public class PostgreSQLJDBCDriver implements DatabaseJDBCDriver {
 
     private final String url;
     private final String user;

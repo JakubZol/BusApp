@@ -1,6 +1,6 @@
 import java.sql.ResultSet;
 
-public interface DatabaseJDBTDriver {
+public interface DatabaseJDBCDriver {
 
     void connect();
 
