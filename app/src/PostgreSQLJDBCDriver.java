@@ -37,6 +37,7 @@ public class PostgreSQLJDBCDriver implements DatabaseJDBCDriver {
 
     public void disconnect(){
         try{
+            /* TO FIX!
             if(this.connection != null){
                 this.connection.close();
             }
@@ -47,7 +48,9 @@ public class PostgreSQLJDBCDriver implements DatabaseJDBCDriver {
 
             if(this.result != null){
                 this.result.close();
-            }
+            }*/
+
+            this.result.close();
         }
         catch (Exception e){
             e.printStackTrace();

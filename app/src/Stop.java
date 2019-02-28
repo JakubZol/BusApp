@@ -5,7 +5,7 @@ public class Stop {
     private Double lng;
     private Double lat;
 
-    public Stop(int id, String name, double lng, double lat){
+    public Stop(int id, String name, double lat, double lng){
         this.id = id;
         this.name = name;
         this.lng = lng;
