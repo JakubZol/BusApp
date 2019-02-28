@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Stops {
 
-    DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
+    private DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
 
     public ArrayList<Stop> getStopsByCourseId(Integer course_id) {

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Lines {
 
-    DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
+    private DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
 
     public ArrayList<String> getAllLines(){
