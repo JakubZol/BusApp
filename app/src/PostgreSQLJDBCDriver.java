@@ -37,19 +37,7 @@ public class PostgreSQLJDBCDriver implements DatabaseJDBCDriver {
 
     public void disconnect(){
         try{
-            /* TO FIX!
-            if(this.connection != null){
-                this.connection.close();
-            }
-
-            if(this.statement != null){
-                this.statement.close();
-            }
-
-            if(this.result != null){
-                this.result.close();
-            }*/
-
+            //add connection verify
             this.result.close();
         }
         catch (Exception e){

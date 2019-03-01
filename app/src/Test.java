@@ -1,8 +1,5 @@
 import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.LinkedHashMap;
-import java.util.TimeZone;
+import java.util.*;
 
 
 public class Test {
@@ -14,11 +11,14 @@ public class Test {
 
         long startTime = System.currentTimeMillis();
         /*PUT OPERATION HERE*/
-        LinkedHashMap<String, LinkedHashMap<Integer, ArrayList<Integer>>> timetable = timetableRepository.getStopTimetable(21, "Aleja 3 Maja");
+        LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = timetableRepository.getStopTimetable(7, "Szpital");
 
         long stopTime = System.currentTimeMillis();
 
         System.out.println("Time: " + (stopTime - startTime) + " ms");
+
+        Integer lastHour = timetable.get("Dni powszednie").lastKey();
+        System.out.println(timetable.get("Dni powszednie").get(lastHour));
 /*
         ArrayList<String> lines = linesRepository.getAllLines();
 
@@ -32,5 +32,8 @@ public class Test {
         ArrayList<Departure> departures = timetableRepository.getDeparturesByStop("Okszów");
         System.out.println(departures.get(0).getDepartureTime());
 */
+
+
+
     }
 }

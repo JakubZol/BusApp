@@ -1,6 +1,7 @@
 import java.sql.ResultSet;
 import java.util.*;
 
+
 public class Timetable {
 
     private DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
@@ -60,7 +61,7 @@ public class Timetable {
     }
 
 
-    public LinkedHashMap<String, LinkedHashMap<Integer, ArrayList<Integer>>> getStopTimetable(int courseId, String stopName){
+    public LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> getStopTimetable(int courseId, String stopName){
 
         StringBuilder sqlQuerry = new StringBuilder("select t.departure as departure, t.day as day from stops s natural join layovers l natural join timetable t where l.course_id = ");
         sqlQuerry.append(courseId);
@@ -68,10 +69,10 @@ public class Timetable {
         sqlQuerry.append(stopName);
         sqlQuerry.append("' order by t.day, t.departure;");
 
-        LinkedHashMap<String, LinkedHashMap<Integer, ArrayList<Integer>>> timetable = new LinkedHashMap<String, LinkedHashMap<Integer, ArrayList<Integer>>>();
-        timetable.put("Dni powszednie", new LinkedHashMap<Integer, ArrayList<Integer>>());
-        timetable.put("Sobota", new LinkedHashMap<Integer, ArrayList<Integer>>());
-        timetable.put("Niedziela", new LinkedHashMap<Integer, ArrayList<Integer>>());
+        LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = new LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>>();
+        timetable.put("Dni powszednie", new TreeMap<Integer, ArrayList<String>>());
+        timetable.put("Sobota", new TreeMap<Integer, ArrayList<String>>());
+        timetable.put("Niedziela", new TreeMap<Integer, ArrayList<String>>());
 
         this.databaseDriver.connect();
         this.databaseDriver.executeQuery(sqlQuerry.toString());
@@ -80,14 +81,31 @@ public class Timetable {
         try{
             while(results.next()){
                 String time = results.getString("departure");
-                Integer day = results.getInt("day");
+                int day = results.getInt("day");
 
                 String[] timeArray = time.split(":");
                 Integer hour = Integer.parseInt(timeArray[0]);
-                Integer minutes = Integer.parseInt(timeArray[1]);
+                String minutes = timeArray[1];
 
-                System.out.println("Day: " + day + ", Time: " + hour + ":" + minutes);
-                //TO DO
+
+                TreeMap<Integer, ArrayList<String>> map;
+
+                if(day == 1) {
+                    map = timetable.get("Dni powszednie");
+                }
+                else if(day == 6) {
+                    map = timetable.get("Sobota");
+                }
+                else {
+                    map = timetable.get("Niedziela");
+                }
+
+                if(!map.containsKey(hour)) {
+                    map.put(hour, new ArrayList<String>());
+                }
+
+                map.get(hour).add(minutes);
+
             }
 
         }
@@ -97,6 +115,7 @@ public class Timetable {
         finally {
             this.databaseDriver.disconnect();
         }
+
 
         return timetable;
 
