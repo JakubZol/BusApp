@@ -11,14 +11,13 @@ public class Test {
 
         long startTime = System.currentTimeMillis();
         /*PUT OPERATION HERE*/
-        LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = timetableRepository.getStopTimetable(7, "Szpital");
+        LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = timetableRepository.getStopTimetable(21, "Park Wodny");
 
         long stopTime = System.currentTimeMillis();
 
-        System.out.println("Time: " + (stopTime - startTime) + " ms");
 
-        Integer lastHour = timetable.get("Dni powszednie").lastKey();
-        System.out.println(timetable.get("Dni powszednie").get(lastHour));
+        System.out.println("Time: " + (stopTime - startTime) + " ms");
+        System.out.println(timetable.entrySet());
 /*
         ArrayList<String> lines = linesRepository.getAllLines();
 

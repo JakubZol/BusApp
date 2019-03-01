@@ -4,10 +4,10 @@ import java.util.HashMap;
 
 public class Stops {
 
-    private DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
+    private final DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
 
-    public ArrayList<Stop> getStopsByCourseId(Integer course_id) {
+    public final ArrayList<Stop> getStopsByCourseId(Integer course_id) {
 
         StringBuilder sqlQuerry = new StringBuilder("select s.name as name, s.stop_id as id, s.lng as lng, s.lat as lat from stops s natural join layovers l where l.course_id = ");
         sqlQuerry.append(course_id);
@@ -15,7 +15,7 @@ public class Stops {
 
         databaseDriver.connect();
 
-        ArrayList<Stop> stops = new ArrayList<Stop>();
+        ArrayList<Stop> stops = new ArrayList<>();
         this.databaseDriver.executeQuery(sqlQuerry.toString());
 
         ResultSet results = this.databaseDriver.getResult();
@@ -43,11 +43,11 @@ public class Stops {
     }
 
 
-    public ArrayList<String> getAllStopsNames(){
+    public final ArrayList<String> getAllStopsNames(){
 
         this.databaseDriver.connect();
 
-        ArrayList<String> stops = new ArrayList<String>();
+        ArrayList<String> stops = new ArrayList<>();
 
         this.databaseDriver.executeQuery("select distinct name from stops;");
         ResultSet results = this.databaseDriver.getResult();

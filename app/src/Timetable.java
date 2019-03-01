@@ -4,10 +4,10 @@ import java.util.*;
 
 public class Timetable {
 
-    private DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
+    private final DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
 
-    public ArrayList<Departure> getDeparturesByStop(String stopName) {
+    public final ArrayList<Departure> getDeparturesByStop(String stopName) {
 
         Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
         int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
@@ -30,7 +30,7 @@ public class Timetable {
         sqlQuerry.append(dayOfWeek);
         sqlQuerry.append(" order by (t.departure - CURRENT_TIME::time);");
 
-        ArrayList<Departure> departures = new ArrayList<Departure>();
+        ArrayList<Departure> departures = new ArrayList<>();
 
         this.databaseDriver.connect();
         this.databaseDriver.executeQuery(sqlQuerry.toString());
@@ -61,7 +61,7 @@ public class Timetable {
     }
 
 
-    public LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> getStopTimetable(int courseId, String stopName){
+    public final LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> getStopTimetable(int courseId, String stopName){
 
         StringBuilder sqlQuerry = new StringBuilder("select t.departure as departure, t.day as day from stops s natural join layovers l natural join timetable t where l.course_id = ");
         sqlQuerry.append(courseId);
@@ -69,10 +69,10 @@ public class Timetable {
         sqlQuerry.append(stopName);
         sqlQuerry.append("' order by t.day, t.departure;");
 
-        LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = new LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>>();
-        timetable.put("Dni powszednie", new TreeMap<Integer, ArrayList<String>>());
-        timetable.put("Sobota", new TreeMap<Integer, ArrayList<String>>());
-        timetable.put("Niedziela", new TreeMap<Integer, ArrayList<String>>());
+        final LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = new LinkedHashMap<>();
+        timetable.put("Dni powszednie", new TreeMap<>());
+        timetable.put("Sobota", new TreeMap<>());
+        timetable.put("Niedziela", new TreeMap<>());
 
         this.databaseDriver.connect();
         this.databaseDriver.executeQuery(sqlQuerry.toString());
@@ -101,7 +101,7 @@ public class Timetable {
                 }
 
                 if(!map.containsKey(hour)) {
-                    map.put(hour, new ArrayList<String>());
+                    map.put(hour, new ArrayList<>());
                 }
 
                 map.get(hour).add(minutes);
@@ -116,6 +116,8 @@ public class Timetable {
             this.databaseDriver.disconnect();
         }
 
+
+        timetable.keySet().removeIf(key -> timetable.get(key).size() == 0);
 
         return timetable;
 

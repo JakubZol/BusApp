@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BusApp" target="1.5" />
+      <module name="BusApp" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BusApp" options="-Xlint:all,-processing" />
+    </option>
   </component>
 </project>

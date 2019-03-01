@@ -3,14 +3,14 @@ import java.util.ArrayList;
 
 public class Lines {
 
-    private DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
+    private final DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
 
-    public ArrayList<String> getAllLines(){
+    public final ArrayList<String> getAllLines(){
 
         this.databaseDriver.connect();
 
-        ArrayList<String> lines = new ArrayList<String>();
+        ArrayList<String> lines = new ArrayList<>();
 
         this.databaseDriver.executeQuery("Select distinct line from courses;");
         ResultSet results = this.databaseDriver.getResult();
