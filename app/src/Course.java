@@ -2,58 +2,50 @@ import java.util.ArrayList;
 
 public class Course {
 
-    private Integer id;
+    private Integer courseId;
     private String line;
-    private Double lat;
-    private Double lng;
-    private ArrayList<Stop> route = new ArrayList<Stop>();
+    private String start;
+    private String destination;
 
     public Course(){ }
 
-    public Course(int id, String line, double lng, double lat){
-        this.id = id;
+    public Course(int id, String line, String start, String destination){
+        this.courseId = id;
         this.line = line;
-        this.lng = lng;
-        this.lat = lat;
+        this.start = start;
+        this.destination = destination;
     }
 
-    public void addStop(Stop s){
-        this.route.add(s);
-    }
-
-    public void setRoute(ArrayList<Stop> route) {
-        this.route = route;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public void setLine(String line) {
         this.line = line;
     }
 
-    public void setLng(Double lng) {
-        this.lng = lng;
+    public void setDestination(String destination) {
+        this.destination = destination;
     }
 
-    public void setLat(Double lat) {
-        this.lat = lat;
+    public void setCourseId(Integer courseId) {
+        this.courseId = courseId;
     }
 
-    public Integer getId() {
-        return id;
+    public void setStart(String start) {
+        this.start = start;
+    }
+
+    public Integer getCourseId() {
+        return courseId;
     }
 
     public String getLine() {
         return line;
     }
 
-    public Double getLng() {
-        return lng;
+    public String getDestination() {
+        return destination;
     }
 
-    public Double getLat() {
-        return lat;
+    public String getStart() {
+        return start;
     }
 }

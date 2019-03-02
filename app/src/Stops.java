@@ -24,9 +24,9 @@ public class Stops {
 
             while (results.next()) {
                 String name = results.getString("name");
-                Integer id = results.getInt("id");
-                Double lat = results.getDouble("lat");
-                Double lng = results.getDouble("lng");
+                int id = results.getInt("id");
+                double lat = results.getDouble("lat");
+                double lng = results.getDouble("lng");
 
                 stops.add(new Stop(id, name, lat, lng));
             }
@@ -67,6 +67,34 @@ public class Stops {
 
         return stops;
 
+    }
+
+    public final ArrayList<Stop> getAllStops(){
+
+        ArrayList<Stop> stops = new ArrayList<>();
+
+        this.databaseDriver.connect();
+        this.databaseDriver.executeQuery("select * from stops;");
+        ResultSet results = this.databaseDriver.getResult();
+
+        try{
+            while(results.next()){
+                int stopId = results.getInt("stop_id");
+                String name = results.getString("name");
+                double lat = results.getDouble("lat");
+                double lng = results.getDouble("lng");
+
+                stops.add(new Stop(stopId, name, lat, lng));
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        finally{
+            this.databaseDriver.disconnect();
+        }
+
+        return stops;
     }
 
 }

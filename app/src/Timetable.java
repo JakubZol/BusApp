@@ -61,13 +61,13 @@ public class Timetable {
     }
 
 
-    public final LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> getStopTimetable(int courseId, String stopName){
+    public final LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> getStopTimetable(int courseId, int order){
 
-        StringBuilder sqlQuerry = new StringBuilder("select t.departure as departure, t.day as day from stops s natural join layovers l natural join timetable t where l.course_id = ");
+        StringBuilder sqlQuerry = new StringBuilder("select t.departure as departure, t.day as day from layovers l natural join timetable t where l.course_id = ");
         sqlQuerry.append(courseId);
-        sqlQuerry.append(" and s.name = '");
-        sqlQuerry.append(stopName);
-        sqlQuerry.append("' order by t.day, t.departure;");
+        sqlQuerry.append(" and l.ord_number = ");
+        sqlQuerry.append(order);
+        sqlQuerry.append(" order by t.day, t.departure;");
 
         final LinkedHashMap<String, TreeMap<Integer, ArrayList<String>>> timetable = new LinkedHashMap<>();
         timetable.put("Dni powszednie", new TreeMap<>());
