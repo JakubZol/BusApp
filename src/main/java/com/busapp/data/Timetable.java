@@ -6,6 +6,7 @@ import com.busapp.models.Departure;
 import com.busapp.models.Stop;
 
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.*;
 
 
@@ -14,7 +15,7 @@ public class Timetable {
     private final DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
 
-    public final ArrayList<Departure> getDeparturesByStop(String stopName) {
+    public final ArrayList<Departure> getDeparturesByStop(String stopName) throws SQLException {
 
         Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
         int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
@@ -35,7 +36,7 @@ public class Timetable {
         sqlQuerry.append(stopName);
         sqlQuerry.append("' and CURRENT_TIME < t.departure and t.day = ");
         sqlQuerry.append(dayOfWeek);
-        sqlQuerry.append(" order by (t.departure - CURRENT_TIME::time);");
+        sqlQuerry.append(" order by (t.departure - CURRENT_TIME::time) limit 20;");
 
         ArrayList<Departure> departures = new ArrayList<>();
 
@@ -56,9 +57,6 @@ public class Timetable {
                 Departure d = new Departure(new Stop(stopId, stopName, lat,lng), line, destination, departureTime, timeDifference);
                 departures.add(d);
             }
-        }
-        catch (Exception e) {
-            e.printStackTrace();
         }
         finally {
             this.databaseDriver.disconnect();

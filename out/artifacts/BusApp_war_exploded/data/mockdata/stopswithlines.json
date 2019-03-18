@@ -1,0 +1,15 @@
+[
+  {"name": "Osiedle Słoneczne", "ids": [1], "lines": [1, 2, 3, 12, 30]},
+  {"name": "Lwowska", "ids": [20, 21], "lines": [1, 2, 3, 12, 11, 30]},
+  {"name": "Aleja 3 Maja", "ids": [2], "lines": [3, 11, 12]},
+  {"name": "Cmentarz Miejski", "ids": [3, 19], "lines": [3, 6, 11, 12, 24]},
+  {"name": "Dworzec Główny PKS", "ids": [4, 22], "lines": [1, 2, 3, "5C", 6, 11, 12, 24]},
+  {"name": "Ogrodowa", "ids": [5, 18], "lines": [1, 2, 3, "5C", 6, 11, 15, 24]},
+  {"name": "Hotel Kamena", "ids": [6, 17], "lines": [1, 2, 3, "5C", "5A", 6, 8, 9, 11, 12, 15, 24, 30]},
+  {"name": "Chełm Miasto", "ids": [7, 16], "lines": [2, 3, "5C", 8, 9, 11, 12, 30]},
+  {"name": "Park Wodny", "ids": [8, 15], "lines": [2, 3, "5C", 8, 9, 11, 12, 30]},
+  {"name": "II Liceum Ogólnokształcące", "ids": [9, 14], "lines": [3, "5C", 8, 11]},
+  {"name": "Tuwima", "ids": [10], "lines": [2, 3, "5C", 8, 9]},
+  {"name": "Szpital", "ids": [11, 13], "lines": [2, 3, "5C", 8, 9]},
+  {"name": "Szpital Pętla", "ids": [12], "lines": [3, "5C", 8]}
+]

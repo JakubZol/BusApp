@@ -1,52 +1,39 @@
-app.controller("timetableCtrl", function($scope, $http, dataProvider){
+app.controller("timetableCtrl", function($scope, $http, $q){
 
-    $scope.getTimetable = function(url){
-        dataProvider.getData(url).then(function(data){
-            $scope.lines = data.data.lines;
-        }).catch(function(error){
-            $scope.error = "ERROR " + error.status;
-        });
-    };
+    $q.all([$http.get("data/mockdata/lines.json"), $http.get("data/mockdata/stopswithlines.json")]).then(function(response){
+        $scope.lines = response[0].data;
+        $scope.stops = response[1].data;
+    }).catch((error) => console.log(error));
 
-    $scope.getBusStops = function(url){
-        dataProvider.getData(url).then(function(data){
-            $scope.stops = data.data;
-        }).catch(function (error){
-            $scope.error = "ERROR " + error.status;
-        });
-    };
-
-    $scope.getTimetable("data/lines.json");
-    $scope.getBusStops("data/bus-stops.json");
 
 });
 
-app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider){
+app.controller("linetimetableCtrl", function($scope, $routeParams, $http, dataProvider){
 
     $scope.line = $routeParams.line;
     $scope.currentCourse = 0;
+    $scope.currentTimetable = 0;
     $scope.stopsClasses = [];
     $scope.contentLoaded = false;
-    $scope.checkError = false;
 
+    $http.get("data/mockdata/courses.json").then(function(courses){
 
-    $scope.getTimetable = function(url){
-        dataProvider.getData(url).then(function(data){
-            $scope.lineTimetable = data.data;
+        $scope.courses = courses.data;
+        const id = $scope.courses[0].courseId;
 
-            angular.forEach($scope.lineTimetable.routes[0].stops, function(){
+        $http.get("data/mockdata/route1.json").then(function(route){
+            $scope.route = route.data;
+
+            angular.forEach($scope.route, function(){
                 $scope.stopsClasses.push("regular");
             });
 
+            $scope.$parent.map.drawStopsMarkers(route.data);
+            $scope.$parent.map.drawRoute(route.data);
             $scope.contentLoaded = true;
-        }).catch(function(error){ //TO DO
-            $scope.checkError = true;
-            $scope.error = error;
-            //console.log(error);
-        });
-    };
+        }).catch((error) => console.log(error));
 
-    $scope.getTimetable("data/timetable/newline" + $scope.line + ".json");
+    }).catch((error) => console.log(error));
 
 
     $scope.setCurrentCourse = function (index) {
@@ -55,8 +42,19 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider)
 
         $scope.stopsClasses = [];
 
-        angular.forEach($scope.lineTimetable.routes[$scope.currentCourse].stops, function(){
-            $scope.stopsClasses.push("regular");
+        const id = $scope.courses[$scope.currentCourse].courseId;
+        const path = $scope.currentCourse === 0 ? "data/mockdata/route1.json" : "data/mockdata/route2.json"; //later replace with api address based on id
+        $http.get(path).then(function(route){
+
+            $scope.route = route.data;
+
+            angular.forEach($scope.route, function(){
+                $scope.stopsClasses.push("regular");
+            });
+
+            $scope.$parent.map.drawStopsMarkers(route.data);
+            $scope.$parent.map.drawRoute(route.data);
+            $scope.$parent.map.zoomInitial();
         });
     };
 
@@ -70,27 +68,27 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider)
 
         $scope.currentStopIndex = index;
 
-        $scope.buildTimetable(0, index);
+        $scope.$parent.map.zoomStop($scope.route[index].name, 18);
+
+
+        /*
+        Data for Api querry:
+
+        const id = $scope.courses[$scope.currentCourse].courseId;
+        const ordNumber = index + 1;
+        */
+
+        $http.get("data/mockdata/timetable.json").then(function(timetable){
+            $scope.timetable = timetable.data;
+            console.log($scope.timetable);
+        }).catch(function(error){
+            console.log(error);
+        })
 
     };
 
-    $scope.buildTimetable = function(timetableIndex, stopIndex){
-
-        $scope.currentTimetableIndex = timetableIndex;
-
-        $scope.currentTimetable = [];
-
-        for(let time of $scope.lineTimetable.routes[$scope.currentCourse].timetable[timetableIndex].courses){
-            let x = $scope.currentTimetable.filter(obj => obj.hour === time[stopIndex].hour);
-
-            if(x.length === 0){
-                $scope.currentTimetable.push({hour: time[stopIndex].hour, minutes: [time[stopIndex].minutes]});
-            }
-            else{
-                let idx = $scope.currentTimetable.indexOf(x[0]);
-                $scope.currentTimetable[idx].minutes.push(time[stopIndex].minutes);
-            }
-        }
+    $scope.setCurrentTimetable = function(index){
+        $scope.currentTimetable = index;
     };
 
     $scope.displayRoute = function(){
@@ -99,118 +97,31 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, dataProvider)
             $scope.stopsClasses[idx] = "regular";
         }
 
-        $scope.currentTimetableIndex = 0;
+        $scope.currentTimetable = 0;
+        $scope.$parent.map.zoomInitial();
     };
 
 });
 
-app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, dataProvider, timeService){
+app.controller("stoptimetableCtrl", function($scope, $routeParams, $filter, $q, dataProvider, $http){
 
     $scope.stop = $routeParams.stop.split("+").join(" ");
-    $scope.currentTimetablePage = 0;
+    $scope.currentPage = 0;
     $scope.contentLoaded = false;
 
-    $scope.timeFromNow = function(h1, m1){
-        return timeService.timeFromNow(h1, m1);
-    };
 
+    $http.get("data/mockdata/departures.json").then(function(response){
 
-    $scope.getLine = function(url) {
-        dataProvider.getData(url).then(function (data) {
+        $scope.contentLoaded = true;
+        $scope.departures = response.data;
+        console.log($scope.departures);
 
-            const stops = data.data.filter(stop => stop.stop === $scope.stop);
-            const lines = $filter('mergeLine')(stops, $scope.stop)[0].lines;
+    }).catch((error) => console.log(error));
 
-            let promises = [];
-
-            for(let line of lines) {
-                promises.push(dataProvider.getData("data/timetable/newline" + line + ".json"));
-            }
-
-            $q.all(promises).then(function (data) {
-                let responses = [];
-                for(let response of data){
-                    responses.push(response.data);
-                }
-
-                const d = new Date();
-                const currentHour = d.getHours();
-                const currentMinutes = d.getMinutes();
-                const currentDayIndex = d.getDay();
-                $scope.timetable = [];
-
-                let weekendDay = currentDayIndex === 0 ? "Niedziela" : "Sobota";
-                let currentDayName = currentDayIndex % 6 !== 0 ? "Dni powszednie" : weekendDay;
-
-                let nextDayIndex = (currentDayIndex !== 6) ? currentDayIndex + 1 : 0;
-                let nextWeekendDay = nextDayIndex === 0 ? "Niedziela" : "Sobota";
-                let nextDayName = nextDayIndex % 6 !== 0 ? "Dni powszednie" : nextWeekendDay;
-
-
-                for(let line of responses) {
-                    for (let route of line.routes) {
-                        let searchedStops = route.stops.filter(stop => stop.name === $scope.stop);
-                        for (let stop of searchedStops){
-                            let stopIndex = route.stops.indexOf(stop);
-                            if (route.timetable.length > 0 && stopIndex > -1) {
-                                let currentDayCourses = route.timetable.filter(entry => entry.period === currentDayName);
-                                let nextDayCourses = route.timetable.filter(entry => entry.period === nextDayName);
-                                if(currentDayCourses.length > 0) {
-                                    for (let entry of currentDayCourses[0].courses) {
-                                        if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
-                                            let timeDiff = (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes);
-                                            $scope.timetable.push({
-                                                line: line.line,
-                                                destination: route.destination,
-                                                time: entry[stopIndex],
-                                                stopId: route.stops[stopIndex].number,
-                                                timeFromNow: timeDiff,
-                                                date: d
-                                            })
-                                        }
-                                    }
-                                }
-                                if(nextDayCourses.length > 0) {
-                                    for (let entry of nextDayCourses[0].courses) {
-                                        if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes < currentMinutes || entry[stopIndex].hour < currentHour) {
-                                            let timeDiff = 24 * 60 + (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes);
-                                            $scope.timetable.push({
-                                                line: line.line,
-                                                destination: route.destination,
-                                                time: entry[stopIndex],
-                                                stopId: route.stops[stopIndex].number,
-                                                timeFromNow: timeDiff,
-                                                date: new Date(new Date().setDate(d.getDate() + 1))
-                                            })
-                                        }
-
-                                    }
-                                }
-
-                            }
-                        }
-                    }
-                }
-
-                $scope.timetable = $filter("sortByTime")($scope.timetable).slice(0, 20);
-
-                $scope.currentTimetable = $scope.timetable.slice(0, 10);
-
-                $scope.contentLoaded = true;
-
-            }).catch(function (error) {
-                console.log(error);
-            });
-        }).catch(function (error) {
-            console.log(error);
-        });
-    };
-
-    $scope.getLine("data/bus-stops.json");
+    $scope.$parent.map.zoomStop($scope.stop, 18);
 
     $scope.switchTimetablePage = function(step){
-        $scope.currentTimetablePage += step;
-        $scope.currentTimetable = $scope.timetable.slice($scope.currentTimetablePage * 10 , ($scope.currentTimetablePage + 1) * 10);
+        $scope.currentPage += step;
     }
 
 

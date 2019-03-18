@@ -1,8 +1,5 @@
 package com.busapp.models;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Departure {
 
     private Stop stop;
@@ -59,5 +56,21 @@ public class Departure {
 
     public void setTimeDifference(String timeDifference) {
         this.timeDifference = timeDifference;
+    }
+
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.stop.getId());
+        sb.append(" | ");
+        sb.append(this.line);
+        sb.append(" | ");
+        sb.append(this.destination);
+        sb.append(" | ");
+        sb.append(this.departureTime);
+        sb.append(" | ");
+        sb.append(this.timeDifference);
+
+        return sb.toString();
     }
 }

@@ -1,0 +1,4 @@
+[
+  {"courseId": 1, "line": 3, "start": "Osiedle Słoneczne", "destination": "Szpital Pętla"},
+  {"courseId": 2, "line": 3, "start": "Szpital Pętla", "destination": "Osiedle Słoneczne"}
+]

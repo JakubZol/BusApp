@@ -1,8 +1,0 @@
-Funkcjonalności:
-1. rozkłady:
- a. wg linii:
-	potrzebne dane: linia, jej kursy, przystanki na kursie wraz z godzinami
- b. wg przystanku:
-	potrzebne dane: wszystkie kursy z danego przystanku sortując po godzinie
-2. wyszukiwarka połączeń:
-    potrzebne dane: lista kursów zabierających oba przystanki w swoim kursie, sortując po godzinie

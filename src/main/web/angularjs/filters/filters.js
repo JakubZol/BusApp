@@ -1,27 +1,12 @@
 
 app.filter("mergeLine", function(){
-    return function(stopsList, searchedStop) {
+    return function(stops, searchedStop) {
         if (angular.isUndefined(searchedStop) || searchedStop.length === 0 ) {
             return []
         }
         else {
-            const filteredList = stopsList.filter(stop => stop.stop.toLowerCase().indexOf(searchedStop.toLowerCase()) >= 0);
-            let output = [];
-            angular.forEach(filteredList, function (obj) {
-                if (output.filter(el => el.stop === obj.stop).length > 0) {
-                    const idx = output.findIndex(el => el.stop === obj.stop);
-                    angular.forEach(obj.lines, function (line) {
-                        if (output[idx].lines.indexOf(line) < 0) {
-                            output[idx].lines.push(line);
-                        }
-                    });
-                }
-                else {
-                    output.push(obj);
-                }
-
-            });
-            return output.slice(0, 5);
+            const filteredList = stops.filter(stop => stop.name.toLowerCase().indexOf(searchedStop.toLowerCase()) >= 0);
+            return filteredList.slice(0, 5);
         }
     }
 });

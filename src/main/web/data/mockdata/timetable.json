@@ -1,0 +1,37 @@
+[
+  {"period": "Dni powszednie",
+  "timetable": [
+    {"hour": 5, "minutes":["05"]},
+    {"hour": 6, "minutes":["05", "40"]},
+    {"hour": 7, "minutes":["10"]},
+    {"hour": 8, "minutes":["10", "50"]},
+    {"hour": 9, "minutes":["50"]},
+    {"hour": 10, "minutes":["50"]},
+    {"hour": 11, "minutes":["50"]},
+    {"hour": 12, "minutes":["50"]},
+    {"hour": 13, "minutes":["40"]},
+    {"hour": 14, "minutes":["10"]},
+    {"hour": 15, "minutes":["10"]},
+    {"hour": 16, "minutes":["10"]},
+    {"hour": 17, "minutes":["30"]},
+    {"hour": 18, "minutes":["30"]},
+    {"hour": 19, "minutes":["30"]},
+    {"hour": 20, "minutes":["15"]}
+  ]},
+  {"period": "Sobota",
+  "timetable": [
+    {"hour": 8, "minutes": ["50"]},
+    {"hour": 10, "minutes": ["50"]},
+    {"hour": 12, "minutes": ["50"]},
+    {"hour": 14, "minutes": ["50"]},
+    {"hour": 16, "minutes": ["50"]}
+  ]},
+  {"period": "Niedziela",
+  "timetable": [
+    {"hour": 8, "minutes": ["50"]},
+    {"hour": 10, "minutes": ["50"]},
+    {"hour": 12, "minutes": ["50"]},
+    {"hour": 14, "minutes": ["50"]},
+    {"hour": 16, "minutes": ["50"]}
+  ]}
+]

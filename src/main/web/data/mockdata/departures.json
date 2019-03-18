@@ -1,0 +1,13 @@
+[
+  {"stop":{"name": "Ogrodowa", "stop_id": 5, "lat": 51.132747,"lng": 23.464855}, "line": "3", "destination": "Szpital Pętla", "departureTime": "17:42:00", "timeDifference": "00:15:43.53827"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 5, "lat": 51.132747,"lng": 23.464855}, "line": "11", "destination": "Okszów", "departureTime": "17:51:00", "timeDifference": "00:24:48.25137"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 18, "lat": 51.131712,"lng": 23.465156}, "line": "2", "destination": "Osiedle Słoneczne", "departureTime": "18:00:00", "timeDifference": "00:33:11.52317"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 18, "lat": 51.131712,"lng": 23.465156}, "line": "15", "destination": "Dworzec Główny PKP", "departureTime": "18:01:00", "timeDifference": "00:34:43.52827"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 5, "lat": 51.132747,"lng": 23.464855}, "line": "1", "destination": "Dworzec Główny PKP", "departureTime": "18:03:00", "timeDifference": "00:36:11.54117"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 18, "lat": 51.131712,"lng": 23.465156 }, "line": "5C", "destination": "Hrubieszowska Pętla", "departureTime": "18:05:00", "timeDifference": "00:38:32.54127"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 18, "lat": 51.131712,"lng": 23.465156}, "line": "1", "destination": "Osiedle Słoneczne", "departureTime": "18:12:00", "timeDifference": "00:45:22.11112"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 5, "lat": 51.132747,"lng": 23.464855}, "line": "2", "destination": "Ogródki Działkowe", "departureTime": "18:21:00", "timeDifference": "00:54:32.51827"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 18, "lat": 51.131712,"lng": 23.465156}, "line": "3", "destination": "Osiedle Słoneczne", "departureTime": "18:25:00", "timeDifference": "00:58:55.51122"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 5, "lat": 51.132742,"lng": 23.464855}, "line": "6", "destination": "Dworzec Główny PKP", "departureTime": "18:30:00", "timeDifference": "01:03:55.51122"},
+  {"stop":{"name": "Ogrodowa", "stop_id": 5, "lat": 51.132742,"lng": 23.464855}, "line": "1", "destination": "Dworzec Główny PKP", "departureTime": "18:38:00", "timeDifference": "01:11:24.39122"}
+]

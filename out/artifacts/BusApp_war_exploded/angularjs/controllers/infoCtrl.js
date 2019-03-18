@@ -1,24 +1,18 @@
-app.controller("infoCtrl", function($scope, dataProvider, $filter){
+app.controller("infoCtrl", function($scope, $http){
 
-    $scope.currentPageIndex = 0;
+    $scope.currentPage = 0;
 
     $scope.articlesClasses = ["regular", "regular", "regular", "regular"];
 
-    $scope.getNews = function(url){
-        dataProvider.getData(url).then(function(data){
-            $scope.news = $filter('sortByDate')(data.data).reverse();
-            $scope.currentNewsPage = $scope.news.slice(0, 4);
-        }).catch(function(error){
-
-        });
-    };
+    $http.get("data/jsondata/news.json").then(function(response){
+        $scope.news = response.data;
+    }).catch((error) => console.log(error));
 
 
-    $scope.getNews("data/news.json");
 
     $scope.switchPage = function(step){
-        $scope.currentPageIndex += step;
-        $scope.currentNewsPage = $scope.news.slice(4 * $scope.currentPageIndex, 4 * ($scope.currentPageIndex + 1));
+
+        $scope.currentPage += step;
         $scope.articlesClasses = ["regular", "regular", "regular", "regular"];
 
     };

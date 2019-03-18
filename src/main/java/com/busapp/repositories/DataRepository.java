@@ -1,16 +1,16 @@
 package com.busapp.repositories;
 
 import com.busapp.data.*;
+import com.busapp.models.Course;
+import com.busapp.models.Departure;
 import com.busapp.models.Stop;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 
@@ -26,10 +26,49 @@ public class DataRepository {
 
 
     @GET
-    @Produces(MediaType.APPLICATION_XML) //problem with json for everything and xml for lists!!!
+    @Path("/lines")
+    @Produces(MediaType.APPLICATION_JSON)
     public Response getAllLines(){
-        ArrayList<String> lines = this.lines.getAllLines();
-        return Response.status(Response.Status.OK).entity(lines).build();
+        List<String> lines = this.lines.getAllLines();
+        return Response.ok(lines).build();
     }
 
+    @GET
+    @Path("/stops")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getAllStops(){
+        List<Stop> stops = this.stops.getAllStops();
+        return Response.ok(stops).build();
+    }
+
+    @GET
+    @Path("/timetable/stop/{stopName}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getTimetableByStop(@PathParam("stopName") String stop){
+        try {
+
+            List<Departure> departures = this.timetable.getDeparturesByStop(stop);
+            return Response.ok(departures).build();
+
+        }
+        catch (Exception e){
+            return Response.serverError().build();
+        }
+    }
+
+    @GET
+    @Path("/courses/{line}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getCoursesByLine(@PathParam("line") String line){
+        try{
+
+            List<Course> courses = this.courses.getCourseByLine(line);
+            return Response.ok(courses).build();
+
+        }
+        catch (Exception e){
+            return Response.serverError().build();
+        }
+
+    }
 }

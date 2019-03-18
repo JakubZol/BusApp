@@ -3,6 +3,7 @@ package com.busapp.data;
 import com.busapp.database.DatabaseJDBCDriver;
 import com.busapp.database.PostgreSQLJDBCDriver;
 import com.busapp.models.Stop;
+import com.busapp.models.StopWithLines;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -11,6 +12,18 @@ public class Stops {
 
     private final DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
+
+    public final ArrayList<StopWithLines> getStopsWithLines(){
+
+        //this.databaseDriver.connect();
+
+        ArrayList<StopWithLines> stops = new ArrayList<>();
+
+        /* main operations */
+
+        return stops;
+
+    }
 
     public final ArrayList<Stop> getStopsByCourseId(Integer course_id) {
 

@@ -6,21 +6,19 @@
         <p>loading...</p>
     </div>
     <ul ng-class="{'non-visible': !contentLoaded}">
-        <li ng-repeat="course in currentTimetable">
+        <li ng-repeat="course in departures.slice(currentPage * 10 , (currentPage + 1) * 10)">
             <h1> {{course.line}}</h1>
             <div id="course-details"><b>{{course.destination}}</b><br>
                 Przystanek nr {{course.stopId}} |
                 <time>
-                    {{course.time.hour}}:{{(course.time.minutes.toString().length === 1) ? ("0" + course.time.minutes.toString()) : course.time.minutes.toString()}}
+                    {{course.departureTime.slice(0, 5)}}
                 </time>
             </div>
             <div id="course-departure" ng-class="{'alert': timeFromNow(course.time.hour, course.time.minutes) <= 5}">
-                <!--{{course.timeFromNow <= 60 ? course.timeFromNow + " min" : (course.timeFromNow / 60 | floor) + "h " + (course.timeFromNow % 60) + "min"}}-->
-                {{(timeFromNow(course.time.hour, course.time.minutes <= 60) ? timeFromNow(course.time.hour, course.time.minutes) + " min" :
-                (timeFromNow(course.time.hour, course.time.minutes) / 60 | floor) + "h" + (timeFromNow(course.time.hour, course.time.minutes) % 60) + "min")}}
+                {{course.timeDifference.slice(0,2) === "00" ? course.timeDifference.slice(3,5) + " min" : course.timeDifference.slice(0,2) + " h " + course.timeDifference.slice(3,5) + " min"}}
             </div>
         </li>
     </ul>
-    <button data-ng-click="switchTimetablePage(1)" ng-class="{'non-visible': currentTimetable.length / 10 - currentTimetablePage < 1 || timetable.length === 10}">Później</button> <!-- problem -->
-    <button data-ng-click="switchTimetablePage(-1)" ng-class="{'non-visible': currentTimetablePage <= 0}">Wcześniej</button>
+    <button data-ng-click="switchTimetablePage(1)" ng-class="{'non-visible': departures.length / 10 - currentPage < 1}">Później</button> <!-- problem -->
+    <button data-ng-click="switchTimetablePage(-1)" ng-class="{'non-visible': currentPage <= 0}">Wcześniej</button>
 </div>

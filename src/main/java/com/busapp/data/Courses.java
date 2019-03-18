@@ -5,13 +5,14 @@ import com.busapp.database.PostgreSQLJDBCDriver;
 import com.busapp.models.Course;
 
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Courses {
 
     private final DatabaseJDBCDriver databaseDriver = new PostgreSQLJDBCDriver("jdbc:postgresql://localhost:5432/buses", "postgres", "postgres1");
 
-    public final ArrayList<Course> getCourseByLine(String line){
+    public final ArrayList<Course> getCourseByLine(String line) throws SQLException {
 
         ArrayList<Course> courses = new ArrayList<>();
 
@@ -25,19 +26,13 @@ public class Courses {
 
         try{
             while(results.next()){
-
                 int id = results.getInt("course_id");
                 String start = results.getString("start");
                 String destination = results.getString("destination");
-
                 courses.add(new Course(id, line, start, destination));
-
             }
         }
-        catch (Exception e){
-            e.printStackTrace();
-        }
-        finally{
+        finally {
             this.databaseDriver.disconnect();
         }
 

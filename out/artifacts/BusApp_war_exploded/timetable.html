@@ -2,7 +2,7 @@
     <input type="text" ng-model="searchedStop" placeholder="Wybierz Przystanek">
     <ul class="stops" ng-class="{'non-visible': !(searchedStop.length > 0)}">
         <li ng-repeat="stop in stops | mergeLine: searchedStop">
-            <a href="#/timetable/stop/{{stop.stop.split(' ').join('+')}}"><b>{{stop.stop}}</b></a><br>
+            <a href="#/timetable/stop/{{stop.name.split(' ').join('+')}}"><b>{{stop.name}}</b></a><br>
             <small>Linie: {{stop.lines.join(" ")}}</small>
         </li>
 

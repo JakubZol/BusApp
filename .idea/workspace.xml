@@ -2,149 +2,224 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="BusApp:javaEEApplication exploded" />
       <artifact name="BusApp:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="Retrieving data">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" afterDir="false" />
+    <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="Major CHanges init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BusApp_javaEEApplication_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_moxy_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_moxy_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/buses.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/BusApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/data/Connections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/data/Courses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/data/Lines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/data/Stops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/data/Timetable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/database/DatabaseJDBCDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/database/PostgreSQLJDBCDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/models/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/models/Departure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/models/Stop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/models/StopWithLines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/com/busapp/repositories/DataRepository.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Connections.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Courses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Lines.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Stops.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Timetable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/database/DatabaseJDBCDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/database/PostgreSQLJDBCDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Departure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Stop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/repositories/DataRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/hk2-api-2.5.0-b42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javassist-3.22.0-CR2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javax.annotation-api-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javax.inject-2.5.0-b42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javax.ws.rs-api-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-client-2.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-common-2.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-container-servlet-core-2.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-hk2-2.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-media-jaxb-2.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-server-2.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/postgresql-42.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/buses.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/BusApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/StopWithLines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jackson-annotations-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jakarta.annotation-api-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jakarta.inject-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jakarta.ws.rs-api-2.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/javax.json-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-common-2.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-entity-filtering-2.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-media-json-jackson-2.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-media-moxy-2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/org.eclipse.persistence.asm-2.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/org.eclipse.persistence.core-2.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/org.eclipse.persistence.moxy-2.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/courses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/departures.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/lines.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/route1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/route2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/stops.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/stopswithlines.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/mockdata/timetable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/images/blue_pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/images/blue_pin2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/images/iconfinder_bus_navigation_hand_drawn_3213111.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busapp/BusApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/StopWithLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/bus-stops.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/lines.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/news.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/prices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/line9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline5A.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline5C.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/courses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/departures.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/lines.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/route1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/route2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/stops.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/stopswithlines.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/data/mockdata/timetable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/blue_pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/blue_pin2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/iconfinder_bus_navigation_hand_drawn_3213111.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/BusApp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BusApp_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BusApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BusApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Connections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/DatabaseJDBCDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/database/DatabaseJDBCDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Departure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Lines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Lines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/database/PostgreSQLJDBCDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Stops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Stops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/buses.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/buses.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Courses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Courses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Lines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Lines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Stops.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Stops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Timetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/data/Timetable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/database/PostgreSQLJDBCDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/database/PostgreSQLJDBCDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Departure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Departure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Stop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/models/Stop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/repositories/DataRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/com/busapp/repositories/DataRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/lib/jersey-common-2.26.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/infoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/infoCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/mainCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/mainCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/pricesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/pricesCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/timetableCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/filters/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/filters/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/services/app.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/services/app.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/bus-stops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/lines.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/news.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/prices.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/line9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline5A.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline5C.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/timetable/newline9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/linetimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/linetimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/stoptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/stoptimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/timetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/timetable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/buses.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/WEB-INF/classes/buses.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/angular-route.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/angular-route.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/angular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/controllers/connectionCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/connectionCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/controllers/infoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/controllers/mainCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/controllers/pricesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/controllers/searchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/filters/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/model/app.mdl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/model/app.mdl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angularjs/services/app.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app.rout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/app.rout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/connection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/bus-stops.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/bus-stops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/lines.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/lines.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/news.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/prices.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/prices.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/line9.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/line9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline11.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline12.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline15.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline24.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline30.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline30.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline5A.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline5A.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline5C.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline5C.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline6.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline8.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/data/timetable/newline9.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/data/timetable/newline9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/css/animation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/css/fontello-codes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/css/fontello-codes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/css/fontello-embedded.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/css/fontello-embedded.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/css/fontello-ie7-codes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/css/fontello-ie7-codes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/css/fontello-ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/css/fontello-ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/css/fontello.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/font/fontello.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/font/fontello.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/font/fontello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/font/fontello.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/font/fontello.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/font/fontello.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/font/fontello.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/font/fontello.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fontello-ca155a97/font/fontello.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/fontello-ca155a97/font/fontello.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/blue_list.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/images/blue_list.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/blue_list.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/images/blue_list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/buslogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/images/buslogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/images/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/linetimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/linetimetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stoptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/stoptimetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/timetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/timetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/data/Stops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Stops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/buses.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/buses.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/bus-stops.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/bus-stops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/lines.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/lines.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/prices.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/prices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/line9.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/line9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline1.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline11.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline12.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline15.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline2.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline24.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline3.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline30.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline5A.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline5A.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline5C.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline5C.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline6.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline8.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/data/timetable/newline9.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/data/jsondata/timetable/newline9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/linetimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/linetimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/stoptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/stoptimetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/timetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/timetable.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -245,70 +320,76 @@
     <session id="1553409749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="5" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="9" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="6" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
-          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.create.new" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="4" />
+          <entry key="css" value="2" />
+          <entry key="html" value="17" />
           <entry key="iml" value="1" />
-          <entry key="java" value="56" />
-          <entry key="js" value="3" />
-          <entry key="json" value="29" />
-          <entry key="sql" value="5" />
-          <entry key="xml" value="11" />
+          <entry key="java" value="75" />
+          <entry key="js" value="22" />
+          <entry key="json" value="47" />
+          <entry key="pom" value="1" />
+          <entry key="sql" value="7" />
+          <entry key="svg" value="4" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="4" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="17" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="56" />
-          <entry key="JSON" value="29" />
-          <entry key="JavaScript" value="3" />
-          <entry key="SQL" value="5" />
-          <entry key="XML" value="11" />
+          <entry key="JAVA" value="75" />
+          <entry key="JSON" value="47" />
+          <entry key="JavaScript" value="22" />
+          <entry key="SQL" value="7" />
+          <entry key="SVG" value="4" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="html" value="236" />
-          <entry key="java" value="8723" />
-          <entry key="json" value="1" />
-          <entry key="sql" value="19382" />
-          <entry key="txt" value="233" />
-          <entry key="xml" value="381" />
+          <entry key="html" value="979" />
+          <entry key="java" value="10589" />
+          <entry key="js" value="6718" />
+          <entry key="json" value="2110" />
+          <entry key="sql" value="19850" />
+          <entry key="txt" value="282" />
+          <entry key="xml" value="526" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="236" />
-          <entry key="JAVA" value="8723" />
-          <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="234" />
-          <entry key="SQL" value="19382" />
-          <entry key="XML" value="381" />
+          <entry key="HTML" value="979" />
+          <entry key="JAVA" value="10589" />
+          <entry key="JSON" value="2110" />
+          <entry key="JavaScript" value="6718" />
+          <entry key="PLAIN_TEXT" value="283" />
+          <entry key="SQL" value="19850" />
+          <entry key="XML" value="526" />
         </counts>
       </usages-collector>
     </session>
@@ -318,29 +399,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/timetable.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/prices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/buses.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5046" column="55" lean-forward="true" selection-start-line="5046" selection-start-column="55" selection-end-line="5046" selection-end-column="55" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline5C.json">
+        <entry file="file://$PROJECT_DIR$/src/main/web/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-582">
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline30.json">
+        <entry file="file://$PROJECT_DIR$/src/main/web/stoptimetable.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="330">
+              <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -352,27 +490,15 @@
       <list>
         <option value="CSS File" />
         <option value="Python Script" />
-        <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>190</find>
-      <find>191</find>
-      <find>193</find>
-      <find>194</find>
-      <find>196</find>
-      <find>197</find>
-      <find>199</find>
-      <find>201</find>
-      <find>203</find>
-      <find>204</find>
-      <find>205</find>
-      <find>206</find>
       <find>207</find>
       <find>208</find>
       <find>209</find>
@@ -391,15 +517,20 @@
       <find>224</find>
       <find>225</find>
       <find>226</find>
+      <find>:18</find>
+      <find>:00</find>
+      <find>:50</find>
+      <find>:08</find>
+      <find>:11</find>
+      <find>&quot;lng&quot;</find>
+      <find>&quot;lat &quot;</find>
+      <find>#map</find>
+      <find>timetableIn</find>
+      <find>timefromno</find>
+      <find>$scope.checkError</find>
+      <find>$scope.currentRoute</find>
     </findStrings>
     <replaceStrings>
-      <replace>191</replace>
-      <replace>192</replace>
-      <replace>194</replace>
-      <replace>195</replace>
-      <replace>197</replace>
-      <replace>198</replace>
-      <replace>200</replace>
       <replace>202</replace>
       <replace>204</replace>
       <replace>205</replace>
@@ -423,6 +554,13 @@
       <replace>225</replace>
       <replace>226</replace>
       <replace>227</replace>
+      <replace>2,</replace>
+      <replace>:07</replace>
+      <replace>:41</replace>
+      <replace>:10</replace>
+      <replace>:12</replace>
+      <replace>&quot;lat&quot;</replace>
+      <replace>#map</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -436,35 +574,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/timetable/newline24.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline5C.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline5A.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline30.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline1.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline9.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline11.json" />
-        <option value="$PROJECT_DIR$/data/timetable/newline12.json" />
-        <option value="$PROJECT_DIR$/data/bus-stops.json" />
-        <option value="$PROJECT_DIR$/angularjs/controllers/mainCtrl.js" />
-        <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.rout.js" />
-        <option value="$PROJECT_DIR$/angularjs/controllers/searchCtrl.js" />
-        <option value="$PROJECT_DIR$/angularjs/filters/filters.js" />
-        <option value="$PROJECT_DIR$/angularjs/controllers/connectionCtrl.js" />
-        <option value="$PROJECT_DIR$/connection.html" />
-        <option value="$PROJECT_DIR$/styles/main.css" />
-        <option value="$PROJECT_DIR$/data/timetable/newline2.json" />
-        <option value="$PROJECT_DIR$/angularjs/controllers/timetableCtrl.js" />
-        <option value="$PROJECT_DIR$/angularjs/services/app.services.js" />
-        <option value="$PROJECT_DIR$/stoptimetable.html" />
-        <option value="$PROJECT_DIR$/web/data/timetable/newline11.json" />
-        <option value="$PROJECT_DIR$/app/src/DatabaseJDBTDriver.java" />
-        <option value="$PROJECT_DIR$/app/src/DatabaseJDBCDriver.java" />
-        <option value="$PROJECT_DIR$/app/src/Stop.java" />
-        <option value="$PROJECT_DIR$/app/src/Connections.java" />
-        <option value="$PROJECT_DIR$/app/src/Departure.java" />
-        <option value="$PROJECT_DIR$/app/src/PostgreSQLJDBCDriver.java" />
         <option value="$PROJECT_DIR$/app/src/Lines.java" />
         <option value="$PROJECT_DIR$/app/src/Timetable.java" />
         <option value="$PROJECT_DIR$/app/src/Stops.java" />
@@ -477,16 +586,45 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/Stop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/Timetable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" />
         <option value="$PROJECT_DIR$/src/main/web/test.html" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/database/PostgreSQLJDBCDriver.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Course.java" />
         <option value="$PROJECT_DIR$/src/main/resources/buses.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/BusApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Stops.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/lines.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/stops.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/StopWithLines.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/stopswithlines.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/departures.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/courses.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/route1.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/timetable.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/mockdata/route2.json" />
+        <option value="$PROJECT_DIR$/src/main/web/data/mockdata/courses.json" />
+        <option value="$PROJECT_DIR$/src/main/web/timetable.html" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js" />
+        <option value="$PROJECT_DIR$/src/main/web/data/mockdata/departures.json" />
+        <option value="$PROJECT_DIR$/src/main/web/styles/main.css" />
+        <option value="$PROJECT_DIR$/src/main/web/data/mockdata/route2.json" />
+        <option value="$PROJECT_DIR$/src/main/web/Map.js" />
+        <option value="$PROJECT_DIR$/src/main/web/index.html" />
+        <option value="$PROJECT_DIR$/src/main/web/stoptimetable.html" />
+        <option value="$PROJECT_DIR$/src/main/web/linetimetable.html" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/web/info.html" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" />
       </list>
     </option>
   </component>
@@ -529,10 +667,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="460" />
-    <option name="y" value="36" />
-    <option name="width" value="1162" />
-    <option name="height" value="979" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -540,17 +677,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="BusApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
@@ -570,21 +705,69 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="jsondata" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/jakubzol/projects/BusApp/src/main/web/angularjs/controllers/mainCtrl.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551821049956" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEE/testapp" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552949357933" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -603,11 +786,11 @@
       <recent name="com.busapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/web/data/mockdata" />
+      <recent name="$PROJECT_DIR$/src/main/web/data/jsondata" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -622,7 +805,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TomEE Server.BusApp">
+  <component name="RunManager" selected="Tomcat Server.BusApp">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -654,9 +837,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BusApp" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+    <configuration name="BusApp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
+        <artifact name="BusApp:javaEEApplication exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
         <artifact name="BusApp:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
@@ -664,7 +852,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BusApp" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BusApp_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -672,80 +860,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35075" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="LaunchBrowser.Before.Run" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="BusApp:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="test.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/test.html" />
-      <deployment>
-        <artifact name="BusApp:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="test_html_BusApp" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35855" />
+        <option name="DEBUG_PORT" value="36869" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -796,6 +911,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="BusApp:war exploded" />
+          <artifact name="BusApp:javaEEApplication exploded" />
         </option>
       </method>
     </configuration>
@@ -862,14 +978,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="TomEE Server.BusApp" />
+      <item itemvalue="Tomcat Server.BusApp" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Python.script" />
-      <item itemvalue="Tomcat Server.test.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.test.html" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Python.script" />
       </list>
@@ -1059,7 +1173,23 @@
       <workItem from="1551620336598" duration="1163000" />
       <workItem from="1551709426834" duration="2504000" />
       <workItem from="1551741873387" duration="566000" />
-      <workItem from="1551792377830" duration="26794000" />
+      <workItem from="1551792377830" duration="26870000" />
+      <workItem from="1551860975106" duration="8018000" />
+      <workItem from="1551872748538" duration="133000" />
+      <workItem from="1551953379832" duration="2467000" />
+      <workItem from="1551965804164" duration="1252000" />
+      <workItem from="1552201880857" duration="344000" />
+      <workItem from="1552202247031" duration="5416000" />
+      <workItem from="1552237947954" duration="2532000" />
+      <workItem from="1552327220647" duration="599000" />
+      <workItem from="1552332632071" duration="3000" />
+      <workItem from="1552343179712" duration="1994000" />
+      <workItem from="1552463753222" duration="33000" />
+      <workItem from="1552589365722" duration="3439000" />
+      <workItem from="1552665406844" duration="15241000" />
+      <workItem from="1552825385012" duration="17455000" />
+      <workItem from="1552856766337" duration="2551000" />
+      <workItem from="1552940640745" duration="9144000" />
     </task>
     <task id="LOCAL-00001" summary="Maven Added">
       <created>1550673306708</created>
@@ -1187,11 +1317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551486403822</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="rearranged  structure">
+      <created>1551828352978</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551828352978</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="715269000" />
+    <option name="totallyTimeSpent" value="785966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1205,16 +1342,16 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.16488793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49220103" visible="true" weight="0.19114584" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="JavaEE:App" order="6" side_tool="true" />
+      <window_info id="JavaEE:App" order="6" sideWeight="0.50779897" side_tool="true" weight="0.19156884" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32790697" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32906976" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14269535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1223,62 +1360,62 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32906976" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3232558" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3225058" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32790697" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32906976" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32906976" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32977587" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.16488793" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="JavaEE:App" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32790697" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32906976" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988372" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Structure" order="6" sideWeight="0.5070258" weight="0.2488372" />
-      <window_info anchor="bottom" id="Favorites" order="7" sideWeight="0.5058548" weight="0.2488372" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32906976" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3232558" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="14" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32790697" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32906976" />
-      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32906976" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32977587" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49297425" visible="true" weight="0.18943436" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="JavaEE:App" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32790697" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988372" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Structure" order="6" sideWeight="0.5070258" weight="0.2488372" />
+      <window_info anchor="bottom" id="Favorites" order="7" sideWeight="0.5058548" weight="0.2488372" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32906976" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32906976" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3225058" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32790697" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32906976" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32906976" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1303,228 +1440,112 @@
     <MESSAGE value="timetable update" />
     <MESSAGE value="Retrieving data" />
     <MESSAGE value="database update" />
-    <option name="LAST_COMMIT_MESSAGE" value="database update" />
+    <MESSAGE value="rearranged  structure" />
+    <MESSAGE value="Major CHanges init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major CHanges init commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/app.rout.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/connection.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/search.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js" />
-    <entry file="file://$PROJECT_DIR$/data/timetable/line2.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline2.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="107" selection-start-line="106" selection-start-column="107" selection-end-line="106" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/stoptimetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="139" selection-start-line="18" selection-start-column="139" selection-end-line="18" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15255">
-          <caret line="1017" selection-start-line="1017" selection-end-line="1017" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/connectionCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/line9.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="117" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline9.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/bus-stops.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline15.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/news.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="234" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/Repository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline6.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/database/DatabaseJDBCDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="718" selection-start-line="718" selection-end-line="718" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline24.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline11.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="260" column="5" lean-forward="true" selection-start-line="260" selection-start-column="5" selection-end-line="260" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/TestRest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline12.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline8.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="132" column="2" lean-forward="true" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline5A.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Lines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Stops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BusApp.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/test.html">
+    <entry file="file://$PROJECT_DIR$/src/main/web/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/database/PostgreSQLJDBCDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="480">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline5C.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline30.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="229" column="5" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/glassfish/jersey/jersey-bom/2.26/jersey-bom-2.26.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="304" column="12" selection-start-line="304" selection-start-column="12" selection-end-line="304" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/app.rout.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/BusApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/bus-stops.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="166" column="1" selection-end-line="166" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/StopWithLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/lines.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buses.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
-          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1535,66 +1556,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Stops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="15">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Lines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/database/PostgreSQLJDBCDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/stopswithlines.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/departures.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="11" column="195" selection-start-line="11" selection-start-column="195" selection-end-line="11" selection-end-column="195" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline30.json">
+    <entry file="file://$PROJECT_DIR$/src/main/web/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="887" column="21" lean-forward="true" selection-start-line="887" selection-start-column="21" selection-end-line="887" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/connection.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/images/blue_pin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/images/iconfinder_bus_navigation_hand_drawn_3213111.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/images/blue_pin2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/stops.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="70" selection-start-line="12" selection-start-column="2" selection-end-line="20" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/route1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/route2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/timetable.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/courses.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/Map.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="152" selection-start-line="21" selection-start-column="152" selection-end-line="21" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/timetable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/timetable/newline5C.json">
+    <entry file="file://$PROJECT_DIR$/src/main/web/linetimetable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buses.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/web/stoptimetable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5046" column="55" lean-forward="true" selection-start-line="5046" selection-start-column="55" selection-end-line="5046" selection-end-column="55" />
+        <state relative-caret-position="330">
+          <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/prices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1606,12 +1767,12 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
-              <type id="jpa-descriptors" />
               <type id="library" />
               <type id="javaee-facet-resources" />
+              <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
-          <last-edited>BusApp:war exploded</last-edited>
+          <last-edited>BusApp:javaEEApplication exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1659,7 +1820,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BusApp</last-edited>
+          <last-edited>javaEEApplication|BusApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -4,174 +4,85 @@ app.service("dataProvider", function($http){
     }
 });
 
-app.service("timeService", function(){
+app.service("mapService", function(){
 
-    this.timeDifference = function(hour1, minutes1, hour2, minutes2){
-       let timeDiff = hour1 * 60 + minutes1 - (hour2 * 60 + minutes2);
-       return (timeDiff >= 0) ? timeDiff : 24*60 + timeDiff;
-   };
+    this.map = {
+        initialParams: {},
+        target: "",
+        map: null,
+        tileLayer: L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }),
+        markersLayer: L.layerGroup(),
+        stops: [],
+        drawStopsMarkers: function (stops) {
 
-   this.timeFromNow = function(hour1, minutes1){
-        const d = new Date();
-       return this.timeDifference(hour1, minutes1, d.getHours(), d.getMinutes())
-   }
+            const self = this;
+            this.markersLayer.clearLayers();
 
-});
+            for (let stop of stops) {
+                let marker = L.marker([stop.lat, stop.lng], {
+                    icon: L.icon({
+                        iconUrl: 'images/blue_pin2.svg',
+                        iconSize: [45, 45]
+                    })
+                });
 
-app.service("timetablesService", function(dataProvider, $q, $filter){
+                marker.bindPopup("<b>" + stop.name + "</b>");
+                marker.on('mouseover', function () {
+                    this.openPopup();
+                });
+                marker.on('mouseout', function () {
+                    this.closePopup();
+                });
 
-    this.buildTimetable = function(stop, stops){
+                marker.addTo(self.markersLayer);
+            }
+        },
+        resetStopsMarkers: function () {
 
-        let deferred = $q.defer();
+            this.markersLayer.clearLayers();
+            this.drawStopsMarkers(this.stops);
 
-            const lines = $filter('mergeLine')(stops, stop)[0].lines;
+        },
+        zoomStop: function (name, zoom) {
 
-            let promises = [dataProvider.getData("data/bus-stops.json")];
+            const self = this;
 
-            for(let line of lines) {
-                promises.push(dataProvider.getData("data/timetable/newline" + line + ".json"));
+            const stops = this.stops.filter((stop) => stop.name.toLowerCase() === name.toLowerCase());
+            if (stops.length > 0) {
+                self.map.setView([stops[0].lat, stops[0].lng], zoom);
+            }
+        },
+        zoomInitial: function () {
+            this.map.setView(this.initialParams.center, this.initialParams.zoom);
+        },
+        drawRoute: function (stops) {
+
+            const self = this;
+
+            const latlngs = [];
+
+            for (let stop of stops) {
+
+                latlngs.push({lat: stop.lat, lng: stop.lng});
             }
 
-            $q.all(promises).then(function (data) {
-                let responses = [];
-                for(let response of data){
-                    responses.push(response.data);
-                }
+            const polyline = L.polyline(latlngs, {color: 'dodgerblue'}).addTo(self.markersLayer);
 
-                const d = new Date();
-                const currentHour = d.getHours();
-                const currentMinutes = d.getMinutes();
-                const currentDayIndex = d.getDay();
-                let timetable = [];
-
-                let weekendDay = currentDayIndex === 0 ? "Niedziela" : "Sobota";
-                let currentDayName = currentDayIndex % 6 !== 0 ? "Dni powszednie" : weekendDay;
-
-                let nextDayIndex = (currentDayIndex !== 6) ? currentDayIndex + 1 : 0;
-                let nextWeekendDay = nextDayIndex === 0 ? "Niedziela" : "Sobota";
-                let nextDayName = nextDayIndex % 6 !== 0 ? "Dni powszednie" : nextWeekendDay;
-
-
-                for(let line of responses) {
-                    for (let route of line.routes) {
-                        let searchedStops = route.stops.filter(stop => stop.name === stop);
-                        for (let stop of searchedStops){
-                            let stopIndex = route.stops.indexOf(stop);
-                            if (route.timetable.length > 0 && stopIndex > -1){// && route.timetable.filter(entry => entry.period === currentDayName).length > 0) {
-                                let currentDayCourses = route.timetable.filter(entry => entry.period === currentDayName);
-                                let nextDayCourses = route.timetable.filter(entry => entry.period === nextDayName);
-                                if(currentDayCourses.length > 0) {
-                                    for (let entry of currentDayCourses[0].courses) {
-                                        if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes > currentMinutes || entry[stopIndex].hour > currentHour) {
-                                            let timeDiff = (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes);
-                                            timetable.push({
-                                                line: line.line,
-                                                destination: route.destination,
-                                                time: entry[stopIndex],
-                                                stopId: route.stops[stopIndex].number,
-                                                timeFromNow: timeDiff,
-                                                date: d
-                                            })
-                                        }
-                                    }
-                                }
-                                if(nextDayCourses.length > 0) {
-                                    for (let entry of nextDayCourses[0].courses) {
-                                        if (entry[stopIndex].hour === currentHour && entry[stopIndex].minutes < currentMinutes || entry[stopIndex].hour < currentHour) {
-                                            let timeDiff = 24 * 60 + (entry[stopIndex].hour * 60 + entry[stopIndex].minutes) - (currentHour * 60 + currentMinutes);
-                                            timetable.push({
-                                                line: line.line,
-                                                destination: route.destination,
-                                                time: entry[stopIndex],
-                                                stopId: route.stops[stopIndex].number,
-                                                timeFromNow: timeDiff,
-                                                date: new Date(new Date().setDate(d.getDate() + 1))
-                                            })
-                                        }
-
-                                    }
-                                }
-
-                            }
-                        }
-                    }
-                }
-
-                deferred.resolve($filter("sortByTime")($scope.timetable).slice(0, 20));
-
-            }).catch(function (error) {
-                deferred.reject(error);
-            });
-
-        return deferred.promise;
-
+            self.map.fitBounds(polyline.getBounds());
+        },
     };
 
-    this.searchConnections = function(params){
+        this.createMap = function(target, initialParams){
+        this.map.initialParams = initialParams;
+        this.map.target = target;
+        this.map.map = L.map(target, initialParams);
+        this.map.tileLayer.addTo(this.map.map);
+        this.map.markersLayer.addTo(this.map.map);
 
-        const currentDayIndex = params.date.getDay();
-        const currentHour = params.hour;
-        const currentMinutes = params.minutes;
-        const start = params.start;
-        const destination = params.destination;
-        let deferred = $q.defer();
-        let promises = [];
+        return this.map;
 
-        for(line of params.lines){
-            promises.push(dataProvider.getData("data/timetable/newline" + line + ".json"));
-        }
-
-        $q.all(promises).then(function(data) {
-
-            let responses = [];
-
-            for (let response of data) {
-                responses.push(response.data)
-            }
-
-            let connections = [];
-            let weekendDay = currentDayIndex === 0 ? "Niedziela" : "Sobota";
-            let currentDayName = currentDayIndex % 6 !== 0 ? "Dni powszednie" : weekendDay;
-            //let nextDayName = ((currentDayIndex === 6) ? 0 : currentDayIndex + 1) % 6 !== 0 ? "Dni powszednie" : weekendDay;
-
-            for(let line of responses){
-                for(let route of line.routes){
-                    let startStops = route.stops.filter(stop => stop.name === start);
-                    let destinationStops = route.stops.filter(stop => stop.name === destination);
-                    let startIndex = route.stops.indexOf(startStops[0]);
-                    let destinationIndex = route.stops.indexOf(destinationStops[0]); //rozw problem wielokrotnego występowania
-                    if(startIndex < destinationIndex && startIndex >= 0 && destinationIndex >= 0)
-                        if(route.timetable.length > 0) {
-                            for (let entry of route.timetable.filter(entry => entry.period === currentDayName)[0].courses) {
-
-                                let timeArray = entry.slice(startIndex, destinationIndex + 1);
-
-                                let timeLength = (timeArray[timeArray.length - 1].hour * 60 + timeArray[timeArray.length - 1].minutes) - (timeArray[0].hour * 60 + timeArray[0].minutes);
-
-                                connections.push({
-                                    line: line.line,
-                                    destination: route.destination,
-                                    stops: route.stops.slice(startIndex, destinationIndex + 1),
-                                    time: timeArray,
-                                    courseLength: timeLength,
-                                    date: (timeArray[0].hour === params.hour && timeArray[0].minutes > params.minutes || timeArray[0].hour > params.hour) ? params.date : new Date(new Date().setDate(params.date.getDate() + 1))
-                                }); //działa tylko na tygodniu ( od piątku do niedzieli nie działa)
-
-                            }
-                        }
-
-
-                    //add next day searching
-                }
-            }
-
-            deferred.resolve($filter("sortByDepartureTime")(connections));
-
-        }).catch(function(error){
-           deferred.reject(error);
-        });
-
-        return deferred.promise;
     }
 
 });
