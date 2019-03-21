@@ -18,5 +18,21 @@
   {"stop_id": 17,"name": "Hotel Kamena", "lat": 51.135692,"lng": 23.465882},
   {"stop_id": 18,"name": "Ogrodowa", "lat": 51.131712,"lng": 23.465156},
   {"stop_id": 19,"name": "Cmentarz Miejski", "lat": 51.126911,"lng": 23.469210},
-  {"stop_id": 20,"name": "Lwowska", "lat": 51.121853,"lng": 23.466277}
+  {"stop_id": 20,"name": "Lwowska", "lat": 51.121853,"lng": 23.466277},
+  {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088},
+  {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283},
+  {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583},
+  {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978},
+  {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246},
+  {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064},
+  {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520},
+  {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180},
+  {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181},
+  {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800},
+  {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529},
+  {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599},
+  {"stop_id": 33, "name": "Oddział Wojskowy Trubakowska", "lat": 51.136858, "lng": 23.449213},
+  {"stop_id": 34, "name": "Złota", "lat": 51.134659, "lng": 23.442861},
+  {"stop_id": 35, "name": "Gazownia", "lat": 51.133719, "lng": 23.439193},
+  {"stop_id": 36, "name": "Piwna", "lat": 51.133223, "lng": 23.432385}
 ]

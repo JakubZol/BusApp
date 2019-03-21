@@ -9,6 +9,6 @@
     </ul>
     <h3>Wybierz Linię:</h3>
     <ul class="lines">
-        <li ng-repeat="line in lines"><a href="#/timetable/line/{{line}}">{{line}}</a></li>
+        <li ng-repeat="line in lines | sortByLine"><a href="#/timetable/line/{{line}}">{{line}}</a></li>
     </ul>
 </div>

@@ -10,21 +10,8 @@
         </li>
     </ul>
    <ul id="route">
-        <li ng-repeat="stop in route track by $index" class="{{stopsClasses[$index]}}" >
-            <img src="images/blue_list.png"><p data-ng-click="displayTimetable($index)">{{stop.name}}</p> <!--"-->
-            <div id="timetable">
-                <ul>
-                    <li ng-repeat="t in timetable track by $index" data-ng-click="setCurrentTimetable($index)" ng-class="{'active': currentTimetable === $index}">
-                    {{t.period}}</li>
-                </ul>
-                <table>
-                    <tr ng-repeat="time in timetable[currentTimetable].timetable">
-                        <td>{{time.hour}}</td>
-                        <td>{{time.minutes.join(", ")}}</td>
-                    </tr>
-                </table>
-                <button data-ng-click="displayRoute()">Pełna rozpiska trasy</button>
-            </div>
+        <li ng-repeat="stop in route track by $index">
+            <img src="images/blue_list.png"><a href="#/timetable/line/{{line}}/course/{{courseId}}/stop/{{stop.name.split(' ').join('+')}}/{{$index}}">{{stop.name}}</a> <!--<p data-ng-click="displayTimetable($index)">{{stop.name}}</p>'/timetable/line/:line/course/:courseId/stop/:order'-->
         </li>
     </ul>
 </div>

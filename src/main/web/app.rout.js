@@ -9,6 +9,9 @@ app.config(function($routeProvider, $locationProvider){
    }).when('/timetable/line/:line',{
        templateUrl: "./linetimetable.html",
        controller: "linetimetableCtrl"
+   }).when('/timetable/line/:line/course/:courseId/stop/:stop/:order',{
+       templateUrl: "./timetableboard.html",
+       controller: "timetableboardCtrl"
    }).when('/timetable/stop/:stop', {
        templateUrl: "./stoptimetable.html",
        controller: "stoptimetableCtrl"

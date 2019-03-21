@@ -1,6 +1,7 @@
 <div id="news-section">
     <ul>
-        <li ng-repeat="article in news.slice(4 * currentPage, 4 * (currentPage + 1)) track by $index" data-ng-click="extendArticle($index)" class="{{articlesClasses[$index]}}">
+        <li ng-repeat="article in news.slice(4 * currentPage, 4 * (currentPage + 1)) track by $index" data-ng-click="extendArticle($index)" ng-class="{'extended': extendedArticleIndex === $index,
+        'narrowed': extendedArticleIndex !== $index && extendedArticleIndex >= 0}">
             <h3>{{article.title}}</h3>
             <time>{{article.date.day}}/{{article.date.month}}/{{article.date.year}}</time>
             <p>{{article.content}}</p>

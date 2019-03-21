@@ -249,6 +249,7 @@ nav ul li.active{
 
 #news-section ul li{
     width: 100%;
+    height: 25%;
     box-sizing: border-box;
     border-bottom: 2px solid lavender;
     padding: 2px 8px;
@@ -259,10 +260,6 @@ nav ul li.active{
 
 #news-section ul li:nth-child(4){
     border-bottom: none;
-}
-
-#news-section ul li.regular{
-    height: 25%;
 }
 
 #news-section ul li.extended{
@@ -529,6 +526,11 @@ nav ul li.active{
     margin: 2px 0 0 20px;
 }
 
+#linetimetable-section ul#route li a{
+    color:black;
+    text-decoration: none;
+}
+
 #linetimetable-section ul#route li:hover{
     background-color: darkgray;
     color: white;
@@ -581,78 +583,103 @@ nav ul li.active{
     cursor: auto;
 }
 
-#linetimetable-section div#timetable{
-    display:none;
+#timetable-board-section{
+    padding-top: 20px;
+}
+
+#timetable-board-section h2{
+    margin: 0;
+}
+
+#timetable-board-section a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    background-color: dodgerblue;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#timetable-board-section a:hover{
+    background-color: deepskyblue;
+}
+
+#timetable{
     width: 100%;
     margin: 20px 0 20px;
 }
 
-#linetimetable-section div#timetable ul{
+#timetable ul{
     list-style-type: none;
     display: flex;
     padding:0;
-    margin:0;
+    margin:25px 0 0 0;
     width: 100%;
     height: 35px;
     border-bottom: 2px solid lavender;
     border-top: 2px solid lavender;
 }
 
-#linetimetable-section div#timetable ul li{
+#timetable ul li{
     border:none;
     border-right: 2px solid lavender;
     border-bottom: 0;
     height: 100%;
+    width: calc(100% / 3);
     text-align: center;
     padding-top: 5px;
+    box-sizing: border-box;
     font-size: 18px;
     background: darkgray;
     color:black;
     overflow: hidden;
+    cursor: pointer;
 }
 
-#linetimetable-section div#timetable ul li.active{
+#timetable ul li.active{
     background: dodgerblue;
     color: white;
     border-bottom: 0;
 }
 
-#linetimetable-section div#timetable ul li.active:hover{
+#timetable ul li:hover{
     background: dodgerblue;
     color: white;
 }
 
-#linetimetable-section div#timetable ul li:last-child{
+#timetable ul li:last-child{
     border-right: none;
 }
 
-#linetimetable-section div#timetable ul li:hover{
-    background-color: dodgerblue;
-}
-
-#linetimetable-section div#timetable table{
+#timetable table{
     width: 100%;
+    border-bottom: 2px solid lavender;
+    margin-bottom: 15px;
 }
 
-#linetimetable-section div#timetable table tr{
+#timetable table tr{
     width: 100%;
     height: 20px;
 }
 
-#linetimetable-section div#timetable table tr:nth-child(odd){
+#timetable table tr:nth-child(odd){
     background-color: gray;
     color: white;
 }
 
-#linetimetable-section div#timetable table tr:nth-child(even){
+#timetable table tr:nth-child(even){
     background-color: darkgray;
 }
 
-#linetimetable-section div#timetable table tr td:first-child{
+#timetable table tr td:first-child{
     width: 10%;
 }
 
-#linetimetable-section div#timetable table tr td:last-child{
+#timetable table tr td:last-child{
     width: 90%;
     text-align: left;
     padding-left: 15px;
