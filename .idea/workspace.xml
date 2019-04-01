@@ -9,34 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="Major CHanges init commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/pricesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/pricesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/searchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/searchCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/timetableCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/app.rout.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/app.rout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet-src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/leaflet/leaflet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/linetimetable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/stoptimetable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/timetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/timetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/timetableboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/app.rout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/app.rout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet-src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/leaflet/leaflet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/leaflet/leaflet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/linetimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/stoptimetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/departures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/timetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/timetablemain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/timetableboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/timetable.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,7 +109,7 @@
     <session id="1553409749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="10" />
@@ -161,12 +133,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="html" value="24" />
+          <entry key="css" value="5" />
+          <entry key="html" value="25" />
           <entry key="iml" value="1" />
           <entry key="java" value="75" />
-          <entry key="js" value="36" />
-          <entry key="json" value="57" />
+          <entry key="js" value="38" />
+          <entry key="json" value="58" />
           <entry key="pom" value="1" />
           <entry key="sql" value="7" />
           <entry key="svg" value="4" />
@@ -175,12 +147,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="24" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="25" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="75" />
-          <entry key="JSON" value="57" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JSON" value="58" />
+          <entry key="JavaScript" value="38" />
           <entry key="SQL" value="7" />
           <entry key="SVG" value="4" />
           <entry key="XML" value="19" />
@@ -248,8 +220,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/web/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="930" column="19" selection-start-line="930" selection-start-column="19" selection-end-line="930" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="907" selection-start-line="907" selection-end-line="907" />
             </state>
           </provider>
         </entry>
@@ -458,6 +430,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -538,7 +511,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -765,6 +737,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Python.script" />
       </list>
@@ -1131,7 +1105,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="811896000" />
+    <option name="totallyTimeSpent" value="812224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1374,8 +1348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1448,8 +1422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="75" lean-forward="true" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        <state relative-caret-position="66">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -1462,8 +1436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/mainCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="82" selection-start-column="82" selection-end-column="82" />
+        <state relative-caret-position="255">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1476,8 +1450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/infoCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1490,8 +1464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -1525,8 +1499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="930" column="19" selection-start-line="930" selection-start-column="19" selection-end-line="930" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="907" selection-start-line="907" selection-end-line="907" />
         </state>
       </provider>
     </entry>
