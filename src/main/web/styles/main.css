@@ -853,82 +853,62 @@ nav ul li.active{
     height: 100%;
 }
 
-#pricetable-section ul#tickets-types{
+#tickets-types{
     width: 100%;
-    height: 95%;
+    height: 45px;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-}
-
-#pricetable-section ul#tickets-types li{
-    width: 100%;
-    height: 50%;
-    box-sizing: border-box;
-    border-bottom: 2px solid lavender;
-    padding: 7px 0;
-}
-
-#pricetable-section ul#tickets-types li h3 {
-    margin:0;
-}
-
-#pricetable-section ul#tickets{
-    width: 100%;
     margin: 20px 0 0 0;
-    padding:0;
-    list-style-type: none;
+    display: flex;
+    border-bottom: 2px solid lavender;
+    border-top: 2px solid lavender;
 }
 
-#pricetable-section ul#tickets li{
-    width: 100%;
-    height: 49px;
-    margin:0;
-    border-bottom: 1px solid lavender;
-    padding:0;
-}
-
-#pricetable-section ul#tickets li:first-child{
-    border-top: 1px solid lavender;
-}
-
-#pricetable-section ul#tickets li {
-    width: 100%;
-    height: 49px;
-    margin: 0;
-    border-bottom: 1px solid lavender;
-    padding: 15px 25px;
+#tickets-types li{
+    width: 50%;
+    height: 100%;
     box-sizing: border-box;
-}
-
-#pricetable-section ul#tickets li:nth-child(even) {
-    background: gray;
+    background: dodgerblue;
     color: white;
+    padding-top: 15px;
+    border-right: solid 2px lavender;
 }
 
-#pricetable-section ul#tickets li:nth-child(odd) {
-    background: darkgray;
+#tickets-types li:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
 }
 
-#pricetable-section ul#tickets li span.ticket-name{
-    float:left;
-    text-align: left;
+#tickets-types li.active{
+    background-color: deepskyblue;
 }
 
-#pricetable-section ul#tickets li span.ticket-price{
-    float: right;
-    text-align: right;
+#tickets-types li:last-child{
+    border: none;
 }
 
-#pricetable-section a{
-    display: block;
-    margin: 25px 0;
-    font-size: 18px;
-    color: dodgerblue;
+#pricetable{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-#pricetable-section a:hover{
-    color: blue;
+#pricetable tr{
+    height: 45px;
+    width: 100%;
+    padding:0;
+    margin:0;
+    border-bottom: 2px solid lavender;
+}
+
+#pricetable td:first-child,th:first-child{
+    width: 65%;
+    border-right: solid 2px lavender;
+}
+
+#pricetable td,th{
+    margin: 0;
+    padding: 0;
 }
 
 

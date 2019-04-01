@@ -1,4 +1,4 @@
-app.controller("timetableCtrl", function($scope, $http, $q){
+app.controller("timetablemainCtrl", function($scope, $http, $q){
 
     $q.all([$http.get("data/mockdata/lines.json"), $http.get("data/mockdata/stopswithlines.json")]).then(function(response){
         $scope.lines = response[0].data;
@@ -7,7 +7,8 @@ app.controller("timetableCtrl", function($scope, $http, $q){
 
 });
 
-app.controller("linetimetableCtrl", function($scope, $routeParams, $http){
+
+app.controller("coursesCtrl", function($scope, $routeParams, $http){
 
     $scope.line = $routeParams.line;
     $scope.currentCourse = 0;
@@ -52,7 +53,7 @@ app.controller("linetimetableCtrl", function($scope, $routeParams, $http){
 });
 
 
-app.controller("timetableboardCtrl", function($scope, $routeParams, $http){
+app.controller("timetableCtrl", function($scope, $routeParams, $http){
 
     //Data for API request
     $scope.courseId = $routeParams.courseId;
@@ -77,7 +78,8 @@ app.controller("timetableboardCtrl", function($scope, $routeParams, $http){
 
 });
 
-app.controller("stoptimetableCtrl", function($scope, $routeParams, $http){
+
+app.controller("departuresCtrl", function($scope, $routeParams, $http){
 
     $scope.stop = $routeParams.stop.split("+").join(" ");
     $scope.currentPage = 0;
