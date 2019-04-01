@@ -1,15 +1,13 @@
-app.controller("pricesCtrl", function($scope, $http, dataProvider){
+app.controller("pricesCtrl", function($scope, $http){
 
-    $scope.getPrices = function(url){
-        dataProvider.getData(url).then(function(data){
-            $scope.pricetable = data.data;
-            console.log(data);
-        }).catch(function(error){
-            $scope.error = "ERROR " + error.status;
-            console.log(error);
-        });
-    };
+    $scope.currentTicketsType = 0;
 
-    $scope.getPrices("data/prices.json");
+    $http.get("data/jsondata/prices.json").then(function(response){
+        $scope.pricetable = response.data;
+    }).catch((error) => console.log(error));
+
+    $scope.changeTicketsType = function (index) {
+        $scope.currentTicketsType = index
+    }
 
 });

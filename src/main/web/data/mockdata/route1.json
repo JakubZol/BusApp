@@ -1,0 +1,14 @@
+[
+  {"stop_id": 1,"name": "Osiedle Słoneczne", "lat": 51.123177,"lng": 23.460962},
+  {"stop_id": 2,"name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418},
+  {"stop_id": 3,"name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731},
+  {"stop_id": 4,"name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889},
+  {"stop_id": 5,"name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855},
+  {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414},
+  {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835},
+  {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750},
+  {"stop_id": 9,"name": "II Liceum Ogólnokształcące", "lat": 51.143184,"lng": 23.455773},
+  {"stop_id": 10,"name": "Tuwima", "lat": 51.146345,"lng": 23.456535},
+  {"stop_id": 11,"name": "Szpital", "lat": 51.150174,"lng": 23.458762},
+  {"stop_id": 12,"name": "Szpital Pętla", "lat": 51.151645,"lng": 23.458990}
+]

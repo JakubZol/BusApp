@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="BusApp:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BusApp_javaEEApplication_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BusApp/javaeeApplication/javaEEApplication" />
+      <element id="module-output" name="BusApp" />
+    </root>
+  </artifact>
+</component>

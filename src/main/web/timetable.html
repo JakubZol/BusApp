@@ -1,14 +1,16 @@
-<div id="timetable-section">
-    <input type="text" ng-model="searchedStop" placeholder="Wybierz Przystanek">
-    <ul class="stops" ng-class="{'non-visible': !(searchedStop.length > 0)}">
-        <li ng-repeat="stop in stops | mergeLine: searchedStop">
-            <a href="#/timetable/stop/{{stop.stop.split(' ').join('+')}}"><b>{{stop.stop}}</b></a><br>
-            <small>Linie: {{stop.lines.join(" ")}}</small>
-        </li>
-
-    </ul>
-    <h3>Wybierz Linię:</h3>
-    <ul class="lines">
-        <li ng-repeat="line in lines"><a href="#/timetable/line/{{line}}">{{line}}</a></li>
-    </ul>
+<div id="timetable-board-section">
+    <h2>{{stop}}</h2>
+    <div id="timetable">
+        <ul>
+            <li ng-repeat="t in timetable track by $index" data-ng-click="switchTimetable($index)" ng-class="{'active': timetableIndex === $index}">
+                {{t.period}}</li>
+        </ul>
+        <table>
+            <tr ng-repeat="time in timetable[timetableIndex].timetable">
+                <td>{{time.hour}}</td>
+                <td>{{time.minutes.join(", ")}}</td>
+            </tr>
+        </table>
+        <a href="#/timetable/line/{{line}}">Pełna rozpiska trasy</a>
+    </div>
 </div>

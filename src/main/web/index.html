@@ -6,6 +6,8 @@
     <title>Layout</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="fontello-ca155a97/css/fontello.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <script src="leaflet/leaflet.js"></script>
     <script src="angularjs/angular.min.js"></script>
     <script src="angularjs/angular-route.min.js"></script>
 </head>
@@ -13,7 +15,7 @@
     <header>
         <div id="topbar">
             <img src="images/buslogo.png" alt="logo">
-            <form><input type="text" placeholder="Szukaj przystanku na mapie"><button type="submit"><img src="images/search.png" alt="search"></button></form>
+            <form><input type="text"ng-model="stop" placeholder="Szukaj przystanku na mapie"><button type="submit" data-ng-click="map.zoomStop(stop, 18)"><img src="images/search.png" alt="search"></button></form>
         </div>
         <div id="banner">
             <ul ng-cloak>
@@ -35,9 +37,9 @@
             </nav>
             <div data-ng-view="" id="content" ></div>
         </aside>
-        <iframe>
+        <div id="map">
 
-        </iframe>
+        </div>
     </main>
     <footer>
         <ul>

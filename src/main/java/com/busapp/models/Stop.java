@@ -1,6 +1,5 @@
 package com.busapp.models;
 
-
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement

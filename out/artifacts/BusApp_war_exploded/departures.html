@@ -1,0 +1,24 @@
+<div id="stoptimetable-section">
+    <h2>{{stop}}</h2>
+    <a href="#/timetable"> Powrót</a>
+    <div class="loading-box" ng-class="{'non-visible': contentLoaded}">
+        <div class="loader"></div>
+        <p>loading...</p>
+    </div>
+    <ul ng-class="{'non-visible': !contentLoaded}">
+        <li ng-repeat="course in departures.slice(currentPage * 10 , (currentPage + 1) * 10)">
+            <h1> {{course.line}}</h1>
+            <div id="course-details"><b>{{course.destination}}</b><br>
+                Przystanek nr {{course.stopId}} |
+                <time>
+                    {{course.departureTime.slice(0, 5)}}
+                </time>
+            </div>
+            <div id="course-departure" ng-class="{'alert': timeFromNow(course.time.hour, course.time.minutes) <= 5}">
+                {{course.timeDifference.slice(0,2) === "00" ? course.timeDifference.slice(3,5) + " min" : course.timeDifference.slice(0,2) + " h " + course.timeDifference.slice(3,5) + " min"}}
+            </div>
+        </li>
+    </ul>
+    <button data-ng-click="switchTimetablePage(1)" ng-class="{'non-visible': departures.length / 10 - currentPage < 1}">Później</button> <!-- problem -->
+    <button data-ng-click="switchTimetablePage(-1)" ng-class="{'non-visible': currentPage <= 0}">Wcześniej</button>
+</div>
