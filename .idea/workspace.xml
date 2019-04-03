@@ -7,8 +7,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="Major CHanges init commit 2">
+    <list default="true" id="ec662522-4720-4088-bb31-796dd0111f1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/busapp/models/Layover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/connectionCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/connectionCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/angularjs/controllers/timetableCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/departures.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/departures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BusApp_war_exploded/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/departures.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/departures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/styles/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,20 +121,20 @@
     <session id="1553409749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="52" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="10" />
-          <entry key="project.open.time.11" value="6" />
+          <entry key="project.open.time.10" value="11" />
+          <entry key="project.open.time.11" value="7" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -134,13 +146,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
-          <entry key="html" value="25" />
+          <entry key="html" value="27" />
           <entry key="iml" value="1" />
-          <entry key="java" value="75" />
-          <entry key="js" value="38" />
-          <entry key="json" value="58" />
+          <entry key="java" value="83" />
+          <entry key="js" value="42" />
+          <entry key="json" value="60" />
           <entry key="pom" value="1" />
-          <entry key="sql" value="7" />
+          <entry key="sql" value="8" />
           <entry key="svg" value="4" />
           <entry key="xml" value="18" />
         </counts>
@@ -148,38 +160,38 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="25" />
+          <entry key="HTML" value="27" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="75" />
-          <entry key="JSON" value="58" />
-          <entry key="JavaScript" value="38" />
-          <entry key="SQL" value="7" />
+          <entry key="JAVA" value="83" />
+          <entry key="JSON" value="60" />
+          <entry key="JavaScript" value="42" />
+          <entry key="SQL" value="8" />
           <entry key="SVG" value="4" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="827" />
+          <entry key="css" value="967" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="1729" />
-          <entry key="java" value="10589" />
-          <entry key="js" value="8501" />
+          <entry key="html" value="1755" />
+          <entry key="java" value="11964" />
+          <entry key="js" value="8897" />
           <entry key="json" value="2561" />
-          <entry key="sql" value="19850" />
-          <entry key="txt" value="285" />
+          <entry key="sql" value="19852" />
+          <entry key="txt" value="319" />
           <entry key="xml" value="526" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="827" />
-          <entry key="HTML" value="1729" />
-          <entry key="JAVA" value="10589" />
+          <entry key="CSS" value="967" />
+          <entry key="HTML" value="1755" />
+          <entry key="JAVA" value="11964" />
           <entry key="JSON" value="2561" />
-          <entry key="JavaScript" value="8501" />
-          <entry key="PLAIN_TEXT" value="286" />
-          <entry key="SQL" value="19850" />
+          <entry key="JavaScript" value="8897" />
+          <entry key="PLAIN_TEXT" value="320" />
+          <entry key="SQL" value="19852" />
           <entry key="XML" value="526" />
         </counts>
       </usages-collector>
@@ -191,46 +203,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/app.rout.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Layover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/prices.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="157" selection-start-line="3" selection-start-column="157" selection-end-line="3" selection-end-column="157" />
+            <state relative-caret-position="90">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/web/styles/main.css">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="907" selection-start-line="907" selection-end-line="907" />
+            <state relative-caret-position="420">
+              <caret line="39" column="159" selection-start-line="39" selection-start-column="159" selection-end-line="39" selection-end-column="159" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/prices.json">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+            <state relative-caret-position="420">
+              <caret line="48" column="56" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/buses.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/departures.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -243,15 +273,14 @@
         <option value="CSS File" />
         <option value="Python Script" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>215</find>
       <find>216</find>
       <find>217</find>
       <find>218</find>
@@ -281,6 +310,7 @@
       <find>timetable</find>
       <find>#route</find>
       <find>tickets-types</find>
+      <find>filter</find>
     </findStrings>
     <replaceStrings>
       <replace>202</replace>
@@ -326,17 +356,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/test.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/Stop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/Timetable.java" />
-        <option value="$PROJECT_DIR$/src/main/web/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/database/PostgreSQLJDBCDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/buses.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/busapp/repositories/DataRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
@@ -371,12 +394,19 @@
         <option value="$PROJECT_DIR$/src/main/web/timetable.html" />
         <option value="$PROJECT_DIR$/src/main/web/linetimetable.html" />
         <option value="$PROJECT_DIR$/src/main/web/angularjs/filters/filters.js" />
-        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/web/app.rout.js" />
         <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/connectionCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/buses.sql" />
         <option value="$PROJECT_DIR$/src/main/web/prices.html" />
+        <option value="$PROJECT_DIR$/src/main/web/departures.html" />
+        <option value="$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/web/styles/main.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Layover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/models/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java" />
       </list>
     </option>
   </component>
@@ -429,8 +459,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -448,6 +476,46 @@
               <item name="BusApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="busapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="busapp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="busapp" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
@@ -497,7 +565,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="jsondata" type="462c0819:PsiDirectoryNode" />
+              <item name="mockdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BusApp" type="b2602c69:ProjectViewProjectNode" />
@@ -512,6 +580,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,7 +589,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/jakubzol/projects/BusApp/src/main/web/angularjs/controllers/mainCtrl.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553882522219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554317028918" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -953,6 +1023,10 @@
       <workItem from="1553691067138" duration="457000" />
       <workItem from="1553878783566" duration="3770000" />
       <workItem from="1554064312458" duration="31000" />
+      <workItem from="1554128279581" duration="775000" />
+      <workItem from="1554219266294" duration="135000" />
+      <workItem from="1554303351724" duration="11662000" />
+      <workItem from="1554331376071" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="Maven Added">
       <created>1550673306708</created>
@@ -1101,11 +1175,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553195903574</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Cleaning connection controller">
+      <created>1554128413325</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1554128413325</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="812224000" />
+    <option name="totallyTimeSpent" value="825331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1118,8 +1199,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49220103" visible="true" weight="0.19114584" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49220103" visible="true" weight="0.19114584" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1184,29 +1266,10 @@
     <MESSAGE value="Major CHanges init commit" />
     <MESSAGE value="Major CHanges init commit 2" />
     <MESSAGE value="Major CHanges init commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Major CHanges init commit 3" />
+    <MESSAGE value="Cleaning connection controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning connection controller" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline30.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/jsondata/timetable/newline1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="229" column="5" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/glassfish/jersey/jersey-bom/2.26/jersey-bom-2.26.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="304" column="12" selection-start-line="304" selection-start-column="12" selection-end-line="304" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1249,20 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buses.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1284,31 +1333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/departures.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="195" selection-start-line="11" selection-start-column="195" selection-end-line="11" selection-end-column="195" />
         </state>
       </provider>
     </entry>
@@ -1323,13 +1351,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/images/blue_pin2.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/courses.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1417,16 +1438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/departures.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/stops.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1455,20 +1466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/app.rout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1478,15 +1475,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/pricesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/prices.html">
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/services/app.services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="157" selection-start-line="3" selection-start-column="157" selection-end-line="3" selection-end-column="157" />
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -1497,10 +1494,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/connectionCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/searchCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/prices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="907" selection-start-line="907" selection-end-line="907" />
+        <state relative-caret-position="480">
+          <caret line="906" column="38" lean-forward="true" selection-start-line="906" selection-start-column="38" selection-end-line="906" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/departures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/angularjs/controllers/timetableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Courses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Stop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Layover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/models/Departure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buses.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/data/mockdata/departures.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Timetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/busapp/data/Connections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="159" selection-start-line="39" selection-start-column="159" selection-end-line="39" selection-end-column="159" />
         </state>
       </provider>
     </entry>

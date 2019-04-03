@@ -83,13 +83,23 @@ app.controller("departuresCtrl", function($scope, $routeParams, $http){
 
     $scope.stop = $routeParams.stop.split("+").join(" ");
     $scope.currentPage = 0;
+    $scope.stopIndexes = {};
     $scope.contentLoaded = false;
 
 
     $http.get("data/mockdata/departures.json").then(function(response){
 
-        $scope.contentLoaded = true;
         $scope.departures = response.data;
+
+        let idx = 1;
+        for(let d of $scope.departures){
+            if(angular.isUndefined($scope.stopIndexes[d.stop.stop_id])){
+                $scope.stopIndexes[d.stop.stop_id] = idx;
+                idx += 1;
+            }
+        }
+
+        $scope.contentLoaded = true;
 
     }).catch((error) => console.log(error));
 

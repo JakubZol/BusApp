@@ -853,6 +853,11 @@ nav ul li.active{
     height: 100%;
 }
 
+
+#pricetable-section h2{
+    margin: 170px 0 15px;
+}
+
 #tickets-types{
     width: 100%;
     height: 45px;
@@ -891,6 +896,7 @@ nav ul li.active{
     width: 100%;
     margin: 0;
     padding: 0;
+    border-bottom: 2px solid lavender;
 }
 
 #pricetable tr{
@@ -907,70 +913,18 @@ nav ul li.active{
 }
 
 #pricetable td,th{
+    border: 2px solid lavender;
     margin: 0;
     padding: 0;
 }
 
-
-
-
-
-#tickets{
-    width: 100%;
-    margin: 20px 0 0 0;
-    padding:0;
-    list-style-type: none;
+#pricetable th{
+    background-color: dimgray;
+    color:lavender;
 }
 
-#tickets li{
-    width: 100%;
-    height: 49px;
-    margin:0;
-    border-bottom: 1px solid lavender;
-    padding:0;
-}
-
-#tickets li:first-child{
-    border-top: 1px solid lavender;
-}
-
-#tickets li {
-    width: 100%;
-    height: 49px;
-    margin: 0;
-    border-bottom: 1px solid lavender;
-    padding: 15px 25px;
-    box-sizing: border-box;
-}
-
-#tickets li:nth-child(even) {
-    background: gray;
-    color: white;
-}
-
-#tickets li:nth-child(odd) {
-    background: darkgray;
-}
-
-#tickets li span.ticket-name{
-    float:left;
-    text-align: left;
-}
-
-#tickets li span.ticket-price{
-    float: right;
-    text-align: right;
-}
-
-#pricetable-section a{
-    display: block;
-    margin: 25px 0;
-    font-size: 18px;
-    color: dodgerblue;
-}
-
-#pricetable-section a:hover{
-    color: blue;
+#pricetable td:last-child{
+    background-color: darkgray;
 }
 
 

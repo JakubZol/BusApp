@@ -9,7 +9,7 @@
         <li ng-repeat="course in departures.slice(currentPage * 10 , (currentPage + 1) * 10)">
             <h1> {{course.line}}</h1>
             <div id="course-details"><b>{{course.destination}}</b><br>
-                Przystanek nr {{course.stopId}} |
+                Przystanek nr {{stopIndexes[course.stop.stop_id]}} |
                 <time>
                     {{course.departureTime.slice(0, 5)}}
                 </time>
