@@ -717,70 +717,58 @@ nav ul li.active{
     color: blue;
 }
 
-#connection-section #connections{
+#connections{
     list-style-type: none;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-#connection-section #connections li{
+.connection{
     margin: 0;
-    height: 70px;
+    height: 65px;
     width: 100%;
     border-bottom: 2px solid lavender;
-    display:flex;
 }
 
-#connection-section #connections li:hover{
-    background-color: darkgray;
-    cursor: pointer;
-}
-
-#connection-section #connections li:first-child{
-    border-top: 2px solid lavender;
-}
-
-#connection-section #connections li div.line{
-    width: 15%;
-    height: 100%;
-    font-weight: bold;
-    font-size: 28px;
-    box-sizing: border-box;
-    padding-top: 18px;
-}
-
-#connection-section #connections li ul.course-details{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width:60%;
-    height: 100%;
-}
-
-#connection-section #connections li ul.course-details li{
-    height: 23px;
+.course-details{
     width: 100%;
-    border: none;
-    text-align: left;
-    font-size: 15px;
-    display: block;
-    padding-left: 15px;
+    height: 100%;
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-#connection-section #connections li ul.course-details li img{
-    width: 20px;
-    height: 70%;
-    margin: 0 2px;
+.connection:hover{
+    cursor: pointer;
+    background-color: darkgray;
 }
 
-#connection-section #connections li div.departure-time{
-    width: 22%;
-    font-size: 23px;
-    padding-top: 10px;
-    padding-left: 5px;
-    border-left: 1px solid lavender;
+#connections h1{
+    margin: 17px;
+    text-transform: none;
 }
+
+.course-details div{
+    height: 100%;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.course-details div b{
+    font-size: 20px;
+}
+
+div.course-departure{
+    width: 20%;
+    text-align: right;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
 
 
 #search-section{
@@ -794,8 +782,8 @@ nav ul li.active{
 
 #search-section form{
     width: 100%;
-    margin-top: 30px;
-    padding-bottom: 35px;
+    margin-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 3px solid lavender;
 }
 

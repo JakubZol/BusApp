@@ -10,7 +10,7 @@ public class Connection {
     private Integer time;
     private String departureTime;
     private Integer timeDifference;
-    private List<Layover> route = new ArrayList<>();
+    private List<Layover> route;
 
     public Connection(String line, String destination, Integer time, String departureTime, Integer timeDifference, List<Layover> route){
         this.line = line;

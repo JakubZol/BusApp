@@ -1,0 +1,283 @@
+[
+  {"line": "3", "destination": "Szpital Pętla", "time": 11, "departureTime": "9:29", "timeDifference": "00:05:00.000", "route":
+    [
+      {"hour": "9:29", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+      {"hour": "9:31", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+      {"hour": "9:33", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+      {"hour": "9:35", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+      {"hour": "9:38", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+      {"hour": "9:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+      {"hour": "9:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+    ]
+  },
+
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "10:06", "timeDifference": "00:42:00.000", "route":
+  [
+    {"hour": "10:06", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "10:08", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "10:10", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "10:12", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "10:15", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "10:16", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "10:17", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "12", "destination": "Piwna", "time": 23, "departureTime": "10:27", "timeDifference": "01:03:00.000", "route":
+  [
+    {"hour": "10:27", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "10:29", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "10:31", "stop": {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088}},
+    {"hour": "10:33", "stop": {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283}},
+    {"hour": "10:34", "stop": {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583}},
+    {"hour": "10:35", "stop": {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978}},
+    {"hour": "10:37", "stop": {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246}},
+    {"hour": "10:38", "stop": {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064}},
+    {"hour": "10:39", "stop": {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520}},
+    {"hour": "10:40", "stop": {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180}},
+    {"hour": "10:41", "stop": {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181}},
+    {"hour": "10:42", "stop": {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800}},
+    {"hour": "10:44", "stop": {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529}},
+    {"hour": "10:46", "stop": {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599}},
+    {"hour": "10:48", "stop": {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "10:49", "stop": {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "10:50", "stop": {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "3", "destination": "Szpital Pętla", "time": 11, "departureTime": "10:29", "timeDifference": "01:05:00.000", "route":
+  [
+    {"hour": "10:29", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "10:31", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "10:33", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "10:35", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "10:38", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "10:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "10:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "12", "destination": "Piwna", "time": 23, "departureTime": "10:57", "timeDifference": "01:33:00.000", "route":
+  [
+    {"hour": "10:57", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "10:59", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "11:01", "stop": {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088}},
+    {"hour": "11:03", "stop": {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283}},
+    {"hour": "11:04", "stop": {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583}},
+    {"hour": "11:05", "stop": {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978}},
+    {"hour": "11:07", "stop": {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246}},
+    {"hour": "11:08", "stop": {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064}},
+    {"hour": "11:09", "stop": {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520}},
+    {"hour": "11:10", "stop": {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180}},
+    {"hour": "11:11", "stop": {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181}},
+    {"hour": "11:12", "stop": {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800}},
+    {"hour": "11:14", "stop": {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529}},
+    {"hour": "11:16", "stop": {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599}},
+    {"hour": "11:18", "stop": {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "11:19", "stop": {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "11:20", "stop": {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "11:06", "timeDifference": "01:42:00.000", "route":
+  [
+    {"hour": "11:06", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "11:08", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "11:10", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "11:12", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "11:15", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "11:16", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "11:17", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "3", "destination": "Szpital Pętla", "time": 11, "departureTime": "11:29", "timeDifference": "02:05:00.000", "route":
+  [
+    {"hour": "11:29", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "11:31", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "11:33", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "11:35", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "11:38", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "11:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "11:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "12", "destination": "Piwna", "time": 23, "departureTime": "11:47", "timeDifference": "02:23:00.000", "route":
+  [
+    {"hour": "11:47", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "11:49", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "11:51", "stop": {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088}},
+    {"hour": "11:53", "stop": {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283}},
+    {"hour": "11:54", "stop": {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583}},
+    {"hour": "11:55", "stop": {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978}},
+    {"hour": "11:57", "stop": {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246}},
+    {"hour": "11:58", "stop": {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064}},
+    {"hour": "11:59", "stop": {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520}},
+    {"hour": "12:00", "stop": {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180}},
+    {"hour": "12:01", "stop": {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181}},
+    {"hour": "12:02", "stop": {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800}},
+    {"hour": "12:04", "stop": {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529}},
+    {"hour": "12:06", "stop": {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599}},
+    {"hour": "12:08", "stop": {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "12:09", "stop": {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "12:10", "stop": {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "12:06", "timeDifference": "02:42:00.000", "route":
+  [
+    {"hour": "12:06", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "12:08", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "12:10", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "12:12", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "12:15", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "12:16", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "12:17", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "3", "destination": "Szpital Pętla", "time": 11, "departureTime": "12:29", "timeDifference": "03:05:00.000", "route":
+  [
+    {"hour": "12:29", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "12:31", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "12:33", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "12:35", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "12:38", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "12:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "12:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "13:06", "timeDifference": "03:42:00.000", "route":
+  [
+    {"hour": "13:06", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "13:08", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "13:10", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "13:12", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "13:15", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "13:16", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "13:17", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "12", "destination": "Piwna", "time": 23, "departureTime": "13:07", "timeDifference": "03:43:00.000", "route":
+  [
+    {"hour": "13:07", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "13:09", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "13:11", "stop": {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088}},
+    {"hour": "13:13", "stop": {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283}},
+    {"hour": "13:14", "stop": {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583}},
+    {"hour": "13:15", "stop": {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978}},
+    {"hour": "13:17", "stop": {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246}},
+    {"hour": "13:18", "stop": {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064}},
+    {"hour": "13:19", "stop": {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520}},
+    {"hour": "13:20", "stop": {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180}},
+    {"hour": "13:21", "stop": {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181}},
+    {"hour": "13:22", "stop": {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800}},
+    {"hour": "13:24", "stop": {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529}},
+    {"hour": "13:26", "stop": {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599}},
+    {"hour": "13:28", "stop": {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "13:29", "stop": {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "13:30", "stop": {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "12", "destination": "Piwna", "time": 23, "departureTime": "13:27", "timeDifference": "04:03:00.000", "route":
+  [
+    {"hour": "13:27", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "13:29", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "13:31", "stop": {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088}},
+    {"hour": "13:33", "stop": {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283}},
+    {"hour": "13:34", "stop": {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583}},
+    {"hour": "13:35", "stop": {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978}},
+    {"hour": "13:37", "stop": {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246}},
+    {"hour": "13:38", "stop": {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064}},
+    {"hour": "13:39", "stop": {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520}},
+    {"hour": "13:40", "stop": {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180}},
+    {"hour": "13:41", "stop": {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181}},
+    {"hour": "13:42", "stop": {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800}},
+    {"hour": "13:44", "stop": {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529}},
+    {"hour": "13:46", "stop": {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599}},
+    {"hour": "13:48", "stop": {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "13:49", "stop": {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "13:50", "stop": {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "3", "destination": "Szpital Pętla", "time": 11, "departureTime": "13:29", "timeDifference": "04:05:00.000", "route":
+  [
+    {"hour": "13:29", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "13:31", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "13:33", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "13:35", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "13:38", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "13:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "13:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "13:56", "timeDifference": "04:32:00.000", "route":
+  [
+    {"hour": "13:56", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "13:58", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "14:00", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "14:02", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "14:05", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "14:06", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "14:07", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "14:26", "timeDifference": "05:02:00.000", "route":
+  [
+    {"hour": "14:26", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "14:28", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "14:30", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "14:32", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "14:35", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "14:36", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "14:37", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "12", "destination": "Piwna", "time": 23, "departureTime": "14:27", "timeDifference": "05:03:00.000", "route":
+  [
+    {"hour": "14:27", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "14:29", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "14:31", "stop": {"stop_id": 21, "name": "Dworzec Główny PKS", "lat": 51.129038, "lng": 23.471088}},
+    {"hour": "14:33", "stop": {"stop_id": 22, "name": "Biblioteka Miejska", "lat": 51.128020, "lng": 23.477283}},
+    {"hour": "14:34", "stop": {"stop_id": 23, "name": "Osiedle Koniczynka", "lat": 51.128059, "lng": 23.483583}},
+    {"hour": "14:35", "stop": {"stop_id": 24, "name": "Wiejska", "lat": 51.127618, "lng": 23.487978}},
+    {"hour": "14:37", "stop": {"stop_id": 25, "name": "Emilii Plater", "lat": 51.125390, "lng": 23.494246}},
+    {"hour": "14:38", "stop": {"stop_id": 26, "name": "Żeromskiego", "lat": 51.125930, "lng": 23.498064}},
+    {"hour": "14:39", "stop": {"stop_id": 27, "name": "Ogrodnicza", "lat": 51.127639, "lng": 23.499520}},
+    {"hour": "14:40", "stop": {"stop_id": 28, "name": "Batorego", "lat": 51.131145, "lng": 23.500180}},
+    {"hour": "14:41", "stop": {"stop_id": 29, "name": "11 Listopada", "lat": 51.133840, "lng": 23.500181}},
+    {"hour": "14:42", "stop": {"stop_id": 30, "name": "Plac Niepodległości", "lat": 51.134498, "lng":23.494800}},
+    {"hour": "14:44", "stop": {"stop_id": 31, "name": "Stadion Miejski", "lat": 51.134288, "lng": 23.483529}},
+    {"hour": "14:46", "stop": {"stop_id": 32, "name": "Plac Gdański", "lat": 51.133973, "lng": 23.471599}},
+    {"hour": "14:48", "stop": {"stop_id": 6,"name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "14:49", "stop": {"stop_id": 7,"name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "14:50", "stop": {"stop_id": 8,"name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "3", "destination": "Szpital Pętla", "time": 11, "departureTime": "14:29", "timeDifference": "05:05:00.000", "route":
+  [
+    {"hour": "14:29", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "14:31", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "14:33", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "14:35", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "14:38", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "14:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "14:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "15:06", "timeDifference": "05:42:00.000", "route":
+  [
+    {"hour": "15:06", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "15:08", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "15:10", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "15:12", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "15:15", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "15:16", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "15:17", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  },
+  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "15:26", "timeDifference": "06:02:00.000", "route":
+  [
+    {"hour": "15:26", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
+    {"hour": "15:28", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
+    {"hour": "15:30", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
+    {"hour": "15:32", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
+    {"hour": "15:35", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
+    {"hour": "15:36", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
+    {"hour": "15:37", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
+  ]
+  }
+]
