@@ -4,6 +4,11 @@ app.controller("searchCtrl", function($scope, $http, $window){
     $scope.destinationIsSet = false;
     $scope.connectionsLoaded = false;
     $scope.currentCourse = -1;
+    $scope.currentPage = 0;
+    $scope.today = new Date();
+    $scope.hour = $scope.today.getHours();
+    $scope.minutes = $scope.today.getMinutes();
+    $scope.date = $scope.today;
 
     $http.get("data/mockdata/stopswithlines.json").then(function(response){
         $scope.stops = response.data;
@@ -47,6 +52,11 @@ app.controller("searchCtrl", function($scope, $http, $window){
                 }
             });
 
+            $scope.currentCourse = -1;
+            $scope.currentPage = 0;
+            $scope.$parent.map.resetStopsMarkers();
+            $scope.$parent.map.zoomInitial();
+
             $http.get("data/mockdata/connections.json").then(function(response){
                 $scope.connections = response.data;
                 $scope.connectionsLoaded = true;
@@ -66,15 +76,19 @@ app.controller("searchCtrl", function($scope, $http, $window){
         $scope.$parent.map.zoomInitial();
 
         $scope.currentCourse = index;
-    }
+
+    };
 
     $scope.close = function(){
         $scope.currentCourse = -1;
         $scope.$parent.map.resetStopsMarkers();
         $scope.$parent.map.zoomInitial();
 
-        console.log($scope.currentCourse);
-    }
+    };
+
+    $scope.switchPage = function(step){
+        $scope.currentPage += step;
+    };
 
 
 });

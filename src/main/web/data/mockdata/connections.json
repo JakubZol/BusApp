@@ -257,27 +257,5 @@
     {"hour": "14:39", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
     {"hour": "14:40", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
   ]
-  },
-  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "15:06", "timeDifference": "05:42:00.000", "route":
-  [
-    {"hour": "15:06", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
-    {"hour": "15:08", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
-    {"hour": "15:10", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
-    {"hour": "15:12", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
-    {"hour": "15:15", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
-    {"hour": "15:16", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
-    {"hour": "15:17", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
-  ]
-  },
-  {"line": "11", "destination": "Okszów", "time": 11, "departureTime": "15:26", "timeDifference": "06:02:00.000", "route":
-  [
-    {"hour": "15:26", "stop":{"id": 2, "name": "Aleja 3 Maja", "lat": 51.121908,"lng": 23.467418}},
-    {"hour": "15:28", "stop":{"id": 3, "name": "Cmentarz Miejski", "lat":  51.127725,"lng": 23.469731}},
-    {"hour": "15:30", "stop":{"id": 4, "name": "Dworzec Główny PKS", "lat": 51.129735,"lng": 23.469889}},
-    {"hour": "15:32", "stop":{"id": 5, "name": "Ogrodowa", "lat": 51.132747,"lng": 23.464855}},
-    {"hour": "15:35", "stop":{"id": 6, "name": "Hotel Kamena", "lat": 51.136690,"lng": 23.466414}},
-    {"hour": "15:36", "stop":{"id": 7, "name": "Chełm Miasto", "lat": 51.138237,"lng": 23.460835}},
-    {"hour": "15:37", "stop":{"id": 8, "name": "Park Wodny", "lat": 51.139622,"lng": 23.456750}}
-  ]
   }
 ]

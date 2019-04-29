@@ -741,7 +741,7 @@ nav ul li.active{
     box-sizing: border-box;
 }
 
-.connection:hover{
+.course-details:hover{
     cursor: pointer;
     background-color: darkgray;
 }
@@ -749,6 +749,10 @@ nav ul li.active{
 #connections h1{
     margin: 17px;
     text-transform: none;
+}
+
+#connections button{
+    margin-top: 10px;
 }
 
 .course-details div{
@@ -767,6 +771,35 @@ div.course-departure{
     font-size: 18px;
     margin-right: 5px;
 }
+
+.stops-list ol{
+    padding: 10px 0;
+    border-bottom: 2px solid lavender;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.stops-list li{
+    padding: 0 10px;
+}
+
+.stops-list li:nth-child(even){
+    background-color: gray;
+    color: lavender;
+}
+
+#connection-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#connection-buttons button{
+    width: 45%;
+    height: 45px;
+    margin: 0;
+}
+
 
 
 

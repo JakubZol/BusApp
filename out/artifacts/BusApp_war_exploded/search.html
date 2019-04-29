@@ -15,12 +15,12 @@
         </ul>
         <input type="number" ng-model="hour" value="" min="0" max="23" class="small" required>
         <input type="number" ng-model="minutes" value="" min="0" max="59" class="small" required>
-        <input type="date" ng-model="date" min="{{date.toISOString().slice(0,10)}}" required>
+        <input type="date" ng-model="date" min={{today.toISOString().slice(0,10)}} required>
         <button type="submit">Szukaj połączenia</button >
     </form>
     <ul id="connections">
-        <li class="connection" ng-repeat="connection in connections.slice(0,6) track by $index" data-ng-click="expand($index)" ng-class="{'non-visible': currentCourse !== $index && currentCourse >= 0}">
-            <div class="course-details">
+        <li class="connection" ng-repeat="connection in connections.slice(currentPage * 6, (currentPage + 1) * 6 ) track by $index" ng-class="{'non-visible': currentCourse !== $index && currentCourse >= 0}">
+            <div class="course-details" data-ng-click="expand($index)">
                 <h1>{{connection.line}}</h1>
                 <div class="course-info">
                     <b>{{connection.destination}}</b><br/>
@@ -28,15 +28,18 @@
                 </div>
                 <div class="course-departure">{{connection.timeDifference.substr(0,2) === '00' ? connection.timeDifference.substr(3,2) : connection.timeDifference.substr(0,2) + " h " + connection.timeDifference.substr(3,2)}} min</div>
             </div>
-            <div class="stops-list" ng-class="{'non-visible': $index !== currentCourse && currentCourse === -1}">
-                <ul>
+            <div class="stops-list" ng-class="{'non-visible': currentCourse === -1}">
+                <ol>
                     <li ng-repeat="layover in connection.route">
-                        {{layover.hour}} - {{layover.stop.name}}
+                        <b>{{layover.hour}}</b>  {{layover.stop.name}}
                     </li>
-                </ul>
+                </ol>
                 <button data-ng-click="close()">Zamknij listę</button>
             </div>
         </li>
     </ul>
-
+    <div id="connection-buttons">
+        <button data-ng-click="switchPage(-1)" ng-class="{'non-visible': currentPage === 0 || currentCourse !== -1}">Wcześniej</button>
+        <button data-ng-click="switchPage(1)" ng-class="{'non-visible': connections.length - 6 * (currentPage + 1) <= 0 || currentCourse !== -1}">Później</button>
+    </div>
 </div>
