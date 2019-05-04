@@ -1,4 +1,4 @@
-app.controller("searchCtrl", function($scope, $http, $window){
+app.controller("searchCtrl", function($scope, $http){
 
     $scope.startIsSet = false;
     $scope.destinationIsSet = false;
@@ -9,27 +9,30 @@ app.controller("searchCtrl", function($scope, $http, $window){
     $scope.hour = $scope.today.getHours();
     $scope.minutes = $scope.today.getMinutes();
     $scope.date = $scope.today;
+    $scope.errorIsSet = false;
 
     $http.get("data/mockdata/stopswithlines.json").then(function(response){
         $scope.stops = response.data;
-    }).catch((error) => console.log(error));
+    }).catch(function(error){
+        $scope.error = $scope.$parent.handleError(error);
+        $scope.errorIsSet = true;
+    });
 
-    $scope.setStart = function(stop){
-        $scope.startIsSet = true;
-        $scope.start = stop;
+    $scope.verifyStart = function(){
+
+        let findStart = function(elem){
+            return elem.name === $scope.start
+        };
+
+        $scope.startIsSet = $scope.stops.filter(findStart).length > 0;
     };
 
-    $scope.unsetStart = function(){
-        $scope.startIsSet = false;
-    };
+    $scope.verifyDestination = function () {
+        let findDestination = function(elem){
+            return elem.name === $scope.destination
+        };
 
-    $scope.setDestination = function(stop){
-        $scope.destinationIsSet = true;
-        $scope.destination = stop;
-    };
-
-    $scope.unsetDestination = function () {
-        $scope.destinationIsSet = false;
+        $scope.destinationIsSet = $scope.stops.filter(findDestination).length > 0;
     };
 
 

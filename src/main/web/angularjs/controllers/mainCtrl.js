@@ -33,4 +33,21 @@ app.controller("mainCtrl", function($scope, $location, $rootScope, mapService, $
         }
     };
 
+    $scope.handleError = function(e){
+        const status = e.status;
+        let error = {status: status};
+
+        if(status === 404){
+            error.message = "Nie odnaleziono poszukiwanej treści!";
+        }
+        else if(status === 501){
+            error.message = "Wystąpił nieoczekiwany błąd serwera! Przepraszamy za utrudnienia.";
+        }
+        else{
+            error.message = "Niezidentyfikowany błąd, przepraszamy za utrudnienia. :("
+        }
+
+        return error;
+    }
+
 });

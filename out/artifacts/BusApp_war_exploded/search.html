@@ -1,24 +1,20 @@
 <div id="search-section">
     <h2>Wyszukaj połączenie</h2>
     <form id="search-connection-form" data-ng-submit="submit()">
-        <input type="text" ng-model="start" placeholder="Przystanek początkowy" ng-change="unsetStart()" required>
-        <ul class="stops" ng-class="{'non-visible': startIsSet}">
-            <li ng-repeat="stop in stops | mergeLine: start" data-ng-click="setStart(stop.name)">
-                <p>{{stop.name}}</p>
-            </li>
-        </ul>
-        <input type="text" ng-model="destination" placeholder="Przystanek docelowy" ng-change="unsetDestination()" required>
-        <ul class="stops" ng-class="{'non-visible': destinationIsSet}">
-            <li ng-repeat="stop in stops | mergeLine: destination" data-ng-click="setDestination(stop.name)">
-                <p>{{stop.name}}</p>
-            </li>
-        </ul>
+        <input type="text" ng-model="start" placeholder="Przystanek początkowy" ng-change="verifyStart()" list="search-start-datalist" required>
+        <datalist id="search-start-datalist">
+            <option ng-repeat="stop in stops" value="{{stop.name}}" label="{{stop.name}}"></option>
+        </datalist>
+        <input type="text" ng-model="destination" placeholder="Przystanek docelowy" ng-change="verifyDestination()" list="search-destination-datalist" required>
+        <datalist id="search-destination-datalist">
+            <option ng-repeat="stop in stops" value="{{stop.name}}" label="{{stop.name}}"></option>
+        </datalist>
         <input type="number" ng-model="hour" value="" min="0" max="23" class="small" required>
         <input type="number" ng-model="minutes" value="" min="0" max="59" class="small" required>
         <input type="date" ng-model="date" min={{today.toISOString().slice(0,10)}} required>
         <button type="submit">Szukaj połączenia</button >
     </form>
-    <ul id="connections">
+    <ul id="connections" ng-class="{'non-visible': errorIsSet}">
         <li class="connection" ng-repeat="connection in connections.slice(currentPage * 6, (currentPage + 1) * 6 ) track by $index" ng-class="{'non-visible': currentCourse !== $index && currentCourse >= 0}">
             <div class="course-details" data-ng-click="expand($index)">
                 <h1>{{connection.line}}</h1>
@@ -41,5 +37,9 @@
     <div id="connection-buttons">
         <button data-ng-click="switchPage(-1)" ng-class="{'non-visible': currentPage === 0 || currentCourse !== -1}">Wcześniej</button>
         <button data-ng-click="switchPage(1)" ng-class="{'non-visible': connections.length - 6 * (currentPage + 1) <= 0 || currentCourse !== -1}">Później</button>
+    </div>
+    <div class="error" ng-class="{'non-visible': !errorIsSet}">
+        <h1>ERROR {{error.status}}</h1>
+        <p>{{error.message}}</p>
     </div>
 </div>
